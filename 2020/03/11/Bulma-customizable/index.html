@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="keywords" content="Bulma,CSS,前端,Hexo,Ocean,HTML5,CSS,UI,设计,WEB前端,摄影">
+  
+  
+  <meta name="description" content="Bulma 是一个轻量级、可定制的纯 CSS 框架。因为没有 JavaScript 所以可以在任何开发环境中轻松实现。所有样式都基于 class，只需为 html 元素指定 class，样式立刻生效。">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>
+    Bulma 定制 |
+    
+    数学家</title>
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<script src="/js/pace.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="数学家" type="application/atom+xml">
+</head>
+
+<body>
+  <main class="content">
+    <section class="outer">
+  <article id="post-Bulma-customizable" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+      
+
+<h1 class="article-title" itemprop="name">
+  Bulma 定制
+</h1>
+
+
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/03/11/Bulma-customizable/" class="article-date">
+  <time datetime="2020-03-10T17:11:09.000Z" itemprop="datePublished">2020-03-11</time>
+</a>
+      
+    </div>
+    
+
+    
+    
+<div class="tocbot"></div>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+      
+      <p>Bulma 是一个轻量级、可定制的纯 CSS 框架。因为没有 JavaScript 所以可以在任何开发环境中轻松实现。所有样式都基于 class，只需为 html 元素指定 class，样式立刻生效。目前没有发现比较完整的中文文档，关于 Bulma 的定制，我查找了一些资料，做个笔记。</p>
+<a id="more"></a>
+
+<p>Bulma 采用 Sass 语法（注意，不是 Scss 语法），所以定制的样式也必须使用 Sass。</p>
+<p><a target="_blank" rel="noopener" href="https://bulma.io/">https://bulma.io</a></p>
+<h2 id="一、克隆或下载源码"><a href="#一、克隆或下载源码" class="headerlink" title="一、克隆或下载源码"></a>一、克隆或下载源码</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/jgthms/bulma.git</span><br></pre></td></tr></table></figure>
+
+<h2 id="二、安装依赖"><a href="#二、安装依赖" class="headerlink" title="二、安装依赖"></a>二、安装依赖</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> bulma</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+
+<h2 id="三、新建-sass-文件"><a href="#三、新建-sass-文件" class="headerlink" title="三、新建 sass 文件"></a>三、新建 sass 文件</h2><p>在源码的根目录里面，新建一个 例如 <code>mybulma.sass</code> 的文件，<strong>定制的代码都写在这个 sass 文件中</strong>。在 <code>style.sass</code> 里面，首先引入  Bulma 基础变量，然后就可以重新定义变量了。</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@import</span> <span class="string">&quot;./sass/utilities/initial-variables&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="variable">$blue</span>:  <span class="number">#72d0eb</span></span><br><span class="line"><span class="variable">$pink</span>:  <span class="number">#ffb3b3</span></span><br><span class="line"><span class="variable">$ocean</span>: <span class="number">#1e3e3f</span></span><br><span class="line"><span class="variable">$family-serif</span>: <span class="string">&quot;Merriweather&quot;</span>, <span class="string">&quot;Georgia&quot;</span>, serif</span><br></pre></td></tr></table></figure>
+
+<p>例如上面代码中，预设的 <code>$blue、$pink</code> 和 <code>$family-serif</code> 变量被改掉，并且新增了 <code>$ocean</code>。有一些 Bulma 变量是从基础变量衍生的，需要的话也可以改掉。</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$primary</span>: <span class="variable">$ocean</span></span><br></pre></td></tr></table></figure>
+
+<p>例如上面代码中，<code>$primary</code> 主色会被改为新增的 <code>$ocean</code> 颜色值为： <code>#1e3e3f</code>。</p>
+<p>接着，在这个文件里面引入 Bulma 的入口脚本：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@import</span> <span class="string">&quot;./bulma&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>这一行之后，就可以写自己的样式了，比如为所有标题加一个下划线：</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.title</span> &#123;</span><br><span class="line">  <span class="attribute">text-decoration</span>: underline;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="四、修改-package-json"><a href="#四、修改-package-json" class="headerlink" title="四、修改 package.json"></a>四、修改 package.json</h2><p>打开 <code>package.json</code> 找到下面这一行：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;build-sass&quot;: &quot;node-sass --output-style expanded --source-map true bulma.sass css/bulma.css&quot;,</span><br></pre></td></tr></table></figure>
+<p>把里面的 <code>bulma.sass</code>改成 <code>mybulma.sass</code> ：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;build-sass&quot;: &quot;node-sass --output-style expanded --source-map true mybulma.sass css/bulma.css&quot;,</span><br></pre></td></tr></table></figure>
+
+<p>修改完样式，运行一下 <code>npm run build</code>，就会生成自己定制的样式表 <code>css/bulma.css</code> 了。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhwangart.github.io/2020/03/11/Bulma-customizable/" data-id="ckibtmhzt00080s46ez4376qi" class="article-share-link">
+        分享
+      </a>
+      
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Bulma/" rel="tag">Bulma</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS/" rel="tag">CSS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a></li></ul>
+
+    </footer>
+
+  </div>
+
+  
+  
+<nav class="article-nav">
+  
+  <a href="/2020/06/07/macOS-Filezilla-777/" class="article-nav-link">
+    <strong class="article-nav-caption">前一篇</strong>
+    <div class="article-nav-title">
+      
+      Mac Filezilla 报错的解决办法
+      
+    </div>
+  </a>
+  
+  
+  <a href="/2020/02/28/Video-autoplay-fullscreen-WeChat/" class="article-nav-link">
+    <strong class="article-nav-caption">后一篇</strong>
+    <div class="article-nav-title">Video 微信浏览器自动播放和默认全屏</div>
+  </a>
+  
+</nav>
+
+  
+
+  
+  
+  
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: 'b056dd67631a756522c0',
+    clientSecret: '05c597da836f12ac1c7a37f1191d729ae14f5886',
+    repo: 'gitalk',
+    owner: 'zhwangart',
+    admin: ['zhwangart'],
+    // id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: md5(location.pathname),
+    distractionFreeMode: false,  // Facebook-like distraction free mode
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+  
+
+</article>
+</section>
+    <footer class="footer">
+  <div class="outer">
+    <div class="float-right">
+      <ul class="list-inline">
+  
+  <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
+  
+  <li><i class="fe fe-bookmark"></i> <span id="busuanzi_value_page_pv"></span></li>
+  
+</ul>
+    </div>
+    <ul class="list-inline">
+      <li>&copy; 2020 数学家</li>
+      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
+      <li>Theme  <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
+    </ul>
+  </div>
+</footer>
+  </main>
+  <aside class="sidebar">
+    <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/shark.svg" alt="数学家"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">首页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/gallery">相册</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link nav-item-search" title="搜索">
+        <i class="fe fe-search"></i>
+        搜索
+      </a>
+    </li>
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      <div class="totop" id="totop">
+  <i class="fe fe-rocket"></i>
+</div>
+    </li>
+    <li class="nav-item">
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="fe fe-feed"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+  </aside>
+  
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+<script src="/js/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="/js/lazyload.min.js"></script>
+
+
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+  });
+</script>
+
+
+
+<script src="/js/ocean.js"></script>
+
+</body>
+
+</html>

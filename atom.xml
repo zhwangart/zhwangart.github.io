@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>数学家</title>
+  <icon>https://www.gravatar.com/avatar/bf575a2a5c182487a846f8a6b8c453ca</icon>
+  <subtitle>爱设计 | 爱前端 | 爱摄影 | 爱生活</subtitle>
+  <link href="https://zhwangart.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://zhwangart.github.io/"/>
+  <updated>2020-06-06T16:31:48.000Z</updated>
+  <id>https://zhwangart.github.io/</id>
+  
+  <author>
+    <name>zhwangart</name>
+    <email>zhwangart@aliyun.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac Filezilla 报错的解决办法</title>
+    <link href="https://zhwangart.github.io/2020/06/07/macOS-Filezilla-777/"/>
+    <id>https://zhwangart.github.io/2020/06/07/macOS-Filezilla-777/</id>
+    <published>2020-06-06T16:17:20.000Z</published>
+    <updated>2020-06-06T16:31:48.000Z</updated>
+    
+    
+    <summary type="html">Mac Filezilla：无法写入“../.config/filezilla/filezilla.xml”</summary>
+    
+    
+    
+    
+    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    
+    <category term="Filezilla" scheme="https://zhwangart.github.io/tags/Filezilla/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bulma 定制</title>
+    <link href="https://zhwangart.github.io/2020/03/11/Bulma-customizable/"/>
+    <id>https://zhwangart.github.io/2020/03/11/Bulma-customizable/</id>
+    <published>2020-03-10T17:11:09.000Z</published>
+    <updated>2020-04-16T16:57:50.000Z</updated>
+    
+    
+    <summary type="html">Bulma 是一个轻量级、可定制的纯 CSS 框架。因为没有 JavaScript 所以可以在任何开发环境中轻松实现。所有样式都基于 class，只需为 html 元素指定 class，样式立刻生效。</summary>
+    
+    
+    
+    
+    <category term="Bulma" scheme="https://zhwangart.github.io/tags/Bulma/"/>
+    
+    <category term="CSS" scheme="https://zhwangart.github.io/tags/CSS/"/>
+    
+    <category term="前端" scheme="https://zhwangart.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Video 微信浏览器自动播放和默认全屏</title>
+    <link href="https://zhwangart.github.io/2020/02/28/Video-autoplay-fullscreen-WeChat/"/>
+    <id>https://zhwangart.github.io/2020/02/28/Video-autoplay-fullscreen-WeChat/</id>
+    <published>2020-02-28T13:45:24.000Z</published>
+    <updated>2020-02-28T15:51:28.000Z</updated>
+    
+    
+    <summary type="html">解决 Video 视频在手机微信浏览器自动播放和默认全屏问题。</summary>
+    
+    
+    
+    
+    <category term="CSS" scheme="https://zhwangart.github.io/tags/CSS/"/>
+    
+    <category term="前端" scheme="https://zhwangart.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="HTML" scheme="https://zhwangart.github.io/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Photoshop 中的混合模式</title>
+    <link href="https://zhwangart.github.io/2020/02/24/Photoshop-Blending-modes/"/>
+    <id>https://zhwangart.github.io/2020/02/24/Photoshop-Blending-modes/</id>
+    <published>2020-02-24T09:58:01.000Z</published>
+    <updated>2020-05-18T03:35:42.000Z</updated>
+    
+    
+    <summary type="html">Adobe Photoshop 官网对图层混合模式的说明。</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.github.io/tags/Design/"/>
+    
+    <category term="Photoshop" scheme="https://zhwangart.github.io/tags/Photoshop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>macOS 原生输入法不好用吗？</title>
+    <link href="https://zhwangart.github.io/2020/02/24/macOS-Input-method/"/>
+    <id>https://zhwangart.github.io/2020/02/24/macOS-Input-method/</id>
+    <published>2020-02-24T09:35:02.000Z</published>
+    <updated>2020-02-28T15:29:08.000Z</updated>
+    
+    
+    <summary type="html">macOS 原生输入法，比起其它输入法来毫不逊色。而且简洁不花哨，避免隐私信息泄露。iCloud 还会帮助同步你的输入习惯，手机电脑的输入法不用分开调教，更不要提它还自带全套 emoji 表情…</summary>
+    
+    
+    
+    
+    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ocean 中使用 Valine</title>
+    <link href="https://zhwangart.github.io/2020/02/22/Valine/"/>
+    <id>https://zhwangart.github.io/2020/02/22/Valine/</id>
+    <published>2020-02-21T17:46:36.000Z</published>
+    <updated>2020-02-28T15:20:04.000Z</updated>
+    
+    
+    <summary type="html">在 Ocean 中使用 Valine ，Ocean 是一款极简的，集成了 Gitalk 与 Valine 评论功能的轻量级 Hexo 主题。</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://zhwangart.github.io/tags/Hexo/"/>
+    
+    <category term="Ocean" scheme="https://zhwangart.github.io/tags/Ocean/"/>
+    
+    <category term="Valine" scheme="https://zhwangart.github.io/tags/Valine/"/>
+    
+    <category term="Github" scheme="https://zhwangart.github.io/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>APP 在 macOS 提示已损坏</title>
+    <link href="https://zhwangart.github.io/2020/02/02/APP-macOS-Catalina-Error/"/>
+    <id>https://zhwangart.github.io/2020/02/02/APP-macOS-Catalina-Error/</id>
+    <published>2020-02-02T10:51:43.000Z</published>
+    <updated>2020-05-18T07:59:54.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;APP 在 macOS Catalina下提示已损坏无法打开解决办法&lt;/p&gt;
+&lt;p&gt;1、打开终端，输入以下命令：&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>macOS 改变 Launchpad 图标的行列数</title>
+    <link href="https://zhwangart.github.io/2019/12/01/macOS-Launchpad-rows-cloumns/"/>
+    <id>https://zhwangart.github.io/2019/12/01/macOS-Launchpad-rows-cloumns/</id>
+    <published>2019-12-01T13:53:34.000Z</published>
+    <updated>2020-02-28T15:28:58.000Z</updated>
+    
+    
+    <summary type="html">macOS 改变 Launchpad（启动台） 内图标排列的行数和列数</summary>
+    
+    
+    
+    
+    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    
+    <category term="Launchpad" scheme="https://zhwangart.github.io/tags/Launchpad/"/>
+    
+    <category term="启动台" scheme="https://zhwangart.github.io/tags/%E5%90%AF%E5%8A%A8%E5%8F%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kodak 400 过期胶卷</title>
+    <link href="https://zhwangart.github.io/2019/09/24/Film-FA-190616/"/>
+    <id>https://zhwangart.github.io/2019/09/24/Film-FA-190616/</id>
+    <published>2019-09-24T09:46:20.000Z</published>
+    <updated>2020-05-18T06:51:36.000Z</updated>
+    
+    
+    <summary type="html">给 Nikon FA 做了保养之后，用廉价购买的 Kodak 400 过期交卷试机试卷~</summary>
+    
+    
+    
+    
+    <category term="摄影" scheme="https://zhwangart.github.io/tags/%E6%91%84%E5%BD%B1/"/>
+    
+    <category term="胶片" scheme="https://zhwangart.github.io/tags/%E8%83%B6%E7%89%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>精简迅雷</title>
+    <link href="https://zhwangart.github.io/2019/08/08/Thunder-pluglns/"/>
+    <id>https://zhwangart.github.io/2019/08/08/Thunder-pluglns/</id>
+    <published>2019-08-08T03:50:17.000Z</published>
+    <updated>2020-02-24T10:10:52.000Z</updated>
+    
+    
+    <summary type="html">精简迅雷，删除迅雷影音，删除迅雷精选...让迅雷做一个纯粹的下载工具。</summary>
+    
+    
+    
+    
+    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    
+    <category term="精简迅雷" scheme="https://zhwangart.github.io/tags/%E7%B2%BE%E7%AE%80%E8%BF%85%E9%9B%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LightWAN 移动端 UI 设计</title>
+    <link href="https://zhwangart.github.io/2019/07/16/APP-Design-LightWAN/"/>
+    <id>https://zhwangart.github.io/2019/07/16/APP-Design-LightWAN/</id>
+    <published>2019-07-16T08:57:16.000Z</published>
+    <updated>2020-05-18T08:01:50.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;LightWAN Orchestrator 移动端的 UI 设计…&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.github.io/tags/Design/"/>
+    
+    <category term="UI" scheme="https://zhwangart.github.io/tags/UI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>又一个稻壳阅读器的 LOGO 设计</title>
+    <link href="https://zhwangart.github.io/2019/07/03/Bird/"/>
+    <id>https://zhwangart.github.io/2019/07/03/Bird/</id>
+    <published>2019-07-03T03:33:38.000Z</published>
+    <updated>2020-05-18T08:00:00.000Z</updated>
+    
+    
+    <summary type="html">继干脆面之后，又一个稻壳阅读器的 LOGO 设计方案！</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.github.io/tags/Design/"/>
+    
+    <category term="Logo" scheme="https://zhwangart.github.io/tags/Logo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于 Ocean 使用中的问题</title>
+    <link href="https://zhwangart.github.io/2019/07/02/Ocean-Issues/"/>
+    <id>https://zhwangart.github.io/2019/07/02/Ocean-Issues/</id>
+    <published>2019-07-02T03:11:11.000Z</published>
+    <updated>2020-03-18T04:29:50.000Z</updated>
+    
+    
+    <summary type="html">Ocean 是一款极简的，集成了 Gitalk 与 Valine 评论功能的轻量级 Hexo 主题。</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://zhwangart.github.io/tags/Hexo/"/>
+    
+    <category term="Ocean" scheme="https://zhwangart.github.io/tags/Ocean/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Canonet QL17 G-III 中文</title>
+    <link href="https://zhwangart.github.io/2019/05/07/CANONET-QL17-GIII-DOC/"/>
+    <id>https://zhwangart.github.io/2019/05/07/CANONET-QL17-GIII-DOC/</id>
+    <published>2019-05-07T02:34:49.000Z</published>
+    <updated>2020-05-18T07:06:06.000Z</updated>
+    
+    
+    <summary type="html">最完整的 Canonet QL17 G-III 中文图文说明书。</summary>
+    
+    
+    
+    
+    <category term="摄影" scheme="https://zhwangart.github.io/tags/%E6%91%84%E5%BD%B1/"/>
+    
+    <category term="胶片" scheme="https://zhwangart.github.io/tags/%E8%83%B6%E7%89%87/"/>
+    
+    <category term="旁轴" scheme="https://zhwangart.github.io/tags/%E6%97%81%E8%BD%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>干脆面做了 LOGO</title>
+    <link href="https://zhwangart.github.io/2019/04/29/Little-raccoon/"/>
+    <id>https://zhwangart.github.io/2019/04/29/Little-raccoon/</id>
+    <published>2019-04-29T11:04:29.000Z</published>
+    <updated>2020-02-28T15:42:20.000Z</updated>
+    
+    
+    <summary type="html">为赵总的 稻壳阅读器 设计的 LOGO ，一不小心就做成“干脆面”了，因油炸食品不够商务而没入镜。</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.github.io/tags/Design/"/>
+    
+    <category term="Logo" scheme="https://zhwangart.github.io/tags/Logo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些常用的移动端的 meta 属性设置</title>
+    <link href="https://zhwangart.github.io/2019/04/26/Mobile-html-meta-property-settings/"/>
+    <id>https://zhwangart.github.io/2019/04/26/Mobile-html-meta-property-settings/</id>
+    <published>2019-04-26T10:11:49.000Z</published>
+    <updated>2020-02-28T15:50:20.000Z</updated>
+    
+    
+    <summary type="html">网传是阿里前端工程师总结的关于移动端 HTML5 meta 标签的属性设置。</summary>
+    
+    
+    
+    
+    <category term="前端" scheme="https://zhwangart.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="HTML" scheme="https://zhwangart.github.io/tags/HTML/"/>
+    
+    <category term="meta" scheme="https://zhwangart.github.io/tags/meta/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>macOS Sublime Text 插件安装与删除</title>
+    <link href="https://zhwangart.github.io/2019/03/19/SublimeText-PackageControl/"/>
+    <id>https://zhwangart.github.io/2019/03/19/SublimeText-PackageControl/</id>
+    <published>2019-03-19T02:42:22.000Z</published>
+    <updated>2020-05-18T03:34:26.000Z</updated>
+    
+    
+    <summary type="html">macOS Sublime Text 插件安装与删除，Sublime Text 是收费软件，但可以无限期试用，作者很厚道地给用户们提供了免费无限制无限期的试用权，它只会偶尔提醒一下你木有购买，而且频率也很低，仅此而已。</summary>
+    
+    
+    
+    
+    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    
+    <category term="Sublime Text" scheme="https://zhwangart.github.io/tags/Sublime-Text/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>精心挑选的 Photoshop 45 个快捷键</title>
+    <link href="https://zhwangart.github.io/2019/02/22/Photosho-shortcut-45/"/>
+    <id>https://zhwangart.github.io/2019/02/22/Photosho-shortcut-45/</id>
+    <published>2019-02-22T02:42:00.000Z</published>
+    <updated>2020-05-18T03:31:48.000Z</updated>
+    
+    
+    <summary type="html">精心挑选了 Phtoshop 的 45 个快捷键，整理了一下方便学习。</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.github.io/tags/Design/"/>
+    
+    <category term="Photoshop" scheme="https://zhwangart.github.io/tags/Photoshop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS:filter 学习笔记</title>
+    <link href="https://zhwangart.github.io/2018/12/26/CSS-filter/"/>
+    <id>https://zhwangart.github.io/2018/12/26/CSS-filter/</id>
+    <published>2018-12-26T02:03:00.000Z</published>
+    <updated>2020-02-28T15:33:52.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;个人学习 CSS:filter 过程中写的笔记，不具备任何价值。CSS 滤镜（filter）属提供的图形特效，像模糊，锐化或元素变色。过滤器通常被用于调整图片，背景和边界的渲染。FILTER URL 还不是很明白…&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="CSS" scheme="https://zhwangart.github.io/tags/CSS/"/>
+    
+    <category term="前端" scheme="https://zhwangart.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gitalk 的使用</title>
+    <link href="https://zhwangart.github.io/2018/12/06/Gitalk/"/>
+    <id>https://zhwangart.github.io/2018/12/06/Gitalk/</id>
+    <published>2018-12-06T07:11:49.000Z</published>
+    <updated>2020-05-18T07:54:08.000Z</updated>
+    
+    
+    <summary type="html">Gitalk 使用详解，遇到的问题处理方法，Ocean 是一款极简的，集成了 Gitalk 与 Valine 评论功能的轻量级 Hexo 主题。</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://zhwangart.github.io/tags/Hexo/"/>
+    
+    <category term="Ocean" scheme="https://zhwangart.github.io/tags/Ocean/"/>
+    
+    <category term="Gitalk" scheme="https://zhwangart.github.io/tags/Gitalk/"/>
+    
+    <category term="Valine" scheme="https://zhwangart.github.io/tags/Valine/"/>
+    
+  </entry>
+  
+</feed>

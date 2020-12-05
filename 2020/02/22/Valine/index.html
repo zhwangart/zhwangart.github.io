@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="keywords" content="Hexo,Ocean,Valine,Gitalk,评论系统,Hexo,Ocean,HTML5,CSS,UI,设计,WEB前端,摄影">
+  
+  
+  <meta name="description" content="在 Ocean 中使用 Valine ，Ocean 是一款极简的，集成了 Gitalk 与 Valine 评论功能的轻量级 Hexo 主题。">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>
+    Ocean 中使用 Valine |
+    
+    数学家</title>
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<script src="/js/pace.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="数学家" type="application/atom+xml">
+</head>
+
+<body>
+  <main class="content">
+    <section class="outer">
+  <article id="post-Valine" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+      
+
+<h1 class="article-title" itemprop="name">
+  Ocean 中使用 Valine
+</h1>
+
+
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/02/22/Valine/" class="article-date">
+  <time datetime="2020-02-21T17:46:36.000Z" itemprop="datePublished">2020-02-22</time>
+</a>
+      
+    </div>
+    
+
+    
+    
+<div class="tocbot"></div>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+      
+      <p>Valine 是一款基于 <a taget="_blank" target="_blank" rel="noopener" href="https://leancloud.cn">LeanCloud</a> 的快速、简洁且高效的无后端评论系统。现已集成到 Ocean 中，欢迎使用，或者一起设计 or 开发 Ocean ～</p>
+<a id="more"></a>
+
+<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><p>在 Ocean 中使用 Valine 只需要在 <code>ocean/_config.yml</code> 中输入 <a taget="_blank" target="_blank" rel="noopener" href="https://leancloud.cn">LeanCloud</a> 创建应用中的 <code>appId</code> 和 <code>appKey</code> 的值即可，请参照如下简单的配置：</p>
+<h3 id="获取-APP-ID-和-APP-Key"><a href="#获取-APP-ID-和-APP-Key" class="headerlink" title="获取 APP ID 和 APP Key"></a>获取 APP ID 和 APP Key</h3><ol>
+<li><a taget="_blank" target="_blank" rel="noopener" href="https://leancloud.cn/dashboard/login.html#/signin">登录</a> LeanCloud 创建应用；</li>
+<li>应用创建好以后，进入刚刚创建的应用，选择左下角的 <code>设置 &gt; 应用Key</code>，然后就能看到你的 <code>appId</code> 和 <code>appKey</code> 了。</li>
+</ol>
+<blockquote>
+<p>如果需要更详细的图文帮助，请参照： <a taget="_blank" target="_blank" rel="noopener" href="https://valine.js.org/quickstart.html">Valin 官方提供的文档</a></p>
+</blockquote>
+<h3 id="启用-Valine"><a href="#启用-Valine" class="headerlink" title="启用 Valine"></a>启用 Valine</h3><ol>
+<li>启用 Valine：<code>enable: false</code>；</li>
+<li>复制 <code>appId</code> 和 <code>appKey</code> 的值，粘贴到 <code>ocean/_config.yml</code> 对应的位置；</li>
+<li>大功告成。</li>
+</ol>
+<h2 id="配置项"><a href="#配置项" class="headerlink" title="配置项"></a>配置项</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Valine</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">el:</span> <span class="string">&#x27;vcomments&#x27;</span></span><br><span class="line">  <span class="attr">appId:</span> </span><br><span class="line">  <span class="attr">appKey:</span> </span><br><span class="line">  <span class="attr">notify:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">verify:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">&#x27;mp&#x27;</span></span><br><span class="line">  <span class="attr">pageSize:</span> <span class="string">&#x27;10&#x27;</span></span><br><span class="line">  <span class="attr">placeholder:</span> <span class="string">&#x27;请输入...&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="配置说明"><a href="#配置说明" class="headerlink" title="配置说明"></a>配置说明</h2><table>
+<thead>
+<tr>
+<th>配置项</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>enable</td>
+<td>是否启用，默认：false（关闭），true（启用）</td>
+</tr>
+<tr>
+<td>el</td>
+<td>Valine 的初始化挂载器，无需更改</td>
+</tr>
+<tr>
+<td>appId</td>
+<td>从 LeanCloud 的应用中得到的 appId</td>
+</tr>
+<tr>
+<td>appKey</td>
+<td>从 LeanCloud 的应用中得到的APP Key</td>
+</tr>
+<tr>
+<td>notify</td>
+<td>评论回复邮件提醒，默认：false（关闭），true（启用）</td>
+</tr>
+<tr>
+<td>verify</td>
+<td>验证码，为避免过多的垃圾评论，所以默认 true（启用）</td>
+</tr>
+<tr>
+<td>avatar</td>
+<td>Gravatar 头像展示方式，<a taget="_blank" target="_blank" rel="noopener" href="https://valine.js.org/avatar.html">头像配置</a></td>
+</tr>
+<tr>
+<td>pageSize</td>
+<td>评论列表分页，每页条数</td>
+</tr>
+<tr>
+<td>placeholder</td>
+<td>评论框占位提示符</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>如需要了解更多配置项，请参照：<a taget="_blank" target="_blank" rel="noopener" href="https://valine.js.org/configuration.html">Valine 配置项</a>。</p>
+</blockquote>
+<p><a href="/2018/12/06/Gitalk/">Gitalk 的使用</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhwangart.github.io/2020/02/22/Valine/" data-id="ckibtmi0a000x0s463m7a5acw" class="article-share-link">
+        分享
+      </a>
+      
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github/" rel="tag">Github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ocean/" rel="tag">Ocean</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Valine/" rel="tag">Valine</a></li></ul>
+
+    </footer>
+
+  </div>
+
+  
+  
+<nav class="article-nav">
+  
+  <a href="/2020/02/24/macOS-Input-method/" class="article-nav-link">
+    <strong class="article-nav-caption">前一篇</strong>
+    <div class="article-nav-title">
+      
+      macOS 原生输入法不好用吗？
+      
+    </div>
+  </a>
+  
+  
+  <a href="/2020/02/02/APP-macOS-Catalina-Error/" class="article-nav-link">
+    <strong class="article-nav-caption">后一篇</strong>
+    <div class="article-nav-title">APP 在 macOS 提示已损坏</div>
+  </a>
+  
+</nav>
+
+  
+
+  
+  
+  
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: 'b056dd67631a756522c0',
+    clientSecret: '05c597da836f12ac1c7a37f1191d729ae14f5886',
+    repo: 'gitalk',
+    owner: 'zhwangart',
+    admin: ['zhwangart'],
+    // id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: md5(location.pathname),
+    distractionFreeMode: false,  // Facebook-like distraction free mode
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+  
+
+</article>
+</section>
+    <footer class="footer">
+  <div class="outer">
+    <div class="float-right">
+      <ul class="list-inline">
+  
+  <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
+  
+  <li><i class="fe fe-bookmark"></i> <span id="busuanzi_value_page_pv"></span></li>
+  
+</ul>
+    </div>
+    <ul class="list-inline">
+      <li>&copy; 2020 数学家</li>
+      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
+      <li>Theme  <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
+    </ul>
+  </div>
+</footer>
+  </main>
+  <aside class="sidebar">
+    <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/shark.svg" alt="数学家"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">首页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/gallery">相册</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link nav-item-search" title="搜索">
+        <i class="fe fe-search"></i>
+        搜索
+      </a>
+    </li>
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      <div class="totop" id="totop">
+  <i class="fe fe-rocket"></i>
+</div>
+    </li>
+    <li class="nav-item">
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="fe fe-feed"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+  </aside>
+  
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+<script src="/js/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="/js/lazyload.min.js"></script>
+
+
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+  });
+</script>
+
+
+
+<script src="/js/ocean.js"></script>
+
+</body>
+
+</html>

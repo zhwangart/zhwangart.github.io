@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="keywords" content="Ocean,Hexo主题,Blog,Markdown,Gitalk,Valine,Hexo,Ocean,HTML5,CSS,UI,设计,WEB前端,摄影">
+  
+  
+  <meta name="description" content="Ocean 是一款极简的，集成了 Gitalk 与 Valine 评论功能的轻量级 Hexo 主题。">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>
+    Ocean 中文文档 |
+    
+    数学家</title>
+  
+  <link rel="shortcut icon" href="/favicon.ico">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<script src="/js/pace.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="数学家" type="application/atom+xml">
+</head>
+
+<body>
+  <main class="content">
+    <section class="outer">
+  <article id="post-Ocean" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+      
+
+<h1 class="article-title" itemprop="name">
+  Ocean 中文文档
+</h1>
+
+
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2018/11/30/Ocean/" class="article-date">
+  <time datetime="2018-11-30T03:13:00.000Z" itemprop="datePublished">2018-11-30</time>
+</a>
+      
+    </div>
+    
+
+    
+    
+<div class="tocbot"></div>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+      
+      <p>Ocean 是基于 Hexo 默认主题 landscape 的功能，设计的一款支持移动设备的主题，并且集成了 Gitalk 与 Valine 评论功能。 由于我是一枚 Designer 而不是 Coder，所以 欢迎指正！</p>
+<a id="more"></a>
+
+<p>如果你喜欢 Ocean 可以 <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">从 GitHub 下载</a>，主题默认使用 Logo 是 Hexo 的 Logo，更换 Logo 路径在 <code>ocean/source/images/hexo.svg</code> ，注意它还有一个反色版 <code>hexo-inverted.svg</code> ，如果你更改了文件名，那么还需要在 <code>ocean/_config.yml</code> 做对应的修改，总之，欢迎 Star ！</p>
+<p><a href="/2018/11/29/Markdown/">Markdown 基本语法在 Ocean 中的展现形式</a> Clone 了 Markdown 的基本语法在 Ocean 中的展现形式，可能会让你更快速的认知到 Ocean 是否适合你的 Hexo ！</p>
+<p><a href="/2019/07/02/Ocean-Issues/">使用 Ocean 过程中遇到了问题？</a></p>
+<p><img src="https://github.com/zhwangart/hexo-theme-ocean/raw/master/screenshots/hexo-theme-ocean.jpg" alt="Screenshot"></p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/zhwangart/hexo-theme-ocean.git themes/ocean</span><br></pre></td></tr></table></figure>
+
+<h2 id="启用"><a href="#启用" class="headerlink" title="启用"></a>启用</h2><p>在 <code>root</code> <code>_config.yml</code> 中选择 <code>theme: ocean</code></p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">ocean</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/ocean</span><br><span class="line">$ git pull</span><br></pre></td></tr></table></figure>
+
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>默认开启<strong>相册</strong>与<strong>关于</strong>菜单，关闭 <strong>Gitalk</strong> 评论功能，需要的同学 <code>true</code> 就可以了，<a href="/2018/12/06/Gitalk/">关于 Gitalk 的使用</a> 过程中遇到各种报错，有同样问题的，或者有兴趣想要了解 Gitalk 可以移步看一看。</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Menu</span></span><br><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">主页:</span> <span class="string">/</span></span><br><span class="line">  <span class="string">归档:</span> <span class="string">/archives</span></span><br><span class="line">  <span class="string">相册:</span> <span class="string">/gallery</span></span><br><span class="line">  <span class="string">关于:</span> <span class="string">/about</span></span><br><span class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Miscellaneous</span></span><br><span class="line"><span class="attr">favicon:</span> <span class="string">/favicon.ico</span></span><br><span class="line"><span class="attr">brand:</span> <span class="string">/images/hexo.svg</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Ocean 主页视频</span></span><br><span class="line"><span class="comment"># 多种格式的视频用于支持不同的浏览器，这里只需要配置好路径，前提是我把视频相关文件统一目录存放。</span></span><br><span class="line"><span class="attr">ocean:</span></span><br><span class="line">  <span class="attr">overlay:</span> <span class="literal">true</span>      <span class="comment"># 可选，false 则 Ocean 视频下方的笔触式遮盖不显示</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">/images/ocean/</span>      <span class="comment"># 视频统一存放路径，格式 mp4/ogg/webm</span></span><br><span class="line">  <span class="attr">brand:</span> <span class="string">/images/hexo-inverted.svg</span>      <span class="comment"># 可选，一个小 Logo</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 内容</span></span><br><span class="line"><span class="attr">excerpt_link:</span> <span class="string">阅读全文...</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># fancybox</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Gitalk</span></span><br><span class="line"><span class="attr">gitalk:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span>      <span class="comment"># 是否启用，默认：false（关闭），true（启用）</span></span><br><span class="line">  <span class="attr">clientID:</span>      <span class="comment"># 申请 GitHub Application 网页上对应的 Client ID 与 Client Secret 参数</span></span><br><span class="line">  <span class="attr">clientSecret:</span>      <span class="comment"># 同上</span></span><br><span class="line">  <span class="attr">repo:</span>      <span class="comment"># 创建的仓库名称</span></span><br><span class="line">  <span class="attr">owner:</span>      <span class="comment"># Github ID</span></span><br><span class="line">  <span class="attr">admin:</span>      <span class="comment"># Github ID</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Valine</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span>      <span class="comment"># 是否启用，默认：false（关闭），true（启用）</span></span><br><span class="line">  <span class="attr">el:</span> <span class="string">&#x27;vcomments&#x27;</span>      <span class="comment"># Valine 的初始化挂载器，无需更改</span></span><br><span class="line">  <span class="attr">appId:</span>       <span class="comment"># 从 LeanCloud 的应用中得到的 appId</span></span><br><span class="line">  <span class="attr">appKey:</span>       <span class="comment"># 从 LeanCloud 的应用中得到的APP Key</span></span><br><span class="line">  <span class="attr">notify:</span> <span class="literal">false</span>      <span class="comment"># 评论回复邮件提醒，默认：false（关闭），true（启用）</span></span><br><span class="line">  <span class="attr">verify:</span> <span class="literal">true</span>      <span class="comment"># 验证码，为避免过多的垃圾评论，所以默认 true（启用），false（关闭）</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">&#x27;mp&#x27;</span>      <span class="comment"># Gravatar 头像展示方式</span></span><br><span class="line">  <span class="attr">pageSize:</span> <span class="string">&#x27;10&#x27;</span>      <span class="comment"># 评论列表分页，每页条数</span></span><br><span class="line">  <span class="attr">placeholder:</span> <span class="string">&#x27;请输入...&#x27;</span>      <span class="comment"># 评论框占位提示符</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>Ocean</strong> 使用了 <a target="_blank" rel="noopener" href="https://feathericon.com/">feathericon</a> 图标库，菜单中的图标定义在“CSS source / css / _partial / navbar.styl”中，可根据需要进行更改或添加。<br>如果你不需要开启 <strong>相册</strong> 与 <strong>关于</strong> 菜单，需要删除或者注销掉他们的图标，如下边的示例：</p>
+<figure class="highlight styl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">.nav-item</span><br><span class="line">  &amp;:nth-child(<span class="number">1</span>)         <span class="comment">// 主页</span></span><br><span class="line">    .nav-item-link</span><br><span class="line">      &amp;::before</span><br><span class="line">        <span class="attribute">content</span> <span class="string">&#x27;\f12f&#x27;</span></span><br><span class="line">  &amp;:nth-child(<span class="number">2</span>)         <span class="comment">// 归档</span></span><br><span class="line">    .nav-item-link</span><br><span class="line">      &amp;::before</span><br><span class="line">        <span class="attribute">content</span> <span class="string">&#x27;\f12a&#x27;</span></span><br><span class="line">  <span class="comment">//&amp;:nth-child(3)         // 相册</span></span><br><span class="line">  <span class="comment">//  .nav-item-link</span></span><br><span class="line">  <span class="comment">//    &amp;::before</span></span><br><span class="line">  <span class="comment">//      content &#x27;\f1a9&#x27;</span></span><br><span class="line">  <span class="comment">//&amp;:nth-child(4)         // 关于</span></span><br><span class="line">  <span class="comment">//  .nav-item-link</span></span><br><span class="line">  <span class="comment">//    &amp;::before</span></span><br><span class="line">  <span class="comment">//      content &#x27;\f174&#x27;</span></span><br></pre></td></tr></table></figure>
+
+<p>如果你想要开启 <strong>Tag（标签）</strong>、<strong>Categories（分类）</strong> 在菜单中显示，请看这里：<a href="/2019/07/02/Ocean-Issues/">关于 Ocean 使用中的问题</a></p>
+<h2 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h2><p>Ocean 集成了 Gitalk 与 Valine 评论功能，请参照如下详细文档：</p>
+<ul>
+<li>启用 Gitalk：<a href="/2018/12/06/Gitalk/">Gitalk 的使用</a></li>
+<li>启用 Valine：<a href="/2020/02/22/Valine/">Ocean 中使用 Valine</a></li>
+</ul>
+<h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><h3 id="1、hexo-generator-search-本地检索"><a href="#1、hexo-generator-search-本地检索" class="headerlink" title="1、hexo-generator-search 本地检索"></a>1、<a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search">hexo-generator-search</a> 本地检索</h3><ul>
+<li><p>安装</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>配置<br>  Hexo 的配置文件 <code>_config.yml</code> 添加插件配置（注意：不是主题的配置文件）：</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  content: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="2、hexo-generate-feed-RSS"><a href="#2、hexo-generate-feed-RSS" class="headerlink" title="2、hexo-generate-feed RSS"></a>2、<a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-generator-feed">hexo-generate-feed</a> RSS</h3><ul>
+<li><p>安装</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure></li>
+<li><p>配置<br>  Hexo 的配置文件 <code>_config.yml</code> 添加插件配置（注意：不是主题的配置文件）：</p>
+  <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">feed:</span></span><br><span class="line">     <span class="attr">type:</span> <span class="string">atom</span></span><br><span class="line">     <span class="attr">path:</span> <span class="string">atom.xml</span></span><br><span class="line">     <span class="attr">limit:</span> <span class="number">20</span></span><br><span class="line">     <span class="attr">hub:</span></span><br><span class="line">     <span class="attr">content:</span></span><br><span class="line">     <span class="attr">content_limit:</span> <span class="number">140</span></span><br><span class="line">     <span class="attr">content_limit_delim:</span> <span class="string">&#x27; &#x27;</span></span><br><span class="line">     <span class="attr">order_by:</span> <span class="string">-date</span>	</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="3、hexo-generator-index-pin-top-文章置顶"><a href="#3、hexo-generator-index-pin-top-文章置顶" class="headerlink" title="3、hexo-generator-index-pin-top 文章置顶"></a>3、<a target="_blank" rel="noopener" href="https://github.com/netcan/hexo-generator-index-pin-top">hexo-generator-index-pin-top</a> 文章置顶</h3><ul>
+<li><p>安装</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line"> $ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>开启</p>
+<p>  在需要置顶的文章的 Front-matter 区域加上 <code>top: ture</code> ，示例：</p>
+  <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line"> title: 新增文章置顶</span><br><span class="line"> author: zhwangart</span><br><span class="line"> date: 2019-07-18 15:45:03</span><br><span class="line"> top: ture</span><br><span class="line"> ---</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<h2 id="文章封面图"><a href="#文章封面图" class="headerlink" title="文章封面图"></a>文章封面图</h2><p>需要写在 markdown 的 Front-matter 区域：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Post name</span><br><span class="line">photos: [</span><br><span class="line"><span class="code">        [&quot;img_url&quot;],</span></span><br><span class="line"><span class="code">        [&quot;img_url&quot;]</span></span><br><span class="line"><span class="code">        ]</span></span><br><span class="line"><span class="code">---        </span></span><br></pre></td></tr></table></figure>
+
+<p>需要<strong>注意</strong>的是，这里说的封面图并不是文章配图，文章配图按照 markdown 的语法写就好了！</p>
+<h2 id="相册"><a href="#相册" class="headerlink" title="相册"></a>相册</h2><p>首先需要创建一个 page ，关于页面也一样需要创建。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page gallery</span><br></pre></td></tr></table></figure>
+
+<p>然后在编辑 markdown 的时候需要写在 Front-matter 部分，这种写法可能不是特别特别的好，希望能有更好的方法。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Gallery</span><br><span class="line">albums: [</span><br><span class="line"><span class="code">        [&quot;img_url&quot;,&quot;img_caption&quot;],</span></span><br><span class="line"><span class="code">        [&quot;img_url&quot;,&quot;img_caption&quot;]</span></span><br><span class="line"><span class="code">        ]</span></span><br><span class="line"><span class="code">---</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Toc-文章目录"><a href="#Toc-文章目录" class="headerlink" title="Toc 文章目录"></a>Toc 文章目录</h2><p>使用 <a target="_blank" rel="noopener" href="http://tscanlin.github.io/tocbot/">Tocbot</a> 解析内容中的标题标签 (h1~h6) 并插入目录。使用方法：</p>
+<blockquote>
+<p>Ocean 配置 Toc 只作用于 Post 页面，在其他 Page 中不作用。</p>
+</blockquote>
+<h3 id="1-在主题配置文件-ocean-config-yml-中开启"><a href="#1-在主题配置文件-ocean-config-yml-中开启" class="headerlink" title="1. 在主题配置文件 ocean/_config.yml 中开启"></a>1. 在主题配置文件 <code>ocean/_config.yml</code> 中开启</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Toc</span></span><br><span class="line"><span class="attr">toc:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-在-Post-中关闭-Toc"><a href="#2-在-Post-中关闭-Toc" class="headerlink" title="2. 在 Post 中关闭 Toc"></a>2. 在 Post 中关闭 Toc</h3><p>如果在 <code>ocean/_config.yml</code> 开启了 Toc ，那么 Tocbot 会在每一篇 Blog 都解析内容中的标题标签生成 Toc 文章目录，但并不是所有的 Blog 中都需要 Toc，所以在 markdown 的 Front-matter 部分可以关闭：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">toc: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h2 id="部署到-Github"><a href="#部署到-Github" class="headerlink" title="部署到 Github"></a>部署到 Github</h2><p>安装 <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a>。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>修改配置：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment">#https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io</span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>] <span class="comment">#published</span></span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>参考资料：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/deployment">https://hexo.io/zh-cn/docs/deployment</a></p>
+</blockquote>
+<h2 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/youchen1992">youchen1992</a> 在 Ocean 制作过程中提供技术支持；</li>
+<li>MeggeryWang、XantheXuan 提供的英文翻译。</li>
+</ul>
+<p><a href="/2019/07/02/Ocean-Issues/">使用 Ocean 过程中遇到了问题？</a></p>
+<hr>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhwangart.github.io/2018/11/30/Ocean/" data-id="ckibtmi05000p0s46f37sby89" class="article-share-link">
+        分享
+      </a>
+      
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ocean/" rel="tag">Ocean</a></li></ul>
+
+    </footer>
+
+  </div>
+
+  
+  
+<nav class="article-nav">
+  
+  <a href="/2018/12/06/Gitalk/" class="article-nav-link">
+    <strong class="article-nav-caption">前一篇</strong>
+    <div class="article-nav-title">
+      
+      Gitalk 的使用
+      
+    </div>
+  </a>
+  
+  
+  <a href="/2018/11/29/Markdown/" class="article-nav-link">
+    <strong class="article-nav-caption">后一篇</strong>
+    <div class="article-nav-title">Markdown 基本语法在 Ocean 中的展现形式</div>
+  </a>
+  
+</nav>
+
+  
+
+  
+  
+  
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: 'b056dd67631a756522c0',
+    clientSecret: '05c597da836f12ac1c7a37f1191d729ae14f5886',
+    repo: 'gitalk',
+    owner: 'zhwangart',
+    admin: ['zhwangart'],
+    // id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: md5(location.pathname),
+    distractionFreeMode: false,  // Facebook-like distraction free mode
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+  
+
+</article>
+</section>
+    <footer class="footer">
+  <div class="outer">
+    <div class="float-right">
+      <ul class="list-inline">
+  
+  <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
+  
+  <li><i class="fe fe-bookmark"></i> <span id="busuanzi_value_page_pv"></span></li>
+  
+</ul>
+    </div>
+    <ul class="list-inline">
+      <li>&copy; 2020 数学家</li>
+      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
+      <li>Theme  <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
+    </ul>
+  </div>
+</footer>
+  </main>
+  <aside class="sidebar">
+    <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/shark.svg" alt="数学家"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">首页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/gallery">相册</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link nav-item-search" title="搜索">
+        <i class="fe fe-search"></i>
+        搜索
+      </a>
+    </li>
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      <div class="totop" id="totop">
+  <i class="fe fe-rocket"></i>
+</div>
+    </li>
+    <li class="nav-item">
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="fe fe-feed"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+  </aside>
+  
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+<script src="/js/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="/js/lazyload.min.js"></script>
+
+
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+  });
+</script>
+
+
+
+<script src="/js/ocean.js"></script>
+
+</body>
+
+</html>
