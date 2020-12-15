@@ -3,11 +3,11 @@
   <title>数学家</title>
   <icon>https://www.gravatar.com/avatar/bf575a2a5c182487a846f8a6b8c453ca</icon>
   <subtitle>爱设计 | 爱前端 | 爱摄影 | 爱生活</subtitle>
-  <link href="https://zhwangart.github.io/atom.xml" rel="self"/>
+  <link href="https://zhwangart.com/atom.xml" rel="self"/>
   
-  <link href="https://zhwangart.github.io/"/>
-  <updated>2020-06-06T16:31:48.000Z</updated>
-  <id>https://zhwangart.github.io/</id>
+  <link href="https://zhwangart.com/"/>
+  <updated>2020-04-16T16:57:50.000Z</updated>
+  <id>https://zhwangart.com/</id>
   
   <author>
     <name>zhwangart</name>
@@ -17,28 +17,9 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Mac Filezilla 报错的解决办法</title>
-    <link href="https://zhwangart.github.io/2020/06/07/macOS-Filezilla-777/"/>
-    <id>https://zhwangart.github.io/2020/06/07/macOS-Filezilla-777/</id>
-    <published>2020-06-06T16:17:20.000Z</published>
-    <updated>2020-06-06T16:31:48.000Z</updated>
-    
-    
-    <summary type="html">Mac Filezilla：无法写入“../.config/filezilla/filezilla.xml”</summary>
-    
-    
-    
-    
-    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
-    
-    <category term="Filezilla" scheme="https://zhwangart.github.io/tags/Filezilla/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Bulma 定制</title>
-    <link href="https://zhwangart.github.io/2020/03/11/Bulma-customizable/"/>
-    <id>https://zhwangart.github.io/2020/03/11/Bulma-customizable/</id>
+    <link href="https://zhwangart.com/2020/03/11/Bulma-customizable/"/>
+    <id>https://zhwangart.com/2020/03/11/Bulma-customizable/</id>
     <published>2020-03-10T17:11:09.000Z</published>
     <updated>2020-04-16T16:57:50.000Z</updated>
     
@@ -48,18 +29,18 @@
     
     
     
-    <category term="Bulma" scheme="https://zhwangart.github.io/tags/Bulma/"/>
+    <category term="Bulma" scheme="https://zhwangart.com/tags/Bulma/"/>
     
-    <category term="CSS" scheme="https://zhwangart.github.io/tags/CSS/"/>
+    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
     
-    <category term="前端" scheme="https://zhwangart.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>Video 微信浏览器自动播放和默认全屏</title>
-    <link href="https://zhwangart.github.io/2020/02/28/Video-autoplay-fullscreen-WeChat/"/>
-    <id>https://zhwangart.github.io/2020/02/28/Video-autoplay-fullscreen-WeChat/</id>
+    <link href="https://zhwangart.com/2020/02/28/Video-autoplay-fullscreen-WeChat/"/>
+    <id>https://zhwangart.com/2020/02/28/Video-autoplay-fullscreen-WeChat/</id>
     <published>2020-02-28T13:45:24.000Z</published>
     <updated>2020-02-28T15:51:28.000Z</updated>
     
@@ -69,18 +50,18 @@
     
     
     
-    <category term="CSS" scheme="https://zhwangart.github.io/tags/CSS/"/>
+    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
     
-    <category term="前端" scheme="https://zhwangart.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="HTML" scheme="https://zhwangart.github.io/tags/HTML/"/>
+    <category term="HTML" scheme="https://zhwangart.com/tags/HTML/"/>
     
   </entry>
   
   <entry>
     <title>Photoshop 中的混合模式</title>
-    <link href="https://zhwangart.github.io/2020/02/24/Photoshop-Blending-modes/"/>
-    <id>https://zhwangart.github.io/2020/02/24/Photoshop-Blending-modes/</id>
+    <link href="https://zhwangart.com/2020/02/24/Photoshop-Blending-modes/"/>
+    <id>https://zhwangart.com/2020/02/24/Photoshop-Blending-modes/</id>
     <published>2020-02-24T09:58:01.000Z</published>
     <updated>2020-05-18T03:35:42.000Z</updated>
     
@@ -90,16 +71,16 @@
     
     
     
-    <category term="Design" scheme="https://zhwangart.github.io/tags/Design/"/>
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
     
-    <category term="Photoshop" scheme="https://zhwangart.github.io/tags/Photoshop/"/>
+    <category term="Photoshop" scheme="https://zhwangart.com/tags/Photoshop/"/>
     
   </entry>
   
   <entry>
     <title>macOS 原生输入法不好用吗？</title>
-    <link href="https://zhwangart.github.io/2020/02/24/macOS-Input-method/"/>
-    <id>https://zhwangart.github.io/2020/02/24/macOS-Input-method/</id>
+    <link href="https://zhwangart.com/2020/02/24/macOS-Input-method/"/>
+    <id>https://zhwangart.com/2020/02/24/macOS-Input-method/</id>
     <published>2020-02-24T09:35:02.000Z</published>
     <updated>2020-02-28T15:29:08.000Z</updated>
     
@@ -109,14 +90,14 @@
     
     
     
-    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    <category term="macOS" scheme="https://zhwangart.com/tags/macOS/"/>
     
   </entry>
   
   <entry>
     <title>Ocean 中使用 Valine</title>
-    <link href="https://zhwangart.github.io/2020/02/22/Valine/"/>
-    <id>https://zhwangart.github.io/2020/02/22/Valine/</id>
+    <link href="https://zhwangart.com/2020/02/22/Valine/"/>
+    <id>https://zhwangart.com/2020/02/22/Valine/</id>
     <published>2020-02-21T17:46:36.000Z</published>
     <updated>2020-02-28T15:20:04.000Z</updated>
     
@@ -126,20 +107,20 @@
     
     
     
-    <category term="Hexo" scheme="https://zhwangart.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://zhwangart.com/tags/Hexo/"/>
     
-    <category term="Ocean" scheme="https://zhwangart.github.io/tags/Ocean/"/>
+    <category term="Ocean" scheme="https://zhwangart.com/tags/Ocean/"/>
     
-    <category term="Valine" scheme="https://zhwangart.github.io/tags/Valine/"/>
+    <category term="Valine" scheme="https://zhwangart.com/tags/Valine/"/>
     
-    <category term="Github" scheme="https://zhwangart.github.io/tags/Github/"/>
+    <category term="Github" scheme="https://zhwangart.com/tags/Github/"/>
     
   </entry>
   
   <entry>
     <title>APP 在 macOS 提示已损坏</title>
-    <link href="https://zhwangart.github.io/2020/02/02/APP-macOS-Catalina-Error/"/>
-    <id>https://zhwangart.github.io/2020/02/02/APP-macOS-Catalina-Error/</id>
+    <link href="https://zhwangart.com/2020/02/02/APP-macOS-Catalina-Error/"/>
+    <id>https://zhwangart.com/2020/02/02/APP-macOS-Catalina-Error/</id>
     <published>2020-02-02T10:51:43.000Z</published>
     <updated>2020-05-18T07:59:54.000Z</updated>
     
@@ -157,14 +138,14 @@
     
     
     
-    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    <category term="macOS" scheme="https://zhwangart.com/tags/macOS/"/>
     
   </entry>
   
   <entry>
     <title>macOS 改变 Launchpad 图标的行列数</title>
-    <link href="https://zhwangart.github.io/2019/12/01/macOS-Launchpad-rows-cloumns/"/>
-    <id>https://zhwangart.github.io/2019/12/01/macOS-Launchpad-rows-cloumns/</id>
+    <link href="https://zhwangart.com/2019/12/01/macOS-Launchpad-rows-cloumns/"/>
+    <id>https://zhwangart.com/2019/12/01/macOS-Launchpad-rows-cloumns/</id>
     <published>2019-12-01T13:53:34.000Z</published>
     <updated>2020-02-28T15:28:58.000Z</updated>
     
@@ -174,18 +155,18 @@
     
     
     
-    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    <category term="macOS" scheme="https://zhwangart.com/tags/macOS/"/>
     
-    <category term="Launchpad" scheme="https://zhwangart.github.io/tags/Launchpad/"/>
+    <category term="Launchpad" scheme="https://zhwangart.com/tags/Launchpad/"/>
     
-    <category term="启动台" scheme="https://zhwangart.github.io/tags/%E5%90%AF%E5%8A%A8%E5%8F%B0/"/>
+    <category term="启动台" scheme="https://zhwangart.com/tags/%E5%90%AF%E5%8A%A8%E5%8F%B0/"/>
     
   </entry>
   
   <entry>
     <title>Kodak 400 过期胶卷</title>
-    <link href="https://zhwangart.github.io/2019/09/24/Film-FA-190616/"/>
-    <id>https://zhwangart.github.io/2019/09/24/Film-FA-190616/</id>
+    <link href="https://zhwangart.com/2019/09/24/Film-FA-190616/"/>
+    <id>https://zhwangart.com/2019/09/24/Film-FA-190616/</id>
     <published>2019-09-24T09:46:20.000Z</published>
     <updated>2020-05-18T06:51:36.000Z</updated>
     
@@ -195,16 +176,16 @@
     
     
     
-    <category term="摄影" scheme="https://zhwangart.github.io/tags/%E6%91%84%E5%BD%B1/"/>
+    <category term="摄影" scheme="https://zhwangart.com/tags/%E6%91%84%E5%BD%B1/"/>
     
-    <category term="胶片" scheme="https://zhwangart.github.io/tags/%E8%83%B6%E7%89%87/"/>
+    <category term="胶片" scheme="https://zhwangart.com/tags/%E8%83%B6%E7%89%87/"/>
     
   </entry>
   
   <entry>
     <title>精简迅雷</title>
-    <link href="https://zhwangart.github.io/2019/08/08/Thunder-pluglns/"/>
-    <id>https://zhwangart.github.io/2019/08/08/Thunder-pluglns/</id>
+    <link href="https://zhwangart.com/2019/08/08/Thunder-pluglns/"/>
+    <id>https://zhwangart.com/2019/08/08/Thunder-pluglns/</id>
     <published>2019-08-08T03:50:17.000Z</published>
     <updated>2020-02-24T10:10:52.000Z</updated>
     
@@ -214,16 +195,16 @@
     
     
     
-    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    <category term="macOS" scheme="https://zhwangart.com/tags/macOS/"/>
     
-    <category term="精简迅雷" scheme="https://zhwangart.github.io/tags/%E7%B2%BE%E7%AE%80%E8%BF%85%E9%9B%B7/"/>
+    <category term="精简迅雷" scheme="https://zhwangart.com/tags/%E7%B2%BE%E7%AE%80%E8%BF%85%E9%9B%B7/"/>
     
   </entry>
   
   <entry>
     <title>LightWAN 移动端 UI 设计</title>
-    <link href="https://zhwangart.github.io/2019/07/16/APP-Design-LightWAN/"/>
-    <id>https://zhwangart.github.io/2019/07/16/APP-Design-LightWAN/</id>
+    <link href="https://zhwangart.com/2019/07/16/APP-Design-LightWAN/"/>
+    <id>https://zhwangart.com/2019/07/16/APP-Design-LightWAN/</id>
     <published>2019-07-16T08:57:16.000Z</published>
     <updated>2020-05-18T08:01:50.000Z</updated>
     
@@ -233,16 +214,16 @@
     
     
     
-    <category term="Design" scheme="https://zhwangart.github.io/tags/Design/"/>
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
     
-    <category term="UI" scheme="https://zhwangart.github.io/tags/UI/"/>
+    <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
     
   </entry>
   
   <entry>
     <title>又一个稻壳阅读器的 LOGO 设计</title>
-    <link href="https://zhwangart.github.io/2019/07/03/Bird/"/>
-    <id>https://zhwangart.github.io/2019/07/03/Bird/</id>
+    <link href="https://zhwangart.com/2019/07/03/Bird/"/>
+    <id>https://zhwangart.com/2019/07/03/Bird/</id>
     <published>2019-07-03T03:33:38.000Z</published>
     <updated>2020-05-18T08:00:00.000Z</updated>
     
@@ -252,16 +233,16 @@
     
     
     
-    <category term="Design" scheme="https://zhwangart.github.io/tags/Design/"/>
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
     
-    <category term="Logo" scheme="https://zhwangart.github.io/tags/Logo/"/>
+    <category term="Logo" scheme="https://zhwangart.com/tags/Logo/"/>
     
   </entry>
   
   <entry>
     <title>关于 Ocean 使用中的问题</title>
-    <link href="https://zhwangart.github.io/2019/07/02/Ocean-Issues/"/>
-    <id>https://zhwangart.github.io/2019/07/02/Ocean-Issues/</id>
+    <link href="https://zhwangart.com/2019/07/02/Ocean-Issues/"/>
+    <id>https://zhwangart.com/2019/07/02/Ocean-Issues/</id>
     <published>2019-07-02T03:11:11.000Z</published>
     <updated>2020-03-18T04:29:50.000Z</updated>
     
@@ -271,16 +252,16 @@
     
     
     
-    <category term="Hexo" scheme="https://zhwangart.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://zhwangart.com/tags/Hexo/"/>
     
-    <category term="Ocean" scheme="https://zhwangart.github.io/tags/Ocean/"/>
+    <category term="Ocean" scheme="https://zhwangart.com/tags/Ocean/"/>
     
   </entry>
   
   <entry>
     <title>Canonet QL17 G-III 中文</title>
-    <link href="https://zhwangart.github.io/2019/05/07/CANONET-QL17-GIII-DOC/"/>
-    <id>https://zhwangart.github.io/2019/05/07/CANONET-QL17-GIII-DOC/</id>
+    <link href="https://zhwangart.com/2019/05/07/CANONET-QL17-GIII-DOC/"/>
+    <id>https://zhwangart.com/2019/05/07/CANONET-QL17-GIII-DOC/</id>
     <published>2019-05-07T02:34:49.000Z</published>
     <updated>2020-05-18T07:06:06.000Z</updated>
     
@@ -290,18 +271,18 @@
     
     
     
-    <category term="摄影" scheme="https://zhwangart.github.io/tags/%E6%91%84%E5%BD%B1/"/>
+    <category term="摄影" scheme="https://zhwangart.com/tags/%E6%91%84%E5%BD%B1/"/>
     
-    <category term="胶片" scheme="https://zhwangart.github.io/tags/%E8%83%B6%E7%89%87/"/>
+    <category term="胶片" scheme="https://zhwangart.com/tags/%E8%83%B6%E7%89%87/"/>
     
-    <category term="旁轴" scheme="https://zhwangart.github.io/tags/%E6%97%81%E8%BD%B4/"/>
+    <category term="旁轴" scheme="https://zhwangart.com/tags/%E6%97%81%E8%BD%B4/"/>
     
   </entry>
   
   <entry>
     <title>干脆面做了 LOGO</title>
-    <link href="https://zhwangart.github.io/2019/04/29/Little-raccoon/"/>
-    <id>https://zhwangart.github.io/2019/04/29/Little-raccoon/</id>
+    <link href="https://zhwangart.com/2019/04/29/Little-raccoon/"/>
+    <id>https://zhwangart.com/2019/04/29/Little-raccoon/</id>
     <published>2019-04-29T11:04:29.000Z</published>
     <updated>2020-02-28T15:42:20.000Z</updated>
     
@@ -311,16 +292,16 @@
     
     
     
-    <category term="Design" scheme="https://zhwangart.github.io/tags/Design/"/>
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
     
-    <category term="Logo" scheme="https://zhwangart.github.io/tags/Logo/"/>
+    <category term="Logo" scheme="https://zhwangart.com/tags/Logo/"/>
     
   </entry>
   
   <entry>
     <title>一些常用的移动端的 meta 属性设置</title>
-    <link href="https://zhwangart.github.io/2019/04/26/Mobile-html-meta-property-settings/"/>
-    <id>https://zhwangart.github.io/2019/04/26/Mobile-html-meta-property-settings/</id>
+    <link href="https://zhwangart.com/2019/04/26/Mobile-html-meta-property-settings/"/>
+    <id>https://zhwangart.com/2019/04/26/Mobile-html-meta-property-settings/</id>
     <published>2019-04-26T10:11:49.000Z</published>
     <updated>2020-02-28T15:50:20.000Z</updated>
     
@@ -330,18 +311,18 @@
     
     
     
-    <category term="前端" scheme="https://zhwangart.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="HTML" scheme="https://zhwangart.github.io/tags/HTML/"/>
+    <category term="HTML" scheme="https://zhwangart.com/tags/HTML/"/>
     
-    <category term="meta" scheme="https://zhwangart.github.io/tags/meta/"/>
+    <category term="meta" scheme="https://zhwangart.com/tags/meta/"/>
     
   </entry>
   
   <entry>
     <title>macOS Sublime Text 插件安装与删除</title>
-    <link href="https://zhwangart.github.io/2019/03/19/SublimeText-PackageControl/"/>
-    <id>https://zhwangart.github.io/2019/03/19/SublimeText-PackageControl/</id>
+    <link href="https://zhwangart.com/2019/03/19/SublimeText-PackageControl/"/>
+    <id>https://zhwangart.com/2019/03/19/SublimeText-PackageControl/</id>
     <published>2019-03-19T02:42:22.000Z</published>
     <updated>2020-05-18T03:34:26.000Z</updated>
     
@@ -351,16 +332,16 @@
     
     
     
-    <category term="macOS" scheme="https://zhwangart.github.io/tags/macOS/"/>
+    <category term="macOS" scheme="https://zhwangart.com/tags/macOS/"/>
     
-    <category term="Sublime Text" scheme="https://zhwangart.github.io/tags/Sublime-Text/"/>
+    <category term="Sublime Text" scheme="https://zhwangart.com/tags/Sublime-Text/"/>
     
   </entry>
   
   <entry>
     <title>精心挑选的 Photoshop 45 个快捷键</title>
-    <link href="https://zhwangart.github.io/2019/02/22/Photosho-shortcut-45/"/>
-    <id>https://zhwangart.github.io/2019/02/22/Photosho-shortcut-45/</id>
+    <link href="https://zhwangart.com/2019/02/22/Photosho-shortcut-45/"/>
+    <id>https://zhwangart.com/2019/02/22/Photosho-shortcut-45/</id>
     <published>2019-02-22T02:42:00.000Z</published>
     <updated>2020-05-18T03:31:48.000Z</updated>
     
@@ -370,16 +351,16 @@
     
     
     
-    <category term="Design" scheme="https://zhwangart.github.io/tags/Design/"/>
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
     
-    <category term="Photoshop" scheme="https://zhwangart.github.io/tags/Photoshop/"/>
+    <category term="Photoshop" scheme="https://zhwangart.com/tags/Photoshop/"/>
     
   </entry>
   
   <entry>
     <title>CSS:filter 学习笔记</title>
-    <link href="https://zhwangart.github.io/2018/12/26/CSS-filter/"/>
-    <id>https://zhwangart.github.io/2018/12/26/CSS-filter/</id>
+    <link href="https://zhwangart.com/2018/12/26/CSS-filter/"/>
+    <id>https://zhwangart.com/2018/12/26/CSS-filter/</id>
     <published>2018-12-26T02:03:00.000Z</published>
     <updated>2020-02-28T15:33:52.000Z</updated>
     
@@ -389,16 +370,16 @@
     
     
     
-    <category term="CSS" scheme="https://zhwangart.github.io/tags/CSS/"/>
+    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
     
-    <category term="前端" scheme="https://zhwangart.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>Gitalk 的使用</title>
-    <link href="https://zhwangart.github.io/2018/12/06/Gitalk/"/>
-    <id>https://zhwangart.github.io/2018/12/06/Gitalk/</id>
+    <link href="https://zhwangart.com/2018/12/06/Gitalk/"/>
+    <id>https://zhwangart.com/2018/12/06/Gitalk/</id>
     <published>2018-12-06T07:11:49.000Z</published>
     <updated>2020-05-18T07:54:08.000Z</updated>
     
@@ -408,13 +389,32 @@
     
     
     
-    <category term="Hexo" scheme="https://zhwangart.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://zhwangart.com/tags/Hexo/"/>
     
-    <category term="Ocean" scheme="https://zhwangart.github.io/tags/Ocean/"/>
+    <category term="Ocean" scheme="https://zhwangart.com/tags/Ocean/"/>
     
-    <category term="Gitalk" scheme="https://zhwangart.github.io/tags/Gitalk/"/>
+    <category term="Gitalk" scheme="https://zhwangart.com/tags/Gitalk/"/>
     
-    <category term="Valine" scheme="https://zhwangart.github.io/tags/Valine/"/>
+    <category term="Valine" scheme="https://zhwangart.com/tags/Valine/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ocean 中文文档</title>
+    <link href="https://zhwangart.com/2018/11/30/Ocean/"/>
+    <id>https://zhwangart.com/2018/11/30/Ocean/</id>
+    <published>2018-11-30T03:13:00.000Z</published>
+    <updated>2020-11-27T09:21:10.000Z</updated>
+    
+    
+    <summary type="html">Ocean 是一款极简的，集成了 Gitalk 与 Valine 评论功能的轻量级 Hexo 主题。</summary>
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://zhwangart.com/tags/Hexo/"/>
+    
+    <category term="Ocean" scheme="https://zhwangart.com/tags/Ocean/"/>
     
   </entry>
   

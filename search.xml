@@ -98,29 +98,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Mac Filezilla 报错的解决办法</title>
-    <url>/2020/06/07/macOS-Filezilla-777/</url>
-    <content><![CDATA[<p>Mac Filezilla：无法写入“../.config/filezilla/filezilla.xml”</p>
-<p><strong>出现原因</strong>：.config 目录权限不足</p>
-<p><strong>解决办法</strong>：</p>
-<ol>
-<li><p>用户根目录执行：</p>
-<p><code>sudo chmod -R 777 .config</code></p>
-</li>
-<li><p>进入 .config 后创建 filezilla 目录：</p>
-<p><code>mkdir filezilla</code></p>
-</li>
-<li><p>赋予 filezilla 目录 777 权限：</p>
-<p><code>sudo chmod -R 777 .config/filezilla</code></p>
-</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>macOS</tag>
-        <tag>Filezilla</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Bulma 定制</title>
     <url>/2020/03/11/Bulma-customizable/</url>
     <content><![CDATA[<p>Bulma 是一个轻量级、可定制的纯 CSS 框架。因为没有 JavaScript 所以可以在任何开发环境中轻松实现。所有样式都基于 class，只需为 html 元素指定 class，样式立刻生效。目前没有发现比较完整的中文文档，关于 Bulma 的定制，我查找了一些资料，做个笔记。</p>
@@ -1593,6 +1570,29 @@
 ]]></content>
       <tags>
         <tag>前端 - CSS - HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mac Filezilla 报错的解决办法</title>
+    <url>/2018/06/07/macOS-Filezilla-777/</url>
+    <content><![CDATA[<p>Mac Filezilla：无法写入“../.config/filezilla/filezilla.xml”</p>
+<p><strong>出现原因</strong>：.config 目录权限不足</p>
+<p><strong>解决办法</strong>：</p>
+<ol>
+<li><p>用户根目录执行：</p>
+<p><code>sudo chmod -R 777 .config</code></p>
+</li>
+<li><p>进入 .config 后创建 filezilla 目录：</p>
+<p><code>mkdir filezilla</code></p>
+</li>
+<li><p>赋予 filezilla 目录 777 权限：</p>
+<p><code>sudo chmod -R 777 .config/filezilla</code></p>
+</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>macOS</tag>
+        <tag>Filezilla</tag>
       </tags>
   </entry>
   <entry>
