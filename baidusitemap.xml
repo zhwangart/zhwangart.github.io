@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zhwangart.com/2013/03/08/%E6%98%8E%E5%B9%B4%E7%9A%84%E4%BB%8A%E5%A4%A9/</loc>
+    <lastmod>2020-12-31</lastmod>
+  </url>
+  <url>
     <loc>https://zhwangart.com/2018/06/07/macOS-Filezilla-777/</loc>
     <lastmod>2020-12-15</lastmod>
   </url>
@@ -119,9 +123,5 @@
   <url>
     <loc>https://zhwangart.com/2019/08/08/Thunder-pluglns/</loc>
     <lastmod>2020-02-24</lastmod>
-  </url>
-  <url>
-    <loc>https://zhwangart.com/2013/03/08/%E6%98%8E%E5%B9%B4%E7%9A%84%E4%BB%8A%E5%A4%A9/</loc>
-    <lastmod>2019-07-11</lastmod>
   </url>
 </urlset> 
