@@ -417,13 +417,6 @@
   </url>
   
   <url>
-    <loc>https://zhwangart.com/tags/Filezilla/</loc>
-    <lastmod>2021-03-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhwangart.com/tags/iTerm/</loc>
     <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
@@ -432,6 +425,13 @@
   
   <url>
     <loc>https://zhwangart.com/tags/iTerm2/</loc>
+    <lastmod>2021-03-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhwangart.com/tags/Filezilla/</loc>
     <lastmod>2021-03-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
