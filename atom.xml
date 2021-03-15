@@ -78,23 +78,6 @@
   </entry>
   
   <entry>
-    <title>macOS 原生输入法不好用吗？</title>
-    <link href="https://zhwangart.com/2020/02/24/macOS-Input-method/"/>
-    <id>https://zhwangart.com/2020/02/24/macOS-Input-method/</id>
-    <published>2020-02-24T09:35:02.000Z</published>
-    <updated>2020-02-28T15:29:08.000Z</updated>
-    
-    
-    <summary type="html">macOS 原生输入法，比起其它输入法来毫不逊色。而且简洁不花哨，避免隐私信息泄露。iCloud 还会帮助同步你的输入习惯，手机电脑的输入法不用分开调教，更不要提它还自带全套 emoji 表情…</summary>
-    
-    
-    
-    
-    <category term="macOS" scheme="https://zhwangart.com/tags/macOS/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Ocean 中使用 Valine</title>
     <link href="https://zhwangart.com/2020/02/22/Valine/"/>
     <id>https://zhwangart.com/2020/02/22/Valine/</id>
@@ -415,6 +398,25 @@
     <category term="Hexo" scheme="https://zhwangart.com/tags/Hexo/"/>
     
     <category term="Ocean" scheme="https://zhwangart.com/tags/Ocean/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 基本语法在 Ocean 中的展现形式</title>
+    <link href="https://zhwangart.com/2018/11/29/Markdown/"/>
+    <id>https://zhwangart.com/2018/11/29/Markdown/</id>
+    <published>2018-11-29T03:13:00.000Z</published>
+    <updated>2020-02-28T15:38:04.000Z</updated>
+    
+    
+    <summary type="html">Markdown 基本语法在 Ocean 中的展现形式，为了为自己查阅语法方便，也为想要使用 Ocean 的同学们提供示例，进而快速认知 Ocean 是否适合你的 Hexo ！</summary>
+    
+    
+    
+    
+    <category term="Ocean" scheme="https://zhwangart.com/tags/Ocean/"/>
+    
+    <category term="Markdown" scheme="https://zhwangart.com/tags/Markdown/"/>
     
   </entry>
   
