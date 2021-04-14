@@ -2311,7 +2311,7 @@ pre .javascript .function {
 }
 .card-quote {
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -2371,7 +2371,8 @@ pre .javascript .function {
   transition: all 0.3s ease-in-out;
 }
 .card-quote blockquote:hover {
-  box-shadow: 0 1rem 5rem rgba(23,45,62,0.1);
+  transform: translateY(-0.25rem);
+  box-shadow: 0 1rem 3rem 0.01rem rgba(23,45,62,0.1);
   border-color: #f4f4f4;
 }
 .card-quote blockquote:hover a {
@@ -2415,6 +2416,9 @@ pre .javascript .function {
   content: '\f1a9';
 }
 .navbar .nav.nav-main .nav-item:nth-child(4) .nav-item-link::before {
+  content: '\f1d3';
+}
+.navbar .nav.nav-main .nav-item:nth-child(5) .nav-item-link::before {
   content: '\f174';
 }
 .navbar-bottom {

@@ -98,6 +98,20 @@
       </tags>
   </entry>
   <entry>
+    <title>JESS 桌面客户端产品设计</title>
+    <url>/2020/12/24/JESS/</url>
+    <content><![CDATA[<p>扁平化这些年<strong>桌面客户端</strong>（C 端）的设计做的很少了，随着网速越来越快，产品设计也跟随着时代的发展，成为了主要以<strong>移动端</strong>与<strong>Web 端</strong>的设计为主流。越来越多的 C 端产品也都相对应的出了 Web 端与移动端产品，仅剩一些行业性工具类的产品还需要<strong>跨系统平台</strong>（Windows、macOS、Linux）的桌面客户端产品设计。</p>
+<a id="more"></a>
+
+<p>对于 C 端产品而言，大多没有过多的前端酷炫动效，毕竟以实用为主。交互上…有<strong>右键</strong>功能菜单吧～</p>
+<p><img src="https://z3.ax1x.com/2021/04/14/ccOwdO.png" alt="JESS"><br><img src="https://z3.ax1x.com/2021/04/14/ccOUL6.png" alt="JESS"><br><img src="https://z3.ax1x.com/2021/04/14/ccOsWd.png" alt="JESS"><br><img src="https://z3.ax1x.com/2021/04/14/ccOrJH.png" alt="JESS"><br><img src="https://z3.ax1x.com/2021/04/14/ccOdeK.png" alt="JESS"></p>
+]]></content>
+      <tags>
+        <tag>Design</tag>
+        <tag>UI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Bulma 定制</title>
     <url>/2020/03/11/Bulma-customizable/</url>
     <content><![CDATA[<p>Bulma 是一个轻量级、可定制的纯 CSS 框架。因为没有 JavaScript 所以可以在任何开发环境中轻松实现。所有样式都基于 class，只需为 html 元素指定 class，样式立刻生效。目前没有发现比较完整的中文文档，关于 Bulma 的定制，我查找了一些资料，做个笔记。</p>
@@ -223,8 +237,8 @@
 </blockquote>
 ]]></content>
       <tags>
-        <tag>Design</tag>
         <tag>Photoshop</tag>
+        <tag>Adobe</tag>
       </tags>
   </entry>
   <entry>
@@ -355,14 +369,14 @@
     <content><![CDATA[<p>给 Nikon FA 做了保养之后，用廉价购买的 Kodak 400 过期胶卷试机试卷~</p>
 <a id="more"></a>
 
-<p><img src="https://s1.ax1x.com/2020/05/18/YfnKyt.jpg" alt="村前乘凉的人们"></p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YfnAoD.jpg" alt="没有们的老院"></p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YfnFeK.jpg" alt="接雨水的大缸"></p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YfnSzR.jpg" alt="屋檐下玩泥巴"></p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YfmzW9.jpg" alt="摘葱叶的老人"></p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YfnCsx.jpg" alt="酿酒厂王厂长与他的酒坛子，们"></p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YfnPL6.jpg" alt="供销社"></p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YfmxJJ.jpg" alt="因时代发展而废弃的西合营电影院"></p>
+<p><img src="https://z3.ax1x.com/2021/04/14/ccjTrq.jpg" alt="村前乘凉的人们"></p>
+<p><img src="https://z3.ax1x.com/2021/04/14/ccTwdJ.jpg" alt="没有们的老院"></p>
+<p><img src="https://z3.ax1x.com/2021/04/14/ccjoMn.jpg" alt="接雨水的大缸"></p>
+<p><img src="https://z3.ax1x.com/2021/04/14/ccj7q0.jpg" alt="屋檐下玩泥巴"></p>
+<p><img src="https://z3.ax1x.com/2021/04/14/ccvZzd.jpg" alt="摘葱叶的老人"></p>
+<p><img src="https://z3.ax1x.com/2021/04/14/ccTNsU.jpg" alt="酿酒的王厂长与他的酒坛子，们"></p>
+<p><img src="https://z3.ax1x.com/2021/04/14/ccTdZ4.jpg" alt="供销社"></p>
+<p><img src="https://z3.ax1x.com/2021/04/14/ccTtMT.jpg" alt="因时代发展而废弃的西合营电影院"></p>
 ]]></content>
       <tags>
         <tag>摄影</tag>
@@ -533,6 +547,20 @@
       <tags>
         <tag>Hexo</tag>
         <tag>Ocean</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Orchestrator 基于 WEB 的系统设计</title>
+    <url>/2019/05/17/Orchestrator/</url>
+    <content><![CDATA[<p>基于 Web 的 CloudWAN Orchestrator 3.0 系统第四版 UI 设计，该系统软件用于管控与配置全球 POP、Site、Link 与 Policy 。</p>
+<a id="more"></a>
+
+<p>该系统是给国内用户使用的一个纯英文界面系统，当时在设计 1.0 版本的时候我问为何英文？ BOSS 说 English 显得高级。在没有产品原型设计图的前提下，对于英文不好的我来说，设计过程中在梳理业务逻辑与设计交互的时候亦为困难重重，因为在该 3.0 版本之前的 1.0 与 2.0 版本是没有经过设计软件出效果图的，界面与交互都是我用前端代码直接生产，当时使用了 Bootstrap 框架的 v3.3.7 到 v4.6 版本。</p>
+<p><img src="https://z3.ax1x.com/2021/04/14/ccODFe.png" alt="Orchestrator"><br><img src="https://z3.ax1x.com/2021/04/14/ccO0oD.png" alt="Orchestrator"><br><img src="https://z3.ax1x.com/2021/04/14/ccOcQI.png" alt="Orchestrator"><br><img src="https://z3.ax1x.com/2021/04/14/ccO6SA.png" alt="Orchestrator"></p>
+]]></content>
+      <tags>
+        <tag>Design</tag>
+        <tag>UI</tag>
       </tags>
   </entry>
   <entry>
@@ -1026,8 +1054,8 @@
 </tbody></table>
 ]]></content>
       <tags>
-        <tag>Design</tag>
         <tag>Photoshop</tag>
+        <tag>Adobe</tag>
       </tags>
   </entry>
   <entry>
@@ -1545,6 +1573,21 @@
       <tags>
         <tag>macOS</tag>
         <tag>Filezilla</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>历史档案馆归档系统设计</title>
+    <url>/2013/09/10/Public-Records-Office/</url>
+    <content><![CDATA[<p>感谢当时公司让我有幸参与设计了中国第一历史档案馆（故宫）与中国第二历史档案馆智能归档备份与查询提档系统，在我国五千年历史长河无法抹去的记忆中，对于我参与的那一小点就像历史长河中的几簇浪花，微不足道，设计前期收集资料与了解历史背景的过程中，放佛历经了祖国近代史的沧海桑田，听见了那震耳发聩的枪声…</p>
+<a id="more"></a>
+
+<p>两个系统设计均基于 WEB 端，主要用于历史档案馆中的电子版档案文件在使用过程中能够快速查询与提档。速查询与提档系统功能在 UI 设计上较为简单，由于当时公司给予了相对宽裕的时间，所以设计过程中深刻的结合了馆中档案的历史时期，整体设计视觉感观较为厚重。</p>
+<p>中国第一历史档案馆是专门保存明清两代中央国家机关档案及皇室档案的国家级档案馆，收藏有明清两代中央机关和少数地方机关档案。档案馆馆址在北京故宫博物院西华门内北侧，馆藏档案1000余万件，共74个全宗。设计元素更多采用龙纹古卷等较为辉煌的中国传统元素，颜色以红色与明黄为主。</p>
+<p>中国第二历史档案馆是集中典藏中华民国时期（1912–1949）历届中央政府及直属机构档案的中央级国家档案馆。鉴于其历史时期政局动荡不安，战争、苦难与复兴并存，所以整体设计怀旧与朝气笔墨更浓，使用色彩饱和度与色彩明度偏低，同时也致敬了孙中山先生。</p>
+]]></content>
+      <tags>
+        <tag>Design</tag>
+        <tag>UI</tag>
       </tags>
   </entry>
   <entry>

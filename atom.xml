@@ -6,7 +6,7 @@
   <link href="https://zhwangart.com/atom.xml" rel="self"/>
   
   <link href="https://zhwangart.com/"/>
-  <updated>2020-04-16T16:57:50.000Z</updated>
+  <updated>2021-04-14T14:57:38.871Z</updated>
   <id>https://zhwangart.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JESS 桌面客户端产品设计</title>
+    <link href="https://zhwangart.com/2020/12/24/JESS/"/>
+    <id>https://zhwangart.com/2020/12/24/JESS/</id>
+    <published>2020-12-24T10:16:42.000Z</published>
+    <updated>2021-04-14T14:57:38.871Z</updated>
+    
+    
+    <summary type="html">桌面客户端产品 UI 设计。</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
+    
+    <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
+    
+  </entry>
   
   <entry>
     <title>Bulma 定制</title>
@@ -63,7 +82,7 @@
     <link href="https://zhwangart.com/2020/02/24/Photoshop-Blending-modes/"/>
     <id>https://zhwangart.com/2020/02/24/Photoshop-Blending-modes/</id>
     <published>2020-02-24T09:58:01.000Z</published>
-    <updated>2020-05-18T03:35:42.000Z</updated>
+    <updated>2021-03-21T14:34:38.263Z</updated>
     
     
     <summary type="html">Adobe Photoshop 官网对图层混合模式的说明。</summary>
@@ -71,9 +90,9 @@
     
     
     
-    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
-    
     <category term="Photoshop" scheme="https://zhwangart.com/tags/Photoshop/"/>
+    
+    <category term="Adobe" scheme="https://zhwangart.com/tags/Adobe/"/>
     
   </entry>
   
@@ -151,7 +170,7 @@
     <link href="https://zhwangart.com/2019/09/24/Film-FA-190616/"/>
     <id>https://zhwangart.com/2019/09/24/Film-FA-190616/</id>
     <published>2019-09-24T09:46:20.000Z</published>
-    <updated>2020-05-18T06:51:36.000Z</updated>
+    <updated>2021-04-14T15:10:09.780Z</updated>
     
     
     <summary type="html">给 Nikon FA 做了保养之后，用廉价购买的 Kodak 400 过期交卷试机试卷~</summary>
@@ -242,6 +261,25 @@
   </entry>
   
   <entry>
+    <title>Orchestrator 基于 WEB 的系统设计</title>
+    <link href="https://zhwangart.com/2019/05/17/Orchestrator/"/>
+    <id>https://zhwangart.com/2019/05/17/Orchestrator/</id>
+    <published>2019-05-17T10:16:42.000Z</published>
+    <updated>2021-04-14T15:12:57.999Z</updated>
+    
+    
+    <summary type="html">基于 Web 的 CloudWAN Orchestrator 3.0 系统第四版 UI 设计，该软件用于管控与配置全球 POP、Site、Link 与 Policy 。</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
+    
+    <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Canonet QL17 G-III 中文</title>
     <link href="https://zhwangart.com/2019/05/07/CANONET-QL17-GIII-DOC/"/>
     <id>https://zhwangart.com/2019/05/07/CANONET-QL17-GIII-DOC/</id>
@@ -326,7 +364,7 @@
     <link href="https://zhwangart.com/2019/02/22/Photosho-shortcut-45/"/>
     <id>https://zhwangart.com/2019/02/22/Photosho-shortcut-45/</id>
     <published>2019-02-22T02:42:00.000Z</published>
-    <updated>2020-05-18T03:31:48.000Z</updated>
+    <updated>2021-03-21T14:34:31.351Z</updated>
     
     
     <summary type="html">精心挑选了 Phtoshop 的 45 个快捷键，整理了一下方便学习。</summary>
@@ -334,9 +372,9 @@
     
     
     
-    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
-    
     <category term="Photoshop" scheme="https://zhwangart.com/tags/Photoshop/"/>
+    
+    <category term="Adobe" scheme="https://zhwangart.com/tags/Adobe/"/>
     
   </entry>
   
@@ -379,44 +417,6 @@
     <category term="Gitalk" scheme="https://zhwangart.com/tags/Gitalk/"/>
     
     <category term="Valine" scheme="https://zhwangart.com/tags/Valine/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ocean 中文文档</title>
-    <link href="https://zhwangart.com/2018/11/30/Ocean/"/>
-    <id>https://zhwangart.com/2018/11/30/Ocean/</id>
-    <published>2018-11-30T03:13:00.000Z</published>
-    <updated>2021-03-06T16:49:01.414Z</updated>
-    
-    
-    <summary type="html">Ocean 是一款极简的，集成了 Gitalk 与 Valine 评论功能的轻量级 Hexo 主题。</summary>
-    
-    
-    
-    
-    <category term="Hexo" scheme="https://zhwangart.com/tags/Hexo/"/>
-    
-    <category term="Ocean" scheme="https://zhwangart.com/tags/Ocean/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown 基本语法在 Ocean 中的展现形式</title>
-    <link href="https://zhwangart.com/2018/11/29/Markdown/"/>
-    <id>https://zhwangart.com/2018/11/29/Markdown/</id>
-    <published>2018-11-29T03:13:00.000Z</published>
-    <updated>2020-02-28T15:38:04.000Z</updated>
-    
-    
-    <summary type="html">Markdown 基本语法在 Ocean 中的展现形式，为了为自己查阅语法方便，也为想要使用 Ocean 的同学们提供示例，进而快速认知 Ocean 是否适合你的 Hexo ！</summary>
-    
-    
-    
-    
-    <category term="Ocean" scheme="https://zhwangart.com/tags/Ocean/"/>
-    
-    <category term="Markdown" scheme="https://zhwangart.com/tags/Markdown/"/>
     
   </entry>
   
