@@ -2345,7 +2345,6 @@ pre .javascript .function {
 .card-quote blockquote h4,
 .card-quote blockquote h5 {
   margin: 0;
-  text-transform: uppercase;
 }
 .card-quote blockquote h3 + p,
 .card-quote blockquote h4 + p,
