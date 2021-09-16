@@ -98,6 +98,138 @@
       </tags>
   </entry>
   <entry>
+    <title>自定义 Web 字体</title>
+    <url>/2021/09/14/CSS3-font-face/</url>
+    <content><![CDATA[<p>目前 Web 常用的字体格式有：EOT、TTF、OTF、WOFF、WOFF2、SVG，但并没有一种格式可以在所有浏览器中运行。所以这就意味必须使用多种字体格式来提供一致的体验。</p>
+<a id="more"></a>
+
+<h2 id="使用字体"><a href="#使用字体" class="headerlink" title="使用字体"></a>使用字体</h2><p>通常网页使用的字体会受制于操作系统，如果我们在设计中使用了某个特殊字体而用户的操作系统没有安装，那么网页则会退而求其次的选择系统已有的字体。因此我们并不能随便使用一些好看的字体，只能选用一些安全字体。比如：Helvetica，Arial，宋体，微软雅黑等。</p>
+<p>通过 CSS 的 @font-face 规则，可以允许 Web 设计人员使用用户计算机上未安装的字体。找到/购买了想要使用的字体后，只需将字体文件包含在 Web 服务器上，它将在需要时自动下载给用户。</p>
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">&#x27;family-name&#x27;</span>;</span><br><span class="line">  <span class="attribute">src</span>: url(<span class="string">&#x27;/path/FontFamily.eot&#x27;</span>);</span><br><span class="line">  <span class="attribute">src</span>: url(<span class="string">&#x27;/path/FontFamily.eot?#iefix&#x27;</span>) format(<span class="string">&#x27;embedded-opentype&#x27;</span>),</span><br><span class="line">    url(<span class="string">&#x27;/path/FontFamily.woff&#x27;</span>) format(<span class="string">&#x27;woff&#x27;</span>),</span><br><span class="line">    url(<span class="string">&#x27;/path/FontFamily.ttf&#x27;</span>) format(<span class="string">&#x27;truetype&#x27;</span>),</span><br><span class="line">    url(<span class="string">&#x27;/path/FontFamily.svg#iconfont&#x27;</span>) format(<span class="string">&#x27;svg&#x27;</span>);</span><br><span class="line">  <span class="attribute">font-weight</span>: normal;</span><br><span class="line">  <span class="attribute">font-style</span>: normal;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>#iefix 有何作用？</strong><br>IE9 之前的版本没有按照标准解析字体声明，当 <code>src</code> 属性包含多个 <code>url</code> 时，它无法正确的解析而返回 404 错误，而其他浏览器会自动采用自己适用的 <code>url</code> 。因此把仅 IE9 之前支持的 EOT 格式放在第一位，然后在 url 后加上 <code>?</code> ，这样 IE9 之前的版本会把问号之后的内容当作 <code>url</code> 的参数。至于 <code>#iefix</code> 的作用，一是起到了注释的作用，二是可以将 <code>url</code> 参数变为锚点，减少发送给服务器的字符。<br><strong>为何有两个 src ？</strong><br>绝大多数情况下，第一个 <code>src</code> 是可以去掉的，除非需要支持 IE9 下的兼容模式。在 IE9 中可以使用 IE7 和 IE8 的模式渲染页面，微软修改了在兼容模式下的 CSS 解析器，导致使用 <code>?</code> 的方案失效。由于 CSS 解释器是从下往上解析的，所以在上面添加一个不带问号的 <code>src</code> 属性便可以解决此问题。</p>
+</blockquote>
+<p>如果提供了 <code>local()</code> 函数，则会从用户本地查找指定的字体名称，并且找到了一个匹配项，那么本地字体就会被使用，否则，字体就会使用 <code>url()</code> 函数下载的资源。</p>
+<figure class="highlight scss"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: MyHelvetica;</span><br><span class="line">  <span class="attribute">src</span>: local(<span class="string">&quot;Helvetica Neue Bold&quot;</span>),</span><br><span class="line">    local(<span class="string">&quot;HelveticaNeue-Bold&quot;</span>),</span><br><span class="line">    url(<span class="string">&#x27;/path/FontFamilyBold.woff&#x27;</span>;</span><br><span class="line">    <span class="attribute">font-weight</span>: Bold;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>如上实例用到了用户本地字体 “Helvetica Neue Bold” 的备份；如果当前用户（浏览器）未安装该字体（两种可能的字体名都已经试过），就会用下载的字体”FontFamilyBold.woff”来代替。</p>
+</blockquote>
+<h2 id="字体格式"><a href="#字体格式" class="headerlink" title="字体格式"></a>字体格式</h2><p><strong>TTF（TrueType 字体）</strong><br>TrueType 是 1980 年代后期由 Apple 和 Microsoft 开发的字体标准。 TrueType 是 Mac OS 和 Microsoft Windows 操作系统最常用的字体格式。</p>
+<p><strong>OTF（OpenType 字体）</strong><br>OpenType 是可缩放计算机字体的格式。它基于 TrueType 构建，并且是 Microsoft 的注册商标。今天，OpenType 字体在主要计算机平台上得到普遍使用。</p>
+<p><strong>EOT（嵌入式 OpenType 字体）</strong><br>EOT 字体是 Microsoft 设计的 OpenType 字体的紧凑形式，用作网页上的嵌入式字体。</p>
+<p><strong>WOFF（Web 开放字体格式）</strong><br>WOFF 是用于网页的字体格式。它于 2009 年开发，现已成为 W3C 的推荐标准。 WOFF 本质上是具有压缩和其他元数据的 OpenType 或 TrueType。目标是支持在有带宽限制的网络上从服务器到客户端进行字体分发。</p>
+<p>WOFF2是下一代WOFF。WOFF2格式提供了比原始WOFF平均30%的压缩增益。因为它还只是推荐升级，没有得到WOFF的广泛支持。</p>
+<p><strong>WOFF（Web 开放字体格式）</strong><br>SVG 字体允许在显示文本时将 SVG 用作字形。 SVG 1.1 规范定义了一个字体模块，该模块允许在 SVG 文档中创建字体。您还可以将 CSS 应用于 SVG 文档，同时 @font-face 规则可以应用于 SVG 文档中的文本。</p>
+<h2 id="浏览器支持"><a href="#浏览器支持" class="headerlink" title="浏览器支持"></a>浏览器支持</h2><table>
+<thead>
+<tr>
+<th></th>
+<th align="center">EOT</th>
+<th align="center">OTF/TTF</th>
+<th align="center">WOFF</th>
+<th align="center">WOFF2</th>
+<th align="center">SVG</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>IE 8-11</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>IE 9-11</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Edge 12-14</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Firefox 40-45</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Chrome 43-49</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Safari 8-9</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center">✓</td>
+</tr>
+<tr>
+<td>Oprea 32-35</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>iOS Safari 8.4-9.1</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center">✓</td>
+</tr>
+<tr>
+<td>Android 4.4-44</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Chrome for Android 46</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>对于引入字体对于英文来说，是合适的，因为字体文件本身不大。但是对于中文字体，一个字体文件就好几 M ，既耗费流量，又拖慢了加载速度，还会出现加载后字体突然变化的情况，尤其是对于移动端来讲，非常不合适。</p>
+<p>所以需要用到 <a href="https://github.com/aui/font-spider">font-spider</a> 对字体文件压缩，可以智能删除没有被使用的字形数据，大幅度减少字体体积，并且支持 woff2、woff、eot、svg 字体格式生成。</p>
+<p><a href="https://ecomfe.github.io/fontmin/">Fontmin</a> 第一个纯 JavaScript 字体子集化方案。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li><a href="https://creativemarket.com/blog/the-missing-guide-to-font-formats">The Missing Guide to Font Formats: TTF, OTF, WOFF, EOT &amp; SVG</a></li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/@font-face">@font-face</a></li>
+<li><a href="https://www.w3school.com.cn/css/css3_fonts.asp">CSS Web 字体</a></li>
+<li><a href="https://github.com/aui/font-spider/blob/master/README-ZH-CN.md">字蛛 font-spider</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>CSS</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JESS 桌面客户端产品设计</title>
     <url>/2020/12/24/JESS/</url>
     <content><![CDATA[<p>扁平化这些年<strong>桌面客户端</strong>（C 端）的设计做的很少了，随着网速越来越快，产品设计也跟随着时代的发展，成为了主要以<strong>移动端</strong>与<strong>Web 端</strong>的设计为主流。越来越多的 C 端产品也都相对应的出了 Web 端与移动端产品，仅剩一些行业性工具类的产品还需要<strong>跨系统平台</strong>（Windows、macOS、Linux）的桌面客户端产品设计。</p>

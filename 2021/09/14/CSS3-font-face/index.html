@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  <meta name="keywords" content="CSS3,@font-face,Web字体,Hexo,Ocean,HTML5,CSS3,UI,zhwangart,设计,WEB前端,摄影,数学家">
+  
+  
+  <meta name="description" content="使用 @font-face 为网页自定义字体">
+  
+  <title>
+    自定义 Web 字体 |
+    
+    数学家
+  </title>
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/icon/apple-touch-icon-167x167.png">
+  
+    <link rel="shortcut icon" href="/favicon.ico">
+    
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<script src="/js/pace.min.js"></script>
+
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="数学家" type="application/atom+xml">
+</head>
+
+<body>
+  <main class="content">
+    <section class="outer">
+  <article id="post-CSS3-font-face" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+      
+
+<h1 class="article-title" itemprop="name">
+  自定义 Web 字体
+</h1>
+
+
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2021/09/14/CSS3-font-face/" class="article-date">
+  <time datetime="2021-09-14T03:14:44.000Z" itemprop="datePublished">2021-09-14</time>
+</a>
+      
+    </div>
+    
+
+    
+    
+<div class="tocbot"></div>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+      
+      <p>目前 Web 常用的字体格式有：EOT、TTF、OTF、WOFF、WOFF2、SVG，但并没有一种格式可以在所有浏览器中运行。所以这就意味必须使用多种字体格式来提供一致的体验。</p>
+<a id="more"></a>
+
+<h2 id="使用字体"><a href="#使用字体" class="headerlink" title="使用字体"></a>使用字体</h2><p>通常网页使用的字体会受制于操作系统，如果我们在设计中使用了某个特殊字体而用户的操作系统没有安装，那么网页则会退而求其次的选择系统已有的字体。因此我们并不能随便使用一些好看的字体，只能选用一些安全字体。比如：Helvetica，Arial，宋体，微软雅黑等。</p>
+<p>通过 CSS 的 @font-face 规则，可以允许 Web 设计人员使用用户计算机上未安装的字体。找到/购买了想要使用的字体后，只需将字体文件包含在 Web 服务器上，它将在需要时自动下载给用户。</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">&#x27;family-name&#x27;</span>;</span><br><span class="line">  <span class="attribute">src</span>: url(<span class="string">&#x27;/path/FontFamily.eot&#x27;</span>);</span><br><span class="line">  <span class="attribute">src</span>: url(<span class="string">&#x27;/path/FontFamily.eot?#iefix&#x27;</span>) format(<span class="string">&#x27;embedded-opentype&#x27;</span>),</span><br><span class="line">    url(<span class="string">&#x27;/path/FontFamily.woff&#x27;</span>) format(<span class="string">&#x27;woff&#x27;</span>),</span><br><span class="line">    url(<span class="string">&#x27;/path/FontFamily.ttf&#x27;</span>) format(<span class="string">&#x27;truetype&#x27;</span>),</span><br><span class="line">    url(<span class="string">&#x27;/path/FontFamily.svg#iconfont&#x27;</span>) format(<span class="string">&#x27;svg&#x27;</span>);</span><br><span class="line">  <span class="attribute">font-weight</span>: normal;</span><br><span class="line">  <span class="attribute">font-style</span>: normal;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>#iefix 有何作用？</strong><br>IE9 之前的版本没有按照标准解析字体声明，当 <code>src</code> 属性包含多个 <code>url</code> 时，它无法正确的解析而返回 404 错误，而其他浏览器会自动采用自己适用的 <code>url</code> 。因此把仅 IE9 之前支持的 EOT 格式放在第一位，然后在 url 后加上 <code>?</code> ，这样 IE9 之前的版本会把问号之后的内容当作 <code>url</code> 的参数。至于 <code>#iefix</code> 的作用，一是起到了注释的作用，二是可以将 <code>url</code> 参数变为锚点，减少发送给服务器的字符。<br><strong>为何有两个 src ？</strong><br>绝大多数情况下，第一个 <code>src</code> 是可以去掉的，除非需要支持 IE9 下的兼容模式。在 IE9 中可以使用 IE7 和 IE8 的模式渲染页面，微软修改了在兼容模式下的 CSS 解析器，导致使用 <code>?</code> 的方案失效。由于 CSS 解释器是从下往上解析的，所以在上面添加一个不带问号的 <code>src</code> 属性便可以解决此问题。</p>
+</blockquote>
+<p>如果提供了 <code>local()</code> 函数，则会从用户本地查找指定的字体名称，并且找到了一个匹配项，那么本地字体就会被使用，否则，字体就会使用 <code>url()</code> 函数下载的资源。</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: MyHelvetica;</span><br><span class="line">  <span class="attribute">src</span>: local(<span class="string">&quot;Helvetica Neue Bold&quot;</span>),</span><br><span class="line">    local(<span class="string">&quot;HelveticaNeue-Bold&quot;</span>),</span><br><span class="line">    url(<span class="string">&#x27;/path/FontFamilyBold.woff&#x27;</span>;</span><br><span class="line">    <span class="attribute">font-weight</span>: Bold;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>如上实例用到了用户本地字体 “Helvetica Neue Bold” 的备份；如果当前用户（浏览器）未安装该字体（两种可能的字体名都已经试过），就会用下载的字体”FontFamilyBold.woff”来代替。</p>
+</blockquote>
+<h2 id="字体格式"><a href="#字体格式" class="headerlink" title="字体格式"></a>字体格式</h2><p><strong>TTF（TrueType 字体）</strong><br>TrueType 是 1980 年代后期由 Apple 和 Microsoft 开发的字体标准。 TrueType 是 Mac OS 和 Microsoft Windows 操作系统最常用的字体格式。</p>
+<p><strong>OTF（OpenType 字体）</strong><br>OpenType 是可缩放计算机字体的格式。它基于 TrueType 构建，并且是 Microsoft 的注册商标。今天，OpenType 字体在主要计算机平台上得到普遍使用。</p>
+<p><strong>EOT（嵌入式 OpenType 字体）</strong><br>EOT 字体是 Microsoft 设计的 OpenType 字体的紧凑形式，用作网页上的嵌入式字体。</p>
+<p><strong>WOFF（Web 开放字体格式）</strong><br>WOFF 是用于网页的字体格式。它于 2009 年开发，现已成为 W3C 的推荐标准。 WOFF 本质上是具有压缩和其他元数据的 OpenType 或 TrueType。目标是支持在有带宽限制的网络上从服务器到客户端进行字体分发。</p>
+<p>WOFF2是下一代WOFF。WOFF2格式提供了比原始WOFF平均30%的压缩增益。因为它还只是推荐升级，没有得到WOFF的广泛支持。</p>
+<p><strong>WOFF（Web 开放字体格式）</strong><br>SVG 字体允许在显示文本时将 SVG 用作字形。 SVG 1.1 规范定义了一个字体模块，该模块允许在 SVG 文档中创建字体。您还可以将 CSS 应用于 SVG 文档，同时 @font-face 规则可以应用于 SVG 文档中的文本。</p>
+<h2 id="浏览器支持"><a href="#浏览器支持" class="headerlink" title="浏览器支持"></a>浏览器支持</h2><table>
+<thead>
+<tr>
+<th></th>
+<th align="center">EOT</th>
+<th align="center">OTF/TTF</th>
+<th align="center">WOFF</th>
+<th align="center">WOFF2</th>
+<th align="center">SVG</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>IE 8-11</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>IE 9-11</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Edge 12-14</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Firefox 40-45</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Chrome 43-49</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Safari 8-9</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center">✓</td>
+</tr>
+<tr>
+<td>Oprea 32-35</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>iOS Safari 8.4-9.1</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center">✓</td>
+</tr>
+<tr>
+<td>Android 4.4-44</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>Chrome for Android 46</td>
+<td align="center"></td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center">✓</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>对于引入字体对于英文来说，是合适的，因为字体文件本身不大。但是对于中文字体，一个字体文件就好几 M ，既耗费流量，又拖慢了加载速度，还会出现加载后字体突然变化的情况，尤其是对于移动端来讲，非常不合适。</p>
+<p>所以需要用到 <a target="_blank" rel="noopener" href="https://github.com/aui/font-spider">font-spider</a> 对字体文件压缩，可以智能删除没有被使用的字形数据，大幅度减少字体体积，并且支持 woff2、woff、eot、svg 字体格式生成。</p>
+<p><a target="_blank" rel="noopener" href="https://ecomfe.github.io/fontmin/">Fontmin</a> 第一个纯 JavaScript 字体子集化方案。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://creativemarket.com/blog/the-missing-guide-to-font-formats">The Missing Guide to Font Formats: TTF, OTF, WOFF, EOT &amp; SVG</a></li>
+<li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/@font-face">@font-face</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.w3school.com.cn/css/css3_fonts.asp">CSS Web 字体</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/aui/font-spider/blob/master/README-ZH-CN.md">字蛛 font-spider</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://zhwangart.com/2021/09/14/CSS3-font-face/" data-id="cktn0h2l3000h3h4624ig0ofu" class="article-share-link">
+        分享
+      </a>
+      
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS/" rel="tag">CSS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag">前端</a></li></ul>
+
+    </footer>
+
+  </div>
+
+  
+  
+<nav class="article-nav">
+  
+  
+  <a href="/2020/12/24/JESS/" class="article-nav-link">
+    <strong class="article-nav-caption">后一篇</strong>
+    <div class="article-nav-title">JESS 桌面客户端产品设计</div>
+  </a>
+  
+</nav>
+
+  
+
+  
+  
+  
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: 'b056dd67631a756522c0',
+    clientSecret: '05c597da836f12ac1c7a37f1191d729ae14f5886',
+    repo: 'gitalk',
+    owner: 'zhwangart',
+    admin: ['zhwangart'],
+    // id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: md5(location.pathname),
+    distractionFreeMode: false,  // Facebook-like distraction free mode
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+  
+
+</article>
+</section>
+    <footer class="footer">
+  <div class="outer">
+    <div class="float-right">
+      <ul class="list-inline">
+  
+  <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
+  
+  <li><i class="fe fe-bookmark"></i> <span id="busuanzi_value_page_pv"></span></li>
+  
+</ul>
+    </div>
+    <ul class="list-inline">
+      <li>数学家 &copy; 2021</li>
+      
+        <li>京ICP备17054916号-2</li>
+      
+      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
+      <li>theme  <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
+    </ul>
+  </div>
+</footer>
+  </main>
+  <aside class="sidebar">
+    <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/shark.svg" alt="数学家"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">首页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/gallery">相册</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/favorites">收藏</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link nav-item-search" title="搜索">
+        <i class="fe fe-search"></i>
+        搜索
+      </a>
+    </li>
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      <div class="totop" id="totop">
+  <i class="fe fe-rocket"></i>
+</div>
+    </li>
+    <li class="nav-item">
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="fe fe-feed"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+  </aside>
+  
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+<script src="/js/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="/js/lazyload.min.js"></script>
+
+
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+
+
+
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+  });
+</script>
+
+
+
+<script src="/js/ocean.js"></script>
+
+</body>
+
+</html>
