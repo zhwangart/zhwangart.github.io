@@ -147,9 +147,7 @@
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: Gallery</span><br><span class="line">albums: [</span><br><span class="line"><span class="code">        [&quot;img_url&quot;,&quot;img_caption&quot;],</span></span><br><span class="line"><span class="code">        [&quot;img_url&quot;,&quot;img_caption&quot;]</span></span><br><span class="line"><span class="code">        ]</span></span><br><span class="line"><span class="code">---</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="Toc-文章目录"><a href="#Toc-文章目录" class="headerlink" title="Toc 文章目录"></a>Toc 文章目录</h2><p>使用 <a target="_blank" rel="noopener" href="http://tscanlin.github.io/tocbot/">Tocbot</a> 解析内容中的标题标签 (h1~h6) 并插入目录。使用方法：</p>
-<blockquote>
-<p>Ocean 配置 Toc 只作用于 Post 页面，在其他 Page 中不作用。</p>
-</blockquote>
+<p>注意：Ocean 配置 Toc 只作用于 Post 页面，在其他 Page 中不作用。</p>
 <h3 id="1-在主题配置文件-ocean-config-yml-中开启"><a href="#1-在主题配置文件-ocean-config-yml-中开启" class="headerlink" title="1. 在主题配置文件 ocean/_config.yml 中开启"></a>1. 在主题配置文件 <code>ocean/_config.yml</code> 中开启</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Toc</span></span><br><span class="line"><span class="attr">toc:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="2-在-Post-中关闭-Toc"><a href="#2-在-Post-中关闭-Toc" class="headerlink" title="2. 在 Post 中关闭 Toc"></a>2. 在 Post 中关闭 Toc</h3><p>如果在 <code>ocean/_config.yml</code> 开启了 Toc ，那么 Tocbot 会在每一篇 Blog 都解析内容中的标题标签生成 Toc 文章目录，但并不是所有的 Blog 中都需要 Toc，所以在 markdown 的 Front-matter 部分可以关闭：</p>
@@ -161,20 +159,17 @@
 <p>修改配置：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment">#https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io</span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>] <span class="comment">#published</span></span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure>
 
-<blockquote>
 <p>参考资料：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/deployment">https://hexo.io/zh-cn/docs/deployment</a></p>
-</blockquote>
-<h2 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h2><ul>
+<h2 id="感谢支持"><a href="#感谢支持" class="headerlink" title="感谢支持"></a>感谢支持</h2><ul>
 <li><a target="_blank" rel="noopener" href="https://github.com/youchen1992">youchen1992</a> 在 Ocean 制作过程中提供技术支持；</li>
 <li>MeggeryWang、XantheXuan 提供的英文翻译。</li>
 </ul>
 <p><a href="/2019/07/02/Ocean-Issues/">使用 Ocean 过程中遇到了问题？</a></p>
-<hr>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://zhwangart.com/2018/11/30/Ocean/" data-id="cktn0h2lg00103h467mt15yho" class="article-share-link">
+      <a data-url="https://zhwangart.com/2018/11/30/Ocean/" data-id="cktq0wckd0010jcu19eq7g8ks" class="article-share-link">
         分享
       </a>
       

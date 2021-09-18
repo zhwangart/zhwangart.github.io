@@ -85,25 +85,19 @@
 
 <h3 id="改变行数量"><a href="#改变行数量" class="headerlink" title="改变行数量"></a>改变行数量</h3><p><code>defaults write com.apple.dock springboard-rows -int X</code></p>
 <h3 id="改变列数量"><a href="#改变列数量" class="headerlink" title="改变列数量"></a>改变列数量</h3><p><code>defaults write com.apple.dock springboard-columns -int X</code></p>
-<blockquote>
-<p>X 改为想要设置的数字<br>  提示：千万不要改太小了，建议 13.3 笔记本上，最佳是一页5行，每行9个（rows=5，columns=9）</p>
-</blockquote>
+<p>将 X 改为想要设置的数字<br>提示：千万不要改太小了，建议 13.3 笔记本上，最佳是一页5行，每行9个（rows=5，columns=9）</p>
 <h3 id="使改变生效，重置-Dock"><a href="#使改变生效，重置-Dock" class="headerlink" title="使改变生效，重置 Dock"></a>使改变生效，重置 Dock</h3><p><code>killall Dock</code></p>
-<blockquote>
 <p>可以将所有指令放到一起，每一个句用 ; 分隔</p>
-</blockquote>
 <h3 id="恢复原样"><a href="#恢复原样" class="headerlink" title="恢复原样"></a>恢复原样</h3><p><code>defaults write com.apple.dock springboard-rows Default</code></p>
 <p><code>defaults write com.apple.dock springboard-columns Default</code></p>
 <p><code>killall Dock</code></p>
 <h3 id="重置-Dock-栏-APP"><a href="#重置-Dock-栏-APP" class="headerlink" title="重置 Dock 栏 APP"></a>重置 Dock 栏 APP</h3><p><code>defaults delete com.apple.dock; killall Dock</code></p>
-<blockquote>
 <p>如果Dock 栏上放满各类 App，却发现很多不是自己想要的App。可以通过终端重置 Dock 栏，回到系统默认状态。</p>
-</blockquote>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://zhwangart.com/2019/12/01/macOS-Launchpad-rows-cloumns/" data-id="cktn0h2lt001p3h46c7vx9zp1" class="article-share-link">
+      <a data-url="https://zhwangart.com/2019/12/01/macOS-Launchpad-rows-cloumns/" data-id="cktq0wckr001pjcu18jsf2j7z" class="article-share-link">
         分享
       </a>
       

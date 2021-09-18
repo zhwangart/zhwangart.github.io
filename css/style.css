@@ -1021,12 +1021,20 @@ img {
   background-color: rgba(230,230,230,0.25);
 }
 .article-entry blockquote {
+  position: relative;
   display: block;
-  padding: 0 1.5rem;
+  padding: 0 1.5rem 0 4.5rem;
   width: 100%;
   overflow: auto;
-  border-left: 0.3rem #9c8079 solid;
   color: #5c6b72;
+}
+.article-entry blockquote:before {
+  content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMCAySDQuMWMtLjQgMC0uNy4zLS43LjdMMiAyMS4yYzAgLjQuMy44LjguOGgxLjZjLjMgMCAuNi0uMi43LS41TDEwLjcgM2MuMS0uNS0uMi0xLS43LTF6TTIxLjIgMmgtNS44Yy0uNCAwLS43LjMtLjguN2wtMS40IDE4LjVjMCAuNC4zLjguOC44aDEuNmMuMyAwIC42LS4yLjctLjVMMjIgM2MuMS0uNS0uMi0xLS44LTF6IiBmaWxsPSIjQURCNUJEIi8+PC9zdmc+");
+  display: block;
+  width: 3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .article-entry blockquote > :first-child {
   margin-top: 0;

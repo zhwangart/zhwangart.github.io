@@ -59,7 +59,7 @@
     <link href="https://zhwangart.com/2020/03/11/Bulma-customizable/"/>
     <id>https://zhwangart.com/2020/03/11/Bulma-customizable/</id>
     <published>2020-03-10T17:11:09.000Z</published>
-    <updated>2020-04-16T16:57:50.000Z</updated>
+    <updated>2021-09-18T16:40:27.656Z</updated>
     
     
     <summary type="html">Bulma 是一个轻量级、可定制的纯 CSS 框架。因为没有 JavaScript 所以可以在任何开发环境中轻松实现。所有样式都基于 class，只需为 html 元素指定 class，样式立刻生效。</summary>
@@ -80,7 +80,7 @@
     <link href="https://zhwangart.com/2020/02/28/Video-autoplay-fullscreen-WeChat/"/>
     <id>https://zhwangart.com/2020/02/28/Video-autoplay-fullscreen-WeChat/</id>
     <published>2020-02-28T13:45:24.000Z</published>
-    <updated>2020-02-28T15:51:28.000Z</updated>
+    <updated>2021-09-18T16:07:46.550Z</updated>
     
     
     <summary type="html">解决 Video 视频在手机微信浏览器自动播放和默认全屏问题。</summary>
@@ -101,7 +101,7 @@
     <link href="https://zhwangart.com/2020/02/24/Photoshop-Blending-modes/"/>
     <id>https://zhwangart.com/2020/02/24/Photoshop-Blending-modes/</id>
     <published>2020-02-24T09:58:01.000Z</published>
-    <updated>2021-03-21T14:34:38.263Z</updated>
+    <updated>2021-09-18T16:08:28.686Z</updated>
     
     
     <summary type="html">Adobe Photoshop 官网对图层混合模式的说明。</summary>
@@ -120,7 +120,7 @@
     <link href="https://zhwangart.com/2020/02/22/Valine/"/>
     <id>https://zhwangart.com/2020/02/22/Valine/</id>
     <published>2020-02-21T17:46:36.000Z</published>
-    <updated>2020-02-28T15:20:04.000Z</updated>
+    <updated>2021-09-18T16:11:15.214Z</updated>
     
     
     <summary type="html">在 Ocean 中使用 Valine ，Ocean 是一款极简的，集成了 Gitalk 与 Valine 评论功能的轻量级 Hexo 主题。</summary>
@@ -143,18 +143,10 @@
     <link href="https://zhwangart.com/2020/02/02/APP-macOS-Catalina-Error/"/>
     <id>https://zhwangart.com/2020/02/02/APP-macOS-Catalina-Error/</id>
     <published>2020-02-02T10:51:43.000Z</published>
-    <updated>2020-05-18T07:59:54.000Z</updated>
+    <updated>2021-09-18T16:40:12.536Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;APP 在 macOS Catalina下提示已损坏无法打开解决办法&lt;/p&gt;
-&lt;p&gt;1、打开终端，输入以下命令：&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
-        
-      
+    <summary type="html">APP 在 macOS Catalina 下提示已损坏无法打开解决办法。</summary>
     
     
     
@@ -168,7 +160,7 @@
     <link href="https://zhwangart.com/2019/12/01/macOS-Launchpad-rows-cloumns/"/>
     <id>https://zhwangart.com/2019/12/01/macOS-Launchpad-rows-cloumns/</id>
     <published>2019-12-01T13:53:34.000Z</published>
-    <updated>2020-02-28T15:28:58.000Z</updated>
+    <updated>2021-09-18T16:42:42.563Z</updated>
     
     
     <summary type="html">macOS 改变 Launchpad（启动台） 内图标排列的行数和列数</summary>
@@ -189,7 +181,7 @@
     <link href="https://zhwangart.com/2019/09/24/Film-FA-190616/"/>
     <id>https://zhwangart.com/2019/09/24/Film-FA-190616/</id>
     <published>2019-09-24T09:46:20.000Z</published>
-    <updated>2021-04-14T15:10:09.780Z</updated>
+    <updated>2021-09-18T16:02:35.314Z</updated>
     
     
     <summary type="html">给 Nikon FA 做了保养之后，用廉价购买的 Kodak 400 过期交卷试机试卷~</summary>
@@ -303,7 +295,7 @@
     <link href="https://zhwangart.com/2019/05/07/CANONET-QL17-GIII-DOC/"/>
     <id>https://zhwangart.com/2019/05/07/CANONET-QL17-GIII-DOC/</id>
     <published>2019-05-07T02:34:49.000Z</published>
-    <updated>2021-05-08T16:05:07.540Z</updated>
+    <updated>2021-09-18T16:15:39.412Z</updated>
     
     
     <summary type="html">最完整的 Canonet QL17 G-III 中文图文说明书。</summary>
@@ -383,7 +375,7 @@
     <link href="https://zhwangart.com/2019/02/22/Photosho-shortcut-45/"/>
     <id>https://zhwangart.com/2019/02/22/Photosho-shortcut-45/</id>
     <published>2019-02-22T02:42:00.000Z</published>
-    <updated>2021-03-21T14:34:31.351Z</updated>
+    <updated>2021-09-18T16:19:04.214Z</updated>
     
     
     <summary type="html">精心挑选了 Phtoshop 的 45 个快捷键，整理了一下方便学习。</summary>

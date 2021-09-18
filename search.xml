@@ -68,9 +68,7 @@
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Gallery</span><br><span class="line">albums: [</span><br><span class="line"><span class="code">        [&quot;img_url&quot;,&quot;img_caption&quot;],</span></span><br><span class="line"><span class="code">        [&quot;img_url&quot;,&quot;img_caption&quot;]</span></span><br><span class="line"><span class="code">        ]</span></span><br><span class="line"><span class="code">---</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="Toc-文章目录"><a href="#Toc-文章目录" class="headerlink" title="Toc 文章目录"></a>Toc 文章目录</h2><p>使用 <a href="http://tscanlin.github.io/tocbot/">Tocbot</a> 解析内容中的标题标签 (h1~h6) 并插入目录。使用方法：</p>
-<blockquote>
-<p>Ocean 配置 Toc 只作用于 Post 页面，在其他 Page 中不作用。</p>
-</blockquote>
+<p>注意：Ocean 配置 Toc 只作用于 Post 页面，在其他 Page 中不作用。</p>
 <h3 id="1-在主题配置文件-ocean-config-yml-中开启"><a href="#1-在主题配置文件-ocean-config-yml-中开启" class="headerlink" title="1. 在主题配置文件 ocean/_config.yml 中开启"></a>1. 在主题配置文件 <code>ocean/_config.yml</code> 中开启</h3><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Toc</span></span><br><span class="line"><span class="attr">toc:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="2-在-Post-中关闭-Toc"><a href="#2-在-Post-中关闭-Toc" class="headerlink" title="2. 在 Post 中关闭 Toc"></a>2. 在 Post 中关闭 Toc</h3><p>如果在 <code>ocean/_config.yml</code> 开启了 Toc ，那么 Tocbot 会在每一篇 Blog 都解析内容中的标题标签生成 Toc 文章目录，但并不是所有的 Blog 中都需要 Toc，所以在 markdown 的 Front-matter 部分可以关闭：</p>
@@ -82,15 +80,12 @@
 <p>修改配置：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment">#https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io</span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>] <span class="comment">#published</span></span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure>
 
-<blockquote>
 <p>参考资料：<a href="https://hexo.io/zh-cn/docs/deployment">https://hexo.io/zh-cn/docs/deployment</a></p>
-</blockquote>
-<h2 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h2><ul>
+<h2 id="感谢支持"><a href="#感谢支持" class="headerlink" title="感谢支持"></a>感谢支持</h2><ul>
 <li><a href="https://github.com/youchen1992">youchen1992</a> 在 Ocean 制作过程中提供技术支持；</li>
 <li>MeggeryWang、XantheXuan 提供的英文翻译。</li>
 </ul>
 <p><a href="/2019/07/02/Ocean-Issues/">使用 Ocean 过程中遇到了问题？</a></p>
-<hr>
 ]]></content>
       <tags>
         <tag>Hexo</tag>
@@ -300,9 +295,7 @@
 <p>Android 可以尝试监听 <code>touchstart</code> 事件，用户触摸屏幕后自动播放</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.addEventListener(<span class="string">&#x27;touchstart&#x27;</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123; </span><br><span class="line">    <span class="keyword">var</span> video = <span class="built_in">document</span>.getElementById(<span class="string">&quot;player&quot;</span>);</span><br><span class="line">        video.play();</span><br><span class="line">&#125;, <span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
 
-<blockquote>
-<p>参考： 51CTO 取什么昵称</p>
-</blockquote>
+<p>参考：51CTO 取什么昵称</p>
 ]]></content>
       <tags>
         <tag>CSS</tag>
@@ -364,9 +357,7 @@
 <h3 id="深色"><a href="#深色" class="headerlink" title="深色"></a>深色</h3><p>比较混合色和基色的所有通道值的总和并显示值较小的颜色。“深色”不会生成第三种颜色（可以通过“变暗”混合获得），因为它将从基色和混合色中选取最小的通道值来创建结果色。</p>
 <h2 id="混合模式示例"><a href="#混合模式示例" class="headerlink" title="混合模式示例"></a>混合模式示例</h2><p>以下示例显示了使用每种混合模式的图像脸部绘画部分的效果。</p>
 <p><img src="https://s1.ax1x.com/2020/05/18/YWWcxe.png" alt="Photoshop 混合模式示例"></p>
-<blockquote>
 <p>本文来源：<a href="https://helpx.adobe.com/cn/photoshop/using/blending-modes.html#blending_mode_descriptions">Adobe Photoshop 中的混合模式</a></p>
-</blockquote>
 ]]></content>
       <tags>
         <tag>Photoshop</tag>
@@ -384,9 +375,7 @@
 <li><a taget="_blank" href="https://leancloud.cn/dashboard/login.html#/signin">登录</a> LeanCloud 创建应用；</li>
 <li>应用创建好以后，进入刚刚创建的应用，选择左下角的 <code>设置 &gt; 应用Key</code>，然后就能看到你的 <code>appId</code> 和 <code>appKey</code> 了。</li>
 </ol>
-<blockquote>
 <p>如果需要更详细的图文帮助，请参照： <a taget="_blank" href="https://valine.js.org/quickstart.html">Valin 官方提供的文档</a></p>
-</blockquote>
 <h3 id="启用-Valine"><a href="#启用-Valine" class="headerlink" title="启用 Valine"></a>启用 Valine</h3><ol>
 <li>启用 Valine：<code>enable: false</code>；</li>
 <li>复制 <code>appId</code> 和 <code>appKey</code> 的值，粘贴到 <code>ocean/_config.yml</code> 对应的位置；</li>
@@ -438,10 +427,13 @@
 <td>评论框占位提示符</td>
 </tr>
 </tbody></table>
-<blockquote>
 <p>如需要了解更多配置项，请参照：<a taget="_blank" href="https://valine.js.org/configuration.html">Valine 配置项</a>。</p>
-</blockquote>
-<p><a href="/2018/12/06/Gitalk/">Gitalk 的使用</a></p>
+<h2 id="相关帮助"><a href="#相关帮助" class="headerlink" title="相关帮助"></a>相关帮助</h2><ul>
+<li><a href="/2018/12/06/Gitalk/">Gitalk 的使用</a></li>
+<li><a href="/2018/11/30/Ocean/">Ocean 中文文档</a></li>
+<li><a href="/2019/07/02/Ocean-Issues/">使用 Ocean 过程中遇到了问题？</a></li>
+<li><a href="https://hexo.io/zh-cn/docs/">Hexo 文档</a></li>
+</ul>
 ]]></content>
       <tags>
         <tag>Hexo</tag>
@@ -457,9 +449,7 @@
 <p>1、打开终端，输入以下命令：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo xattr -d com.apple.quarantine /Applications/xxxx.app</span><br></pre></td></tr></table></figure>
 
-<blockquote>
 <p>注意：<code>/Applications/xxxx.app</code> 换成你的 APP 路径</p>
-</blockquote>
 <p>2、重启 APP 。</p>
 ]]></content>
       <tags>
@@ -474,20 +464,14 @@
 
 <h3 id="改变行数量"><a href="#改变行数量" class="headerlink" title="改变行数量"></a>改变行数量</h3><p><code>defaults write com.apple.dock springboard-rows -int X</code></p>
 <h3 id="改变列数量"><a href="#改变列数量" class="headerlink" title="改变列数量"></a>改变列数量</h3><p><code>defaults write com.apple.dock springboard-columns -int X</code></p>
-<blockquote>
-<p>X 改为想要设置的数字<br>  提示：千万不要改太小了，建议 13.3 笔记本上，最佳是一页5行，每行9个（rows=5，columns=9）</p>
-</blockquote>
+<p>将 X 改为想要设置的数字<br>提示：千万不要改太小了，建议 13.3 笔记本上，最佳是一页5行，每行9个（rows=5，columns=9）</p>
 <h3 id="使改变生效，重置-Dock"><a href="#使改变生效，重置-Dock" class="headerlink" title="使改变生效，重置 Dock"></a>使改变生效，重置 Dock</h3><p><code>killall Dock</code></p>
-<blockquote>
 <p>可以将所有指令放到一起，每一个句用 ; 分隔</p>
-</blockquote>
 <h3 id="恢复原样"><a href="#恢复原样" class="headerlink" title="恢复原样"></a>恢复原样</h3><p><code>defaults write com.apple.dock springboard-rows Default</code></p>
 <p><code>defaults write com.apple.dock springboard-columns Default</code></p>
 <p><code>killall Dock</code></p>
 <h3 id="重置-Dock-栏-APP"><a href="#重置-Dock-栏-APP" class="headerlink" title="重置 Dock 栏 APP"></a>重置 Dock 栏 APP</h3><p><code>defaults delete com.apple.dock; killall Dock</code></p>
-<blockquote>
 <p>如果Dock 栏上放满各类 App，却发现很多不是自己想要的App。可以通过终端重置 Dock 栏，回到系统默认状态。</p>
-</blockquote>
 ]]></content>
       <tags>
         <tag>macOS</tag>
@@ -701,7 +685,6 @@
     <content><![CDATA[<p>Canon Canonet GIII QL17 前脸左边的金属牌清晰表明它的身份，红色 GIII 和黑色 QL 字样表示这是第三代 QL 相机，而机顶的 Canonet QL17 则是相机型号。“QL17” 这几个字母和数字本身有特殊的含义，其中字母 QL 是佳能独有的“快速装片”系统的英文缩写（Quick Loading），而数字 17 则代表相机使用镜头最大光圈为 F1.7。</p>
 <a id="more"></a>
 
-
 <h2 id="相机结构"><a href="#相机结构" class="headerlink" title="相机结构"></a>相机结构</h2><p><img src="https://s1.ax1x.com/2020/05/18/YW5dSK.gif" alt="Canonet QL17 G-III 1"></p>
 <ul class="list-inline"><li>1、对焦杆</li><li>2、自拍杆</li><li>3、快门速度调节环</li><li>4、自动/手动 光圈调节环</li><li>5、ASA 胶卷速度指示窗口</li><li>6、自动电子曝光 EE 标记</li><li>7、对焦环</li><li>8、取景窗口</li><li>9、闪光灯接口安全盖</li><li>10、胶卷倒片曲柄</li><li>11、胶卷平面指示器</li><li>12、热靴</li><li>13、过片计数器</li><li>14、快门按钮</li><li>15、快门线接口</li><li>16、过片扳手</li></ul>
 
@@ -904,7 +887,38 @@
 <a id="more"></a>
 
 <p>由于现在 Mac 上一些修饰键符号已经没有了文字标注说明，所以首先标注说明一下 Mac 键盘上常用的几个修饰键符号。</p>
-<p>符号|修饰键<br>–|–|–<br>⌘|Command（或 Cmd）<br>⇧|Shift<br>⌥|Option（或 Alt）<br>⌃|Control（或 Ctrl）<br>⌫|Delete（或 Backspace）<br>⇪|Caps Lock</p>
+<table>
+<thead>
+<tr>
+<th>符号</th>
+<th>修饰键</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>⌘</td>
+<td>Command（或 Cmd）</td>
+</tr>
+<tr>
+<td>⇧</td>
+<td>Shift</td>
+</tr>
+<tr>
+<td>⌥</td>
+<td>Option（或 Alt）</td>
+</tr>
+<tr>
+<td>⌃</td>
+<td>Control（或 Ctrl）</td>
+</tr>
+<tr>
+<td>⌫</td>
+<td>Delete（或 Backspace）</td>
+</tr>
+<tr>
+<td>⇪</td>
+<td>Caps Lock</td>
+</tr>
+</tbody></table>
 <p>在 Windows PC 专用键盘上，请用 Alt 键代替 Option 键，用 Windows 标志键代替 Command 键。</p>
 <h3 id="图层"><a href="#图层" class="headerlink" title="图层"></a>图层</h3><table>
 <thead>
@@ -1248,17 +1262,13 @@
 </ul>
 <p>然后申请成功后，就看到有了 Client ID 与 Client Secret 的一个页面，页面下边就是申请刚填写的的信息，均可以再次编辑！ 只有 Client ID 与 Client Secret 是在配置 Hexo 的时候需要用。</p>
 <p><img src="https://s1.ax1x.com/2020/05/18/Yf6gCF.png" alt="申请成功"></p>
-<blockquote>
 <p>看见好多网友做截图时候把 Client ID 与 Client Secret 打码，我有一种木有必要的感觉…</p>
-</blockquote>
 <h3 id="在-Hexo-主题设计中引入-Gitalk"><a href="#在-Hexo-主题设计中引入-Gitalk" class="headerlink" title="在 Hexo 主题设计中引入 Gitalk"></a>在 Hexo 主题设计中引入 Gitalk</h3><p>这个看 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 里面的引入方法就可以了，如果你使用 <a href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a> 的话，那么忽略这里，因为 <a href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a> 已经配置好了这些！</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://unpkg.com/gitalk/dist/gitalk.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/gitalk/dist/gitalk.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="创建一个仓库"><a href="#创建一个仓库" class="headerlink" title="创建一个仓库"></a>创建一个仓库</h3><p>在 GitHub 中 创建一个仓库用来存放评论，因为 Gitalk 的评论其实是在 GitHub 仓库自动创建 Issue 。</p>
 <h3 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h3><p>这个一定要<strong>仔细</strong>，不管是创建一个 comment.ejs 或者 gitalk.ejs 模板文件，还是直接在 post.ejs 模板页中写入，用法都是一样的。因为 Gitalk 是在文章的最底部出现，所以我不选择在 head 中引入 css 与 js ，当然这么做可能不是很规范。</p>
-<blockquote>
 <p>因为主题 <a href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a> 是用 ejs 写的，所以 ejs 为例，创建一个 gitalk.ejs 代码如下</p>
-</blockquote>
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">&lt;% if (theme.gitalk.enable) &#123; %&gt;  // 这里判断主题是否开启评论</span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;gitalk-container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  // 盛放 Gitalk 的容器</span><br><span class="line">  &lt;%- css(&#x27;https://unpkg.com/gitalk/dist/gitalk.css&#x27;) %&gt;</span><br><span class="line">  &lt;%- js(&#x27;https://unpkg.com/gitalk/dist/gitalk.min.js&#x27;) %&gt;</span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> gitalk = <span class="keyword">new</span> Gitalk(&#123;</span></span><br><span class="line"><span class="javascript">        clientID: <span class="string">&#x27;&lt;%- theme.gitalk.clientID %&gt;&#x27;</span>,  <span class="comment">// 这里一定要注意主题 config.yml 中 clientID 的大小写，否则参数传不过来，对应下边的 &quot;问题一&quot;</span></span></span><br><span class="line"><span class="javascript">        clientSecret: <span class="string">&#x27;&lt;%- theme.gitalk.clientSecret %&gt;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">        repo: <span class="string">&#x27;&lt;%- theme.gitalk.repo %&gt;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">        owner: <span class="string">&#x27;&lt;%- theme.gitalk.owner %&gt;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">        admin: [<span class="string">&#x27;&lt;%- theme.gitalk.admin %&gt;&#x27;</span>],</span></span><br><span class="line"><span class="javascript">        id: location.pathname,      <span class="comment">// 保持默认，官方注释（Ensure uniqueness and length less than 50），文章 URL 不能太长 &quot;问题二&quot;</span></span></span><br><span class="line"><span class="javascript">        distractionFreeMode: <span class="literal">false</span>  <span class="comment">// 不喜欢评论时候的遮盖层所以选择 false ，而且我觉得这个也没有必要放在 config.yml 中配置</span></span></span><br><span class="line">      &#125;)</span><br><span class="line"></span><br><span class="line"><span class="javascript">  gitalk.render(<span class="string">&#x27;gitalk-container&#x27;</span>)</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
 
 <p>在 article.ejs（模板页名称因主题而异）中 include gitalk.ejs 因为我只需要在 post 中加入评论功能其他页面不需要所以做了 post 判断！</p>
@@ -1566,10 +1576,7 @@
 
 <p>而实际上，这两个虚拟主机是不存在的，在没有配置任何其他虚拟主机时，可能会导致访问 localhost 时出现如下提示：</p>
 <blockquote>
-<p>Forbidden</p>
-</blockquote>
-<blockquote>
-<p>You don’t have permission to access /index.php on this server</p>
+<p>Forbidden<br>  You don’t have permission to access /index.php on this server</p>
 </blockquote>
 <p>最简单的办法就是在它们每行前面加上 <code>#</code> ，注释掉就好了，这样既能参考又不导致其他问题。</p>
 <p>2、增加如下配置</p>
@@ -1655,8 +1662,8 @@
       </tags>
   </entry>
   <entry>
-    <title>img 下多余空隙解决方案</title>
-    <url>/2018/09/12/img-%E4%B8%8B%E5%A4%9A%E4%BD%99%E7%A9%BA%E7%99%BD%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+    <title>IMG 下多余空隙解决方案</title>
+    <url>/2018/09/12/Img-css-Bug/</url>
     <content><![CDATA[<p>在进行页面的 CSS 排版时，遇到 IE6（当然有时 Firefox 下也会偶遇）浏览器中的图片元素 img 下出现多余空隙的问题绝对是常见的。对于该问题的解决方法也是「见机行事」，根据原因的不同要用不同的解决方法，这里把解决 img 下边多余空隙 Bug 的常用方法归纳，供大家参考。</p>
 <a id="more"></a>
 
@@ -1681,7 +1688,8 @@
 <h3 id="6、取消-img-标签和其父级对象的最后一个结束标签之间的空格"><a href="#6、取消-img-标签和其父级对象的最后一个结束标签之间的空格" class="headerlink" title="6、取消 img 标签和其父级对象的最后一个结束标签之间的空格"></a>6、取消 img 标签和其父级对象的最后一个结束标签之间的空格</h3><p>这个方法要强调下，在实际开发中该方法可能会出乱子，因为在写代码的时候为了让代码更体现语义和层次清晰，难免要通过 IDE 提供代码缩进显示，这必然 会让标签和其他标签换行显示，比如说 Dreamweaver 的“套用源格式”命令。所以说这个方法可以供我们了解出现 Bug 的一种情况，具体解决方案的还得各位见招拆招了。</p>
 ]]></content>
       <tags>
-        <tag>前端 - CSS - HTML</tag>
+        <tag>CSS</tag>
+        <tag>前端</tag>
       </tags>
   </entry>
   <entry>
@@ -1875,9 +1883,8 @@
   <entry>
     <title>滕王阁序</title>
     <url>/2012/12/31/%E6%BB%95%E7%8E%8B%E9%98%81%E5%BA%8F/</url>
-    <content><![CDATA[<blockquote>
-<p>王勃（约650——676年），唐代诗人。汉族，字子安。绛州龙门(今山西河津)人。王勃与杨炯、卢照邻、骆宾王齐名，世称“初唐四杰”，其中王勃是“初唐四杰”之首。</p>
-</blockquote>
+    <content><![CDATA[<p>王勃（约650——676年），唐代诗人。汉族，字子安。绛州龙门(今山西河津)人。王勃与杨炯、卢照邻、骆宾王齐名，世称“初唐四杰”，其中王勃是“初唐四杰”之首。</p>
+<hr>
 <p>豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃之榻。雄州雾列，俊采星驰。台隍枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨戟遥临；宇文新州之懿范，襜帷暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。</p>
 <a id="more"></a>
 
@@ -1913,9 +1920,8 @@
 <p>时间过的太快了，我本想用一生来经营这份感情，却不想我们在吃了这么多年的路边摊之后，你放弃了眼前的包间暖阁。我多么希望这阳光暖一点，再暖一点，这日子慢一些，再慢一些。然而这一切已经万劫不复。</p>
 <p>如果这12月21号之后我还活着，就让我再执迷不悔一次，用曾经等你的勇气，再等一份爱情。</p>
 <p>再见！2012！</p>
-<blockquote>
-<p>PS：原文作者：小歪歪，读原文有点感同身受，明明看的是别人的故事，却在难过自己的伤心。仁者见仁智者见智而转之。</p>
-</blockquote>
+<hr>
+<p>原文作者：小歪歪，读原文有点感同身受，明明看的是别人的故事，却在难过自己的伤心。仁者见仁智者见智而转之。</p>
 ]]></content>
       <tags>
         <tag>2012</tag>
@@ -1928,7 +1934,6 @@
     <content><![CDATA[<p>如是我闻，佛在舍卫国给孤独园为三千诸天讲法，尔时，给孤独尊者即从座起，偏袒右肩，合掌向佛而作是言：“世尊，王志涵何故丢女友、丢钱、丢钱包？”</p>
 <a id="more"></a>
 
-<p><img src="https://s1.ax1x.com/2020/05/18/YWWar9.jpg" alt="2012"></p>
 <p>佛曰：“为人世间者，百魔竟动，唯心魔最盛。想王氏志涵者，心性高远，但尚不能阅普周天之物，亦不能闻普周天之事哉。降其心魔者，必以九天妙音天女为善，惜之，爱之，欢其心、娱其情、平其怨、制其行，其心魔自离。”</p>
 <p>给孤独尊者白佛言：“世尊，九天仙女何时成其善果？”</p>
 <p>佛曰：“以王志涵之心力，成事既在辰年”。三千诸天，无数比丘曾、比丘尼无不合掌称谢，佛说是品时，众中八万四千众生皆发无等等阿耨多罗三藐三菩提心。</p>
