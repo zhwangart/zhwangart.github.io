@@ -2352,6 +2352,9 @@ pre .javascript .function {
   transition: all 0.3s ease-in-out;
   line-height: 1.4;
 }
+.card-quote blockquote:before {
+  content: none;
+}
 .card-quote blockquote p:first-child {
   position: absolute;
   top: 50%;

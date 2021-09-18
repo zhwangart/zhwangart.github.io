@@ -1308,7 +1308,12 @@
 <li>与自定义域名相关的 Issue ：<a href="https://github.com/zhwangart/gitalk/issues/7#issuecomment-517542367">https://github.com/zhwangart/gitalk/issues/7#issuecomment-517542367</a></li>
 </ol>
 <p>欢迎更多补充…</p>
-<p><a href="/2020/02/22/Valine/">Ocean 中使用 Valine</a></p>
+<h2 id="相关帮助"><a href="#相关帮助" class="headerlink" title="相关帮助"></a>相关帮助</h2><ul>
+<li><a href="/2020/02/22/Valine/">Ocean 中使用 Valine</a></li>
+<li><a href="/2018/11/30/Ocean/">Ocean 中文文档</a></li>
+<li><a href="/2019/07/02/Ocean-Issues/">使用 Ocean 过程中遇到了问题？</a></li>
+<li><a href="https://hexo.io/zh-cn/docs/">Hexo 文档</a></li>
+</ul>
 ]]></content>
       <tags>
         <tag>Hexo</tag>
