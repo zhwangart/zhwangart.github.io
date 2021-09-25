@@ -93,53 +93,6 @@
       </tags>
   </entry>
   <entry>
-    <title>英语 16 大时态</title>
-    <url>/2021/09/24/English-tenses-16/</url>
-    <content><![CDATA[<div class="font-yrdszt-light">
-
-<ol>
-<li><p>一般现在时（动词原形或三单）<br><img src=""><br>We always use Xinjiang Cotton.<br>我们一直使用新疆棉。</p>
-<a id="more"></a>
-</li>
-<li><p>一般过去时（动词过去式）<br><img src=""><br>We used Xinjiang cotton yesterday.<br>昨天我们使用了新疆棉。</p>
-</li>
-<li><p>一般将来时（will+动词原形）<br><img src=""><br>We will always use Xinjiang cotton.<br>我们将一直使用新疆棉。</p>
-</li>
-<li><p>现在进行时（be+动词ing）<br><img src=""><br>Farmers are working in the cotton fields now.<br>农民们正在棉花地里犁地。</p>
-</li>
-<li><p>过去进行时（be过去式+动词ing）<br><img src=""><br>Farmers were working in the cotton fields when the groundless accusation was reported.<br>汗滴棉下土，锅从天上来。</p>
-</li>
-<li><p>将来进行时（will be+动词ing）<br><img src=""><br>We will still be working in the cotton fields even if they don’t apologize for what they have done.<br>就算他们不道歉，我们也将一直坚持在棉花田上工作。</p>
-</li>
-<li><p>现在完成时（have done）<br><img src=""><br>We have supported Xinjiang cotton for one week.<br>我们已经支持新疆棉一周了。</p>
-</li>
-<li><p>过去完成时（had done）<br><img src=""><br>We had supported Xinjiang cotton before they released that statement.<br>在他们公布那则声明前我们就已经支持新疆棉了。</p>
-</li>
-<li><p>将来完成时（will have done）<br><img src=""><br>They will have released a new statement on this issue by tomorrow.<br>他们将在明天之前就此问题公布一则新声明。</p>
-</li>
-<li><p>现在完成进行时（have been doing）<br><img src=""><br>We have been using Xinjiang cotton lately.<br>我们最近一直在使用新疆棉。</p>
-</li>
-<li><p>过去完成进行时（had been doing）<br><img src=""><br>We had been waiting for their apology, but then we found it urgent to call for a boycott.<br>我们当时等待他们道歉，但是后来我们发现呼吁抵制很迫切。</p>
-</li>
-<li><p>将来完成进行时（will have been doing）<br><img src=""><br>Tomorrow we will have been using Xinjiang cotton for ten years.<br>明天将是我们使用新疆棉的第十周年纪念。</p>
-</li>
-<li><p>一般过去将来时（would+动词原形）<br><img src=""><br>They said they would use Xinjiang cotton.<br>他们说了他们将会使用新疆棉。</p>
-</li>
-<li><p>过去将来进行时（would be doing）<br><img src=""><br>They said they would be working in the cotton fields tomorrow morning.<br>他们说了他们明早讲一直坚守在棉花田上工作。</p>
-</li>
-<li><p>过去将来完成时（would have done）<br><img src=""><br>They said they would have released a new statement on this issue by tomorrow.<br>他们说了他们将在明天之前就此问题公布一则新声明。</p>
-</li>
-<li><p>过去将来完成进行时（would have been doing）<br>回到过去看未来某个时间动作将持续进行（里程碑意义）<br><img src=""><br>They said tomorrow they would have been using Xinjiang cotton for ten years.<br>他们说了明天将是他们使用新疆棉的第十周年。</p>
-</div>
-</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>英语</tag>
-        <tag>语法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>自定义 Web 字体</title>
     <url>/2021/09/14/CSS3-font-face/</url>
     <content><![CDATA[<p>目前 Web 常用的字体格式有：EOT、TTF、OTF、WOFF、WOFF2、SVG，但并没有一种格式可以在所有浏览器中运行。所以这就意味必须使用多种字体格式来提供一致的体验。</p>
