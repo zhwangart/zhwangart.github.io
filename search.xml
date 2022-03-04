@@ -93,6 +93,41 @@
       </tags>
   </entry>
   <entry>
+    <title>可适用于企业的 Hexo 主题 Acorn</title>
+    <url>/2022/03/04/Hexo-Theme-Acorn/</url>
+    <content><![CDATA[<p>设计了一“颗”可适用于中小型企业门户或工作室等展示类网站的 Hexo 主题： <a href="https://acorn.imaging.xin/">Acorn</a> ，免费且开源，个人或企业均可免费使用，但请不要用于商业使用。</p>
+<a id="more"></a>
+
+<ul>
+<li>GitHub：<a href="https://github.com/zhwangart/hexo-theme-acorn">https://github.com/zhwangart/hexo-theme-acorn</a></li>
+<li>样例数据：<a href="https://github.com/zhwangart/acorn-sample-data">https://github.com/zhwangart/acorn-sample-data</a></li>
+<li>预览：<a href="https://acorn.imaging.xin/">https://acorn.imaging.xin/</a></li>
+<li>文档：<a href="https://acorn.imaging.xin/docs/">https://acorn.imaging.xin/docs/</a></li>
+</ul>
+<p><img src="https://s4.ax1x.com/2022/03/04/bUxPc8.png" alt="Acorn"></p>
+<blockquote>
+<p>为什么叫 <strong>Acorn</strong> 这个名字？<br>没什么深意，致敬《ICE AGE》这部很喜欢的电影吧～</p>
+</blockquote>
+<p>所以我们还设计了一个很符合它的 404 页面：</p>
+<p><img src="https://s4.ax1x.com/2022/03/04/bd9tHS.png" alt="Acorn-404-Safari"></p>
+<p>Hexo 主题列表目前已经有 350+ 个优秀开发者们贡献的主题，这些主题多用于兴趣爱好或学习博客，更有无数人使用 Hexo 建立了自己的站点/博客。那么为什么我们设计了一“颗”适用于企业站点的主题？</p>
+<p>首先 Hexo 有如下优点：</p>
+<ul>
+<li>免费 - GitHub Pages 一键部署</li>
+<li>快速 - Node.js 运行环境，上百个页面在几秒内瞬间完成渲染</li>
+<li>简洁 - MarkDown 简单直观</li>
+<li>轻量 - 全部静态文件</li>
+</ul>
+<p>其次通常小型的企业站点文章数量远不及大 V 博主，企业更注重形象展示、内容表现，所以我们转移一下设计重点：<strong>个人秀转企业秀</strong>。</p>
+<p>最后，学习成本极低，抓个文职妹子就把公司网站建立起来了，我们不止是写了详细的 <a href="https://acorn.imaging.xin/docs/">使用文档</a>，并且还准备一份完整的 <a href="https://github.com/zhwangart/acorn-sample-data">样例数据</a>,将 <code>source</code> 文件夹中的全部内容 Copy 至你站点对应的 <code>source</code> 文件夹中，刷新页面后即可看到使用该样例数据渲染的效果。</p>
+<p>标签：企业门户、工作室、画廊、画室、兴趣博客</p>
+]]></content>
+      <tags>
+        <tag>Acorn</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>英语的 16 个时态</title>
     <url>/2021/09/24/English-tenses-16/</url>
     <content><![CDATA[<p>时态（tense）是表示行为、动作、状态在各种时间条件下的动词形式。不同的时态用以表示不同的时间与方式，在英语中有 16 种时态。所谓“时”就是行为发生的时段或状态存在的时段，有完成状态、进行状态、完成进行状态或一般状态四种。由时和态结合，便形成下列 16 种时态：</p>

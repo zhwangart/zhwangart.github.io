@@ -6,7 +6,7 @@
   <link href="https://zhwangart.com/atom.xml" rel="self"/>
   
   <link href="https://zhwangart.com/"/>
-  <updated>2021-09-29T06:13:06.209Z</updated>
+  <updated>2022-03-04T15:23:51.191Z</updated>
   <id>https://zhwangart.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>可适用于企业的 Hexo 主题 Acorn</title>
+    <link href="https://zhwangart.com/2022/03/04/Hexo-Theme-Acorn/"/>
+    <id>https://zhwangart.com/2022/03/04/Hexo-Theme-Acorn/</id>
+    <published>2022-03-04T09:18:34.000Z</published>
+    <updated>2022-03-04T15:23:51.191Z</updated>
+    
+    
+    <summary type="html">Acorn 是一“颗”免费且开源的 Hexo 主题，可适用于中小型企业门户或工作室等展示类网站的简单建设，由新橙象设计并开发，个人或企业均可免费使用，但请不要用于商业使用。</summary>
+    
+    
+    
+    
+    <category term="Acorn" scheme="https://zhwangart.com/tags/Acorn/"/>
+    
+    <category term="Hexo" scheme="https://zhwangart.com/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>英语的 16 个时态</title>
@@ -295,7 +314,7 @@
     <link href="https://zhwangart.com/2019/05/17/Orchestrator/"/>
     <id>https://zhwangart.com/2019/05/17/Orchestrator/</id>
     <published>2019-05-17T10:16:42.000Z</published>
-    <updated>2021-04-14T15:12:57.999Z</updated>
+    <updated>2022-02-13T13:43:46.611Z</updated>
     
     
     <summary type="html">基于 Web 的 CloudWAN Orchestrator 3.0 系统第四版 UI 设计，该软件用于管控与配置全球 POP、Site、Link 与 Policy 。</summary>
@@ -386,25 +405,6 @@
     <category term="macOS" scheme="https://zhwangart.com/tags/macOS/"/>
     
     <category term="Sublime Text" scheme="https://zhwangart.com/tags/Sublime-Text/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>精心挑选的 Photoshop 45 个快捷键</title>
-    <link href="https://zhwangart.com/2019/02/22/Photosho-shortcut-45/"/>
-    <id>https://zhwangart.com/2019/02/22/Photosho-shortcut-45/</id>
-    <published>2019-02-22T02:42:00.000Z</published>
-    <updated>2021-09-18T16:19:04.214Z</updated>
-    
-    
-    <summary type="html">精心挑选了 Phtoshop 的 45 个快捷键，整理了一下方便学习。</summary>
-    
-    
-    
-    
-    <category term="Photoshop" scheme="https://zhwangart.com/tags/Photoshop/"/>
-    
-    <category term="Adobe" scheme="https://zhwangart.com/tags/Adobe/"/>
     
   </entry>
   
