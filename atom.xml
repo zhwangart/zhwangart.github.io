@@ -6,7 +6,7 @@
   <link href="https://zhwangart.com/atom.xml" rel="self"/>
   
   <link href="https://zhwangart.com/"/>
-  <updated>2022-03-04T15:23:51.191Z</updated>
+  <updated>2022-03-04T17:31:21.558Z</updated>
   <id>https://zhwangart.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zhwangart.com/2022/03/04/Hexo-Theme-Acorn/"/>
     <id>https://zhwangart.com/2022/03/04/Hexo-Theme-Acorn/</id>
     <published>2022-03-04T09:18:34.000Z</published>
-    <updated>2022-03-04T15:23:51.191Z</updated>
+    <updated>2022-03-04T17:31:21.558Z</updated>
     
     
     <summary type="html">Acorn 是一“颗”免费且开源的 Hexo 主题，可适用于中小型企业门户或工作室等展示类网站的简单建设，由新橙象设计并开发，个人或企业均可免费使用，但请不要用于商业使用。</summary>
@@ -29,9 +29,11 @@
     
     
     
-    <category term="Acorn" scheme="https://zhwangart.com/tags/Acorn/"/>
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
     
-    <category term="Hexo" scheme="https://zhwangart.com/tags/Hexo/"/>
+    <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
+    
+    <category term="Acorn" scheme="https://zhwangart.com/tags/Acorn/"/>
     
   </entry>
   
