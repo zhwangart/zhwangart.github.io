@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zhwangart.com/2012/12/21/Bye-2012/</loc>
+    <lastmod>2022-04-13</lastmod>
+  </url>
+  <url>
     <loc>https://zhwangart.com/2022/03/04/Hexo-Theme-Acorn/</loc>
     <lastmod>2022-03-04</lastmod>
   </url>
@@ -66,10 +70,6 @@
   </url>
   <url>
     <loc>https://zhwangart.com/2020/02/02/APP-macOS-Catalina-Error/</loc>
-    <lastmod>2021-09-18</lastmod>
-  </url>
-  <url>
-    <loc>https://zhwangart.com/2012/12/21/Bye-2012/</loc>
     <lastmod>2021-09-18</lastmod>
   </url>
   <url>
