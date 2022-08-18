@@ -93,6 +93,23 @@
       </tags>
   </entry>
   <entry>
+    <title>全世界最没用的网站</title>
+    <url>/2022/08/18/Duoyu-wang/</url>
+    <content><![CDATA[<p>我敢说这个<a href="//duoyu.wang">王多鱼</a>一定是全世界最没用的网站，如你不嫌弃可以提交自己的项目链接过去，然后等他成为百年老站以后，相信一定会有亿万富翁来投资。</p>
+<a id="more"></a>
+
+<p>链接在这：<a href="//duoyu.wang">duoyu.wang</a></p>
+<p>这个网站设计太随意了，白菜价聘请的设计师可能有点色盲，直接上了个红配绿。 LOGO 设计也是很扯，人家王多鱼先生是西虹市首富亿万富翁，这设计完全一点身价十亿气质都没有。</p>
+<p>这仨丑玩意儿是啥？大绿鱼吗？</p>
+<p><img src="/images/uglily_fish.png" alt="uglily_fish"></p>
+]]></content>
+      <tags>
+        <tag>Design</tag>
+        <tag>UI</tag>
+        <tag>Acorn</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>可适用于企业的 Hexo 主题 Acorn</title>
     <url>/2022/03/04/Hexo-Theme-Acorn/</url>
     <content><![CDATA[<p>设计了一“颗”可适用于中小型企业门户或工作室等展示类网站的 Hexo 主题： <a href="https://acorn.imaging.xin/">Acorn</a> ，免费且开源，个人或企业均可免费使用，但请不要用于商业使用。</p>
@@ -405,8 +422,8 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
   </entry>
   <entry>
     <title>微小鹿 APP 设计</title>
-    <url>/2020/08/15/APP-Design-Deer/</url>
-    <content><![CDATA[<p>微小鹿，是一款自动化服务工具 APP UI 设计，寓意：微销路，因为其主要是应用于微商圈的产品。微商，个人不喜的行业（无歧视），但是<strong>为了钱</strong>还是得做个设计。</p>
+    <url>/2020/04/01/APP-Design-Deer/</url>
+    <content><![CDATA[<p>微小鹿，是一款自动化服务工具 APP UI 设计，寓意：微销路，因为其主要是应用于微商圈的产品。这是个我个人比较不喜的行业（无歧视），但是<strong>为了钱</strong>还是得做个设计。</p>
 <a id="more"></a>
 
 <p><img src="https://s1.ax1x.com/2022/08/15/vdx2AH.png" alt="Deer"><br><img src="https://s1.ax1x.com/2022/08/15/vdxynO.png" alt="Deer"><br><img src="https://s1.ax1x.com/2022/08/15/vdx6BD.png" alt="Deer"><br><img src="https://s1.ax1x.com/2022/08/15/vdxcHe.png" alt="Deer"><br><img src="https://s1.ax1x.com/2022/08/15/vdxh9I.png" alt="Deer"></p>
@@ -480,67 +497,6 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
         <tag>CSS</tag>
         <tag>前端</tag>
         <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Photoshop 中的混合模式</title>
-    <url>/2020/02/24/Photoshop-Blending-modes/</url>
-    <content><![CDATA[<p>选项栏中指定的混合模式控制图像中的像素如何受绘画或编辑工具的影响。在显示混合模式的效果时，请依据以下几种颜色：</p>
-<ul>
-<li>基色是原始图像颜色。</li>
-<li>混合色是通过绘画或编辑工具应用的颜色。</li>
-<li>结果色是混合后得到的颜色。</li>
-</ul>
-<p><a id="more"></a></p>
-
-<h2 id="混合模式说明"><a href="#混合模式说明" class="headerlink" title="混合模式说明"></a>混合模式说明</h2><p>从选项栏的“模式”弹出式菜单中进行选取。</p>
-<blockquote>
-<p><strong>注意：</strong></p>
-<ul>
-<li>在“混合模式”弹出菜单中，滚动查看各个选项，以了解它们在图像上的外观效果。Photoshop 会在画布上显示混合模式的实时预览效果。</li>
-<li>仅“正常”、“溶解”、“变暗”、“正片叠底”、“变亮”、“线性减淡（添加）”、“差值”、“色相”、“饱和度”、“颜色”、“明度”、“浅色”和“深色”混合模式适用于 32 位图像。</li>
-</ul>
-</blockquote>
-<h3 id="正常"><a href="#正常" class="headerlink" title="正常"></a>正常</h3><p>编辑或绘制每个像素，使其成为结果色。这是默认模式。（在处理位图图像或索引颜色图像时，“正常”模式也称为阈值。）</p>
-<h3 id="溶解"><a href="#溶解" class="headerlink" title="溶解"></a>溶解</h3><p>编辑或绘制每个像素，使其成为结果色。但是，根据任何像素位置的不透明度，结果色由基色或混合色的像素随机替换。</p>
-<h3 id="背后"><a href="#背后" class="headerlink" title="背后"></a>背后</h3><p>仅在图层的透明部分编辑或绘画。此模式仅在取消选择了“锁定透明区域”的图层中使用，类似于在透明纸的透明区域背面绘画。</p>
-<h3 id="清除"><a href="#清除" class="headerlink" title="清除"></a>清除</h3><p>编辑或绘制每个像素，使其透明。此模式可用于形状工具（当选定填充区域  时）、油漆桶工具 、画笔工具 、铅笔工具 、“填充”命令和“描边”命令。您必须位于取消选择了“锁定透明区域”的图层中才能使用此模式。</p>
-<h3 id="变暗"><a href="#变暗" class="headerlink" title="变暗"></a>变暗</h3><p>查看每个通道中的颜色信息，并选择基色或混合色中较暗的颜色作为结果色。将替换比混合色亮的像素，而比混合色暗的像素保持不变。</p>
-<h3 id="正片叠底"><a href="#正片叠底" class="headerlink" title="正片叠底"></a>正片叠底</h3><p>查看每个通道中的颜色信息，并将基色与混合色进行正片叠底。结果色总是较暗的颜色。任何颜色与黑色正片叠底产生黑色。任何颜色与白色正片叠底保持不变。当您用黑色或白色以外的颜色绘画时，绘画工具绘制的连续描边产生逐渐变暗的颜色。这与使用多个标记笔在图像上绘图的效果相似。</p>
-<h3 id="颜色加深"><a href="#颜色加深" class="headerlink" title="颜色加深"></a>颜色加深</h3><p>查看每个通道中的颜色信息，并通过增加二者之间的对比度使基色变暗以反映出混合色。与白色混合后不产生变化。</p>
-<h3 id="线性加深"><a href="#线性加深" class="headerlink" title="线性加深"></a>线性加深</h3><p>查看每个通道中的颜色信息，并通过减小亮度使基色变暗以反映混合色。与白色混合后不产生变化。</p>
-<h3 id="变亮"><a href="#变亮" class="headerlink" title="变亮"></a>变亮</h3><p>查看每个通道中的颜色信息，并选择基色或混合色中较亮的颜色作为结果色。比混合色暗的像素被替换，比混合色亮的像素保持不变。</p>
-<h3 id="滤色"><a href="#滤色" class="headerlink" title="滤色"></a>滤色</h3><p>查看每个通道的颜色信息，并将混合色的互补色与基色进行正片叠底。结果色总是较亮的颜色。用黑色过滤时颜色保持不变。用白色过滤将产生白色。此效果类似于多个摄影幻灯片在彼此之上投影。</p>
-<h3 id="颜色减淡"><a href="#颜色减淡" class="headerlink" title="颜色减淡"></a>颜色减淡</h3><p>查看每个通道中的颜色信息，并通过减小二者之间的对比度使基色变亮以反映出混合色。与黑色混合则不发生变化。</p>
-<h3 id="线性减淡（添加）"><a href="#线性减淡（添加）" class="headerlink" title="线性减淡（添加）"></a>线性减淡（添加）</h3><p>查看每个通道中的颜色信息，并通过增加亮度使基色变亮以反映混合色。与黑色混合则不发生变化。</p>
-<h3 id="叠加"><a href="#叠加" class="headerlink" title="叠加"></a>叠加</h3><p>对颜色进行正片叠底或过滤，具体取决于基色。图案或颜色在现有像素上叠加，同时保留基色的明暗对比。不替换基色，但基色与混合色相混以反映原色的亮度或暗度。</p>
-<h3 id="柔光"><a href="#柔光" class="headerlink" title="柔光"></a>柔光</h3><p>使颜色变暗或变亮，具体取决于混合色。此效果与发散的聚光灯照在图像上相似。如果混合色（光源）比 50% 灰色亮，则图像变亮，就像被减淡了一样。如果混合色（光源）比 50% 灰色暗，则图像变暗，就像被加深了一样。使用纯黑色或纯白色上色，可以产生明显变暗或变亮的区域，但不能生成纯黑色或纯白色。</p>
-<h3 id="强光"><a href="#强光" class="headerlink" title="强光"></a>强光</h3><p>对颜色进行正片叠底或过滤，具体取决于混合色。此效果与耀眼的聚光灯照在图像上相似。如果混合色（光源）比 50% 灰色亮，则图像变亮，就像过滤后的效果。这对于向图像添加高光非常有用。如果混合色（光源）比 50% 灰色暗，则图像变暗，就像正片叠底后的效果。这对于向图像添加阴影非常有用。用纯黑色或纯白色上色会产生纯黑色或纯白色。</p>
-<h3 id="亮光"><a href="#亮光" class="headerlink" title="亮光"></a>亮光</h3><p>通过增加或减小对比度来加深或减淡颜色，具体取决于混合色。如果混合色（光源）比 50% 灰色亮，则通过减小对比度使图像变亮。如果混合色比 50% 灰色暗，则通过增加对比度使图像变暗。</p>
-<h3 id="线性光"><a href="#线性光" class="headerlink" title="线性光"></a>线性光</h3><p>通过减小或增加亮度来加深或减淡颜色，具体取决于混合色。如果混合色（光源）比 50% 灰色亮，则通过增加亮度使图像变亮。如果混合色比 50% 灰色暗，则通过减小亮度使图像变暗。</p>
-<h3 id="点光"><a href="#点光" class="headerlink" title="点光"></a>点光</h3><p>根据混合色替换颜色。如果混合色（光源）比 50% 灰色亮，则替换比混合色暗的像素，而不改变比混合色亮的像素。如果混合色比 50% 灰色暗，则替换比混合色亮的像素，而比混合色暗的像素保持不变。这对于向图像添加特殊效果非常有用。</p>
-<h3 id="实色混合"><a href="#实色混合" class="headerlink" title="实色混合"></a>实色混合</h3><p>将混合颜色的红色、绿色和蓝色通道值添加到基色的 RGB 值。如果通道的结果总和大于或等于 255，则值为 255；如果小于 255，则值为 0。因此，所有混合像素的红色、绿色和蓝色通道值要么是 0，要么是 255。此模式会将所有像素更改为主要的加色（红色、绿色或蓝色）、白色或黑色。</p>
-<blockquote>
-<p><strong>注意：</strong></p>
-<p>对于 CMYK 图像，“实色混合”会将所有像素更改为主要的减色（青色、黄色或洋红色）、白色或黑色。最大颜色值为 100。</p>
-</blockquote>
-<h3 id="差值"><a href="#差值" class="headerlink" title="差值"></a>差值</h3><p>查看每个通道中的颜色信息，并从基色中减去混合色，或从混合色中减去基色，具体取决于哪一个颜色的亮度值更大。与白色混合将反转基色值；与黑色混合则不产生变化。</p>
-<h3 id="排除"><a href="#排除" class="headerlink" title="排除"></a>排除</h3><p>创建一种与“差值”模式相似但对比度更低的效果。与白色混合将反转基色值。与黑色混合则不发生变化。</p>
-<h3 id="减去"><a href="#减去" class="headerlink" title="减去"></a>减去</h3><p>查看每个通道中的颜色信息，并从基色中减去混合色。在 8 位和 16 位图像中，任何生成的负片值都会剪切为零。</p>
-<h3 id="划分"><a href="#划分" class="headerlink" title="划分"></a>划分</h3><p>查看每个通道中的颜色信息，并从基色中划分混合色。</p>
-<h3 id="色相"><a href="#色相" class="headerlink" title="色相"></a>色相</h3><p>用基色的明亮度和饱和度以及混合色的色相创建结果色。</p>
-<h3 id="饱和度"><a href="#饱和度" class="headerlink" title="饱和度"></a>饱和度</h3><p>用基色的明亮度和色相以及混合色的饱和度创建结果色。在无 (0) 饱和度（灰度）区域上用此模式绘画不会产生任何变化。</p>
-<h3 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h3><p>用基色的明亮度以及混合色的色相和饱和度创建结果色。这样可以保留图像中的灰阶，并且对于给单色图像上色和给彩色图像着色都会非常有用。</p>
-<h3 id="明度"><a href="#明度" class="headerlink" title="明度"></a>明度</h3><p>用基色的色相和饱和度以及混合色的明亮度创建结果色。此模式创建与“颜色”模式相反的效果。</p>
-<h3 id="浅色"><a href="#浅色" class="headerlink" title="浅色"></a>浅色</h3><p>比较混合色和基色的所有通道值的总和并显示值较大的颜色。“浅色”不会生成第三种颜色（可以通过“变亮”混合获得），因为它将从基色和混合色中选取最大的通道值来创建结果色。</p>
-<h3 id="深色"><a href="#深色" class="headerlink" title="深色"></a>深色</h3><p>比较混合色和基色的所有通道值的总和并显示值较小的颜色。“深色”不会生成第三种颜色（可以通过“变暗”混合获得），因为它将从基色和混合色中选取最小的通道值来创建结果色。</p>
-<h2 id="混合模式示例"><a href="#混合模式示例" class="headerlink" title="混合模式示例"></a>混合模式示例</h2><p>以下示例显示了使用每种混合模式的图像脸部绘画部分的效果。</p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YWWcxe.png" alt="Photoshop 混合模式示例"></p>
-<p>本文来源：<a href="https://helpx.adobe.com/cn/photoshop/using/blending-modes.html#blending_mode_descriptions">Adobe Photoshop 中的混合模式</a></p>
-]]></content>
-      <tags>
-        <tag>Photoshop</tag>
-        <tag>Adobe</tag>
       </tags>
   </entry>
   <entry>
@@ -637,7 +593,7 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
   </entry>
   <entry>
     <title>自动化工具 APP 设计</title>
-    <url>/2019/12/12/APP-Design-Hippo/</url>
+    <url>/2019/12/14/APP-Design-Hippo/</url>
     <content><![CDATA[<p>满屏皆是 Icon 的行业自动化工具 APP 产品 UI 设计。Hippo 与 Rabbit 是我自己这么叫的，原名比较 Low 实在懒得写了，就如同原先的 APP Icon 设计，本来想贴一下做个对比，如同名字太丑了懒得贴。</p>
 <a id="more"></a>
 

@@ -6,7 +6,7 @@
   <link href="https://zhwangart.com/atom.xml" rel="self"/>
   
   <link href="https://zhwangart.com/"/>
-  <updated>2022-08-17T03:29:21.536Z</updated>
+  <updated>2022-08-18T12:18:02.447Z</updated>
   <id>https://zhwangart.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>全世界最没用的网站</title>
+    <link href="https://zhwangart.com/2022/08/18/Duoyu-wang/"/>
+    <id>https://zhwangart.com/2022/08/18/Duoyu-wang/</id>
+    <published>2022-08-18T11:44:49.000Z</published>
+    <updated>2022-08-18T12:18:02.447Z</updated>
+    
+    
+    <summary type="html">基本是个没什么用的网站，如你不嫌弃可以提交自己的项目链接过来，然后等本站成为百年老站以后，相信一定会有亿万富翁来投资。</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
+    
+    <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
+    
+    <category term="Acorn" scheme="https://zhwangart.com/tags/Acorn/"/>
+    
+  </entry>
   
   <entry>
     <title>可适用于企业的 Hexo 主题 Acorn</title>
@@ -96,10 +117,10 @@
   
   <entry>
     <title>微小鹿 APP 设计</title>
-    <link href="https://zhwangart.com/2020/08/15/APP-Design-Deer/"/>
-    <id>https://zhwangart.com/2020/08/15/APP-Design-Deer/</id>
-    <published>2020-08-15T03:09:22.000Z</published>
-    <updated>2022-08-16T08:09:18.592Z</updated>
+    <link href="https://zhwangart.com/2020/04/01/APP-Design-Deer/"/>
+    <id>https://zhwangart.com/2020/04/01/APP-Design-Deer/</id>
+    <published>2020-04-01T06:44:44.000Z</published>
+    <updated>2022-08-18T08:28:44.153Z</updated>
     
     
     <summary type="html">微小鹿是一款自动化服务工具 APP UI 设计，寓意：微销路。</summary>
@@ -158,25 +179,6 @@
   </entry>
   
   <entry>
-    <title>Photoshop 中的混合模式</title>
-    <link href="https://zhwangart.com/2020/02/24/Photoshop-Blending-modes/"/>
-    <id>https://zhwangart.com/2020/02/24/Photoshop-Blending-modes/</id>
-    <published>2020-02-24T09:58:01.000Z</published>
-    <updated>2021-09-18T16:08:28.686Z</updated>
-    
-    
-    <summary type="html">Adobe Photoshop 官网对图层混合模式的说明。</summary>
-    
-    
-    
-    
-    <category term="Photoshop" scheme="https://zhwangart.com/tags/Photoshop/"/>
-    
-    <category term="Adobe" scheme="https://zhwangart.com/tags/Adobe/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Ocean 中使用 Valine</title>
     <link href="https://zhwangart.com/2020/02/22/Valine/"/>
     <id>https://zhwangart.com/2020/02/22/Valine/</id>
@@ -218,10 +220,10 @@
   
   <entry>
     <title>自动化工具 APP 设计</title>
-    <link href="https://zhwangart.com/2019/12/12/APP-Design-Hippo/"/>
-    <id>https://zhwangart.com/2019/12/12/APP-Design-Hippo/</id>
-    <published>2019-12-12T04:12:12.000Z</published>
-    <updated>2022-08-16T08:12:04.899Z</updated>
+    <link href="https://zhwangart.com/2019/12/14/APP-Design-Hippo/"/>
+    <id>https://zhwangart.com/2019/12/14/APP-Design-Hippo/</id>
+    <published>2019-12-14T04:12:12.000Z</published>
+    <updated>2022-08-18T07:57:13.571Z</updated>
     
     
     <summary type="html">微商行业自动化工具 APP 产品设计。</summary>

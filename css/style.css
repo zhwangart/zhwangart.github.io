@@ -1173,7 +1173,7 @@ img {
   }
   .archive-article-title {
     margin: 0;
-    font-size: 1.2em !important;
+    font-size: 1.25em !important;
   }
 }
 @media (min-width: 992px) {
