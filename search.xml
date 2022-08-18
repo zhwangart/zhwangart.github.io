@@ -385,12 +385,12 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
 </ul>
 ]]></content>
       <tags>
-        <tag>CSS</tag>
         <tag>前端</tag>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
-    <title>JESS 桌面客户端产品设计</title>
+    <title>JESS 客户端产品设计</title>
     <url>/2020/12/24/JESS/</url>
     <content><![CDATA[<p>扁平化这些年<strong>桌面客户端</strong>（C 端）的设计做的很少了，随着网速越来越快，产品设计也跟随着时代的发展，成为了主要以<strong>移动端</strong>与<strong>Web 端</strong>的设计为主流。越来越多的 C 端产品也都相对应的出了 Web 端与移动端产品，仅剩一些行业性工具类的产品还需要<strong>跨系统平台</strong>（Windows、macOS、Linux）的桌面客户端产品设计。</p>
 <a id="more"></a>
@@ -401,6 +401,20 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
       <tags>
         <tag>Design</tag>
         <tag>UI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微小鹿 APP 设计</title>
+    <url>/2020/08/15/APP-Design-Deer/</url>
+    <content><![CDATA[<p>微小鹿，是一款自动化服务工具 APP UI 设计，寓意：微销路，因为其主要是应用于微商圈的产品。微商，个人不喜的行业（无歧视），但是<strong>为了钱</strong>还是得做个设计。</p>
+<a id="more"></a>
+
+<p><img src="https://s1.ax1x.com/2022/08/15/vdx2AH.png" alt="Deer"><br><img src="https://s1.ax1x.com/2022/08/15/vdxynO.png" alt="Deer"><br><img src="https://s1.ax1x.com/2022/08/15/vdx6BD.png" alt="Deer"><br><img src="https://s1.ax1x.com/2022/08/15/vdxcHe.png" alt="Deer"><br><img src="https://s1.ax1x.com/2022/08/15/vdxh9I.png" alt="Deer"></p>
+]]></content>
+      <tags>
+        <tag>Design</tag>
+        <tag>UI</tag>
+        <tag>APP</tag>
       </tags>
   </entry>
   <entry>
@@ -436,9 +450,9 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
 <p>修改完样式，运行一下 <code>npm run build</code>，就会生成自己定制的样式表 <code>css/bulma.css</code> 了。</p>
 ]]></content>
       <tags>
-        <tag>Bulma</tag>
-        <tag>CSS</tag>
         <tag>前端</tag>
+        <tag>CSS</tag>
+        <tag>Bulma</tag>
       </tags>
   </entry>
   <entry>
@@ -463,8 +477,8 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
 <p>参考：51CTO 取什么昵称</p>
 ]]></content>
       <tags>
-        <tag>CSS</tag>
         <tag>前端</tag>
+        <tag>CSS</tag>
         <tag>HTML</tag>
       </tags>
   </entry>
@@ -622,6 +636,20 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
       </tags>
   </entry>
   <entry>
+    <title>自动化工具 APP 设计</title>
+    <url>/2019/12/12/APP-Design-Hippo/</url>
+    <content><![CDATA[<p>满屏皆是 Icon 的行业自动化工具 APP 产品 UI 设计。Hippo 与 Rabbit 是我自己这么叫的，原名比较 Low 实在懒得写了，就如同原先的 APP Icon 设计，本来想贴一下做个对比，如同名字太丑了懒得贴。</p>
+<a id="more"></a>
+
+<p><img src="https://s1.ax1x.com/2022/08/15/vdxW4A.png" alt="Hippo"><br><img src="https://s1.ax1x.com/2022/08/15/vdxIjf.png" alt="Hippo"><br><img src="https://s1.ax1x.com/2022/08/15/vdxTu8.png" alt="Rabbit"><br><img src="https://s1.ax1x.com/2022/08/15/vdx5gP.png" alt="Rabbit"></p>
+]]></content>
+      <tags>
+        <tag>Design</tag>
+        <tag>UI</tag>
+        <tag>APP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>macOS 改变 Launchpad 图标的行列数</title>
     <url>/2019/12/01/macOS-Launchpad-rows-cloumns/</url>
     <content><![CDATA[<p>macOS Launchpad（启动台） 中的 APP 图标默认 5 行 7 列显示，看起来图标太大，所以如果要改变图标大小，就得改变其显示的行列数。</p>
@@ -734,6 +762,7 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
       <tags>
         <tag>Design</tag>
         <tag>UI</tag>
+        <tag>APP</tag>
       </tags>
   </entry>
   <entry>
@@ -1406,8 +1435,8 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
 <p>参考资料：<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter">https://developer.mozilla.org/zh-CN/docs/Web/CSS/filter</a></p>
 ]]></content>
       <tags>
-        <tag>CSS</tag>
         <tag>前端</tag>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -1434,10 +1463,10 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
 <h3 id="创建一个仓库"><a href="#创建一个仓库" class="headerlink" title="创建一个仓库"></a>创建一个仓库</h3><p>在 GitHub 中 创建一个仓库用来存放评论，因为 Gitalk 的评论其实是在 GitHub 仓库自动创建 Issue 。</p>
 <h3 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h3><p>这个一定要<strong>仔细</strong>，不管是创建一个 comment.ejs 或者 gitalk.ejs 模板文件，还是直接在 post.ejs 模板页中写入，用法都是一样的。因为 Gitalk 是在文章的最底部出现，所以我不选择在 head 中引入 css 与 js ，当然这么做可能不是很规范。</p>
 <p>因为主题 <a href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a> 是用 ejs 写的，所以 ejs 为例，创建一个 gitalk.ejs 代码如下</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">&lt;% if (theme.gitalk.enable) &#123; %&gt;  // 这里判断主题是否开启评论</span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;gitalk-container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  // 盛放 Gitalk 的容器</span><br><span class="line">  &lt;%- css(&#x27;https://unpkg.com/gitalk/dist/gitalk.css&#x27;) %&gt;</span><br><span class="line">  &lt;%- js(&#x27;https://unpkg.com/gitalk/dist/gitalk.min.js&#x27;) %&gt;</span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> gitalk = <span class="keyword">new</span> Gitalk(&#123;</span></span><br><span class="line"><span class="javascript">        clientID: <span class="string">&#x27;&lt;%- theme.gitalk.clientID %&gt;&#x27;</span>,  <span class="comment">// 这里一定要注意主题 config.yml 中 clientID 的大小写，否则参数传不过来，对应下边的 &quot;问题一&quot;</span></span></span><br><span class="line"><span class="javascript">        clientSecret: <span class="string">&#x27;&lt;%- theme.gitalk.clientSecret %&gt;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">        repo: <span class="string">&#x27;&lt;%- theme.gitalk.repo %&gt;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">        owner: <span class="string">&#x27;&lt;%- theme.gitalk.owner %&gt;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">        admin: [<span class="string">&#x27;&lt;%- theme.gitalk.admin %&gt;&#x27;</span>],</span></span><br><span class="line"><span class="javascript">        id: location.pathname,      <span class="comment">// 保持默认，官方注释（Ensure uniqueness and length less than 50），文章 URL 不能太长 &quot;问题二&quot;</span></span></span><br><span class="line"><span class="javascript">        distractionFreeMode: <span class="literal">false</span>  <span class="comment">// 不喜欢评论时候的遮盖层所以选择 false ，而且我觉得这个也没有必要放在 config.yml 中配置</span></span></span><br><span class="line">      &#125;)</span><br><span class="line"></span><br><span class="line"><span class="javascript">  gitalk.render(<span class="string">&#x27;gitalk-container&#x27;</span>)</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&lt;% if (theme.gitalk.enable) &#123; %&gt;  // 这里判断主题是否开启评论</span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;gitalk-container&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span>  // 盛放 Gitalk 的容器</span><br><span class="line">  &lt;%- css(&#x27;https://unpkg.com/gitalk/dist/gitalk.css&#x27;) %&gt;</span><br><span class="line">  &lt;%- js(&#x27;https://unpkg.com/gitalk/dist/gitalk.min.js&#x27;) %&gt;</span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript">      <span class="keyword">var</span> gitalk = <span class="keyword">new</span> Gitalk(&#123;</span></span><br><span class="line"><span class="javascript">        clientID: <span class="string">&#x27;&lt;%- theme.gitalk.clientID %&gt;&#x27;</span>,  <span class="comment">// 这里一定要注意主题 config.yml 中 clientID 的大小写，否则参数传不过来，对应下边的 &quot;问题一&quot;</span></span></span><br><span class="line"><span class="javascript">        clientSecret: <span class="string">&#x27;&lt;%- theme.gitalk.clientSecret %&gt;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">        repo: <span class="string">&#x27;&lt;%- theme.gitalk.repo %&gt;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">        owner: <span class="string">&#x27;&lt;%- theme.gitalk.owner %&gt;&#x27;</span>,</span></span><br><span class="line"><span class="javascript">        admin: [<span class="string">&#x27;&lt;%- theme.gitalk.admin %&gt;&#x27;</span>],</span></span><br><span class="line"><span class="javascript">        id: location.pathname,      <span class="comment">// 保持默认，官方注释（Ensure uniqueness and length less than 50），文章 URL 不能太长 &quot;问题二&quot;</span></span></span><br><span class="line"><span class="javascript">        distractionFreeMode: <span class="literal">false</span>  <span class="comment">// 不喜欢评论时候的遮盖层所以选择 false ，而且我觉得这个也没有必要放在 config.yml 中配置</span></span></span><br><span class="line">      &#125;)</span><br><span class="line"></span><br><span class="line"><span class="javascript">  gitalk.render(<span class="string">&#x27;gitalk-container&#x27;</span>)</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
 
 <p>在 article.ejs（模板页名称因主题而异）中 include gitalk.ejs 因为我只需要在 post 中加入评论功能其他页面不需要所以做了 post 判断！</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">&lt;% if (is_post()) &#123; %&gt;</span><br><span class="line">  &lt;%- partial(&#x27;post/gitalk&#x27;) %&gt;</span><br><span class="line">&lt;%&#125; %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">&lt;% if (is_post()) &#123; %&gt;</span><br><span class="line">  &lt;%- partial(&#x27;post/gitalk&#x27;) %&gt;</span><br><span class="line">&lt;%&#125; %&gt;</span><br></pre></td></tr></table></figure>
 
 <p>然后在主题 config.yml 中添加配置参数，注意 <code>repo</code> <strong>只需要写名称</strong>。</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Gitalk</span></span><br><span class="line"><span class="attr">gitalk:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">clientID:</span> <span class="string">b056dd67656dd67522d6</span>  <span class="comment"># 换成你申请 GitHub Application 网页上对应的 Client ID 与 Client Secret 参数</span></span><br><span class="line">  <span class="attr">clientSecret:</span> <span class="string">05c56dd6736f12ac156dd6711956dd67e156dd67</span>  <span class="comment"># 同上</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">gitalk</span>  <span class="comment"># 换成你创建的仓库，首先确保该仓库已经创建，其次只需要写名称，比如 &quot;gitalk&quot;，否则 &quot;问题三&quot;</span></span><br><span class="line">  <span class="attr">owner:</span>   <span class="comment"># 你的 Github ID（Github 用户名）</span></span><br><span class="line">  <span class="attr">admin:</span>   <span class="comment"># 你的 Github ID 就可以，官方注释（Facebook-like distraction free mode）说明还可以添加其他有权限的人</span></span><br></pre></td></tr></table></figure>
@@ -1858,8 +1887,8 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
 <h3 id="6、取消-img-标签和其父级对象的最后一个结束标签之间的空格"><a href="#6、取消-img-标签和其父级对象的最后一个结束标签之间的空格" class="headerlink" title="6、取消 img 标签和其父级对象的最后一个结束标签之间的空格"></a>6、取消 img 标签和其父级对象的最后一个结束标签之间的空格</h3><p>这个方法要强调下，在实际开发中该方法可能会出乱子，因为在写代码的时候为了让代码更体现语义和层次清晰，难免要通过 IDE 提供代码缩进显示，这必然 会让标签和其他标签换行显示，比如说 Dreamweaver 的“套用源格式”命令。所以说这个方法可以供我们了解出现 Bug 的一种情况，具体解决方案的还得各位见招拆招了。</p>
 ]]></content>
       <tags>
-        <tag>CSS</tag>
         <tag>前端</tag>
+        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>

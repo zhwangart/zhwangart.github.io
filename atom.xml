@@ -6,7 +6,7 @@
   <link href="https://zhwangart.com/atom.xml" rel="self"/>
   
   <link href="https://zhwangart.com/"/>
-  <updated>2022-03-04T17:31:21.558Z</updated>
+  <updated>2022-08-17T03:29:21.536Z</updated>
   <id>https://zhwangart.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zhwangart.com/2022/03/04/Hexo-Theme-Acorn/"/>
     <id>https://zhwangart.com/2022/03/04/Hexo-Theme-Acorn/</id>
     <published>2022-03-04T09:18:34.000Z</published>
-    <updated>2022-03-04T17:31:21.558Z</updated>
+    <updated>2022-08-17T03:29:21.536Z</updated>
     
     
     <summary type="html">Acorn 是一“颗”免费且开源的 Hexo 主题，可适用于中小型企业门户或工作室等展示类网站的简单建设，由新橙象设计并开发，个人或企业均可免费使用，但请不要用于商业使用。</summary>
@@ -69,18 +69,18 @@
     
     
     
-    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
-    
     <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
     
   </entry>
   
   <entry>
-    <title>JESS 桌面客户端产品设计</title>
+    <title>JESS 客户端产品设计</title>
     <link href="https://zhwangart.com/2020/12/24/JESS/"/>
     <id>https://zhwangart.com/2020/12/24/JESS/</id>
     <published>2020-12-24T10:16:42.000Z</published>
-    <updated>2021-04-14T14:57:38.871Z</updated>
+    <updated>2022-08-18T07:30:09.941Z</updated>
     
     
     <summary type="html">桌面客户端产品 UI 设计。</summary>
@@ -91,6 +91,27 @@
     <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
     
     <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微小鹿 APP 设计</title>
+    <link href="https://zhwangart.com/2020/08/15/APP-Design-Deer/"/>
+    <id>https://zhwangart.com/2020/08/15/APP-Design-Deer/</id>
+    <published>2020-08-15T03:09:22.000Z</published>
+    <updated>2022-08-16T08:09:18.592Z</updated>
+    
+    
+    <summary type="html">微小鹿是一款自动化服务工具 APP UI 设计，寓意：微销路。</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
+    
+    <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
+    
+    <category term="APP" scheme="https://zhwangart.com/tags/APP/"/>
     
   </entry>
   
@@ -107,11 +128,11 @@
     
     
     
-    <category term="Bulma" scheme="https://zhwangart.com/tags/Bulma/"/>
+    <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
     
-    <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="Bulma" scheme="https://zhwangart.com/tags/Bulma/"/>
     
   </entry>
   
@@ -128,9 +149,9 @@
     
     
     
-    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
-    
     <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
     
     <category term="HTML" scheme="https://zhwangart.com/tags/HTML/"/>
     
@@ -192,6 +213,27 @@
     
     
     <category term="macOS" scheme="https://zhwangart.com/tags/macOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自动化工具 APP 设计</title>
+    <link href="https://zhwangart.com/2019/12/12/APP-Design-Hippo/"/>
+    <id>https://zhwangart.com/2019/12/12/APP-Design-Hippo/</id>
+    <published>2019-12-12T04:12:12.000Z</published>
+    <updated>2022-08-16T08:12:04.899Z</updated>
+    
+    
+    <summary type="html">微商行业自动化工具 APP 产品设计。</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
+    
+    <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
+    
+    <category term="APP" scheme="https://zhwangart.com/tags/APP/"/>
     
   </entry>
   
@@ -259,10 +301,10 @@
     <link href="https://zhwangart.com/2019/07/16/APP-Design-LightWAN/"/>
     <id>https://zhwangart.com/2019/07/16/APP-Design-LightWAN/</id>
     <published>2019-07-16T08:57:16.000Z</published>
-    <updated>2020-05-18T08:01:50.000Z</updated>
+    <updated>2022-08-15T06:39:12.148Z</updated>
     
     
-    <summary type="html">&lt;p&gt;LightWAN Orchestrator 移动端的 UI 设计…&lt;/p&gt;</summary>
+    <summary type="html">CloudWAN 客户移动端 APP UI 设计。</summary>
     
     
     
@@ -270,6 +312,8 @@
     <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
     
     <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
+    
+    <category term="APP" scheme="https://zhwangart.com/tags/APP/"/>
     
   </entry>
   
@@ -367,46 +411,6 @@
     <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
     
     <category term="Logo" scheme="https://zhwangart.com/tags/Logo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一些常用的移动端的 meta 属性设置</title>
-    <link href="https://zhwangart.com/2019/04/26/Mobile-html-meta-property-settings/"/>
-    <id>https://zhwangart.com/2019/04/26/Mobile-html-meta-property-settings/</id>
-    <published>2019-04-26T10:11:49.000Z</published>
-    <updated>2020-02-28T15:50:20.000Z</updated>
-    
-    
-    <summary type="html">网传是阿里前端工程师总结的关于移动端 HTML5 meta 标签的属性设置。</summary>
-    
-    
-    
-    
-    <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="HTML" scheme="https://zhwangart.com/tags/HTML/"/>
-    
-    <category term="meta" scheme="https://zhwangart.com/tags/meta/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>macOS Sublime Text 插件安装与删除</title>
-    <link href="https://zhwangart.com/2019/03/19/SublimeText-PackageControl/"/>
-    <id>https://zhwangart.com/2019/03/19/SublimeText-PackageControl/</id>
-    <published>2019-03-19T02:42:22.000Z</published>
-    <updated>2021-09-23T01:23:36.965Z</updated>
-    
-    
-    <summary type="html">macOS Sublime Text 插件安装与删除，Sublime Text 是收费软件，但可以无限期试用，作者很厚道地给用户们提供了免费无限制无限期的试用权，它只会偶尔提醒一下你木有购买，而且频率也很低，仅此而已。</summary>
-    
-    
-    
-    
-    <category term="macOS" scheme="https://zhwangart.com/tags/macOS/"/>
-    
-    <category term="Sublime Text" scheme="https://zhwangart.com/tags/Sublime-Text/"/>
     
   </entry>
   
