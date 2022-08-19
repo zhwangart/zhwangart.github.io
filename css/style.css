@@ -1191,8 +1191,8 @@ img {
 .list-unstyled,
 .list-inline {
   list-style: none;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+  padding-left: 0;
+  margin-left: 0;
 }
 .list-inline {
   position: relative;
@@ -1204,8 +1204,8 @@ img {
 }
 .category-list {
   list-style: none;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+  padding-left: 0;
+  margin-left: 0;
   margin-right: -0.5rem;
   margin-left: -0.5rem;
 }
@@ -1220,8 +1220,8 @@ img {
 }
 .tag-list {
   list-style: none;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+  padding-left: 0;
+  margin-left: 0;
   margin-right: -0.5rem;
   margin-left: -0.5rem;
 }
@@ -1233,6 +1233,30 @@ img {
   content: "\f153";
   font-family: feathericon;
   margin-right: 0.5rem;
+}
+.tooltip {
+  position: relative;
+}
+.tooltip::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  z-index: 9;
+  bottom: 100%;
+  left: 50%;
+  background-color: #172d3e;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 0);
+  transition: all 0.3s ease-in-out;
+  color: #e6e6e6;
+}
+.tooltip:hover::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
 }
 .video {
   position: relative;
@@ -1362,8 +1386,8 @@ img {
 }
 .search-result-list {
   list-style: none;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+  padding-left: 0;
+  margin-left: 0;
 }
 .search-result-list li {
   padding: 1.5rem 0;
@@ -1536,8 +1560,8 @@ img {
 }
 .article-tag-list {
   list-style: none;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+  padding-left: 0;
+  margin-left: 0;
   margin: 0;
 }
 .article-tag-list:before {
@@ -1701,8 +1725,8 @@ img {
 }
 .toc-list {
   list-style: none;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+  padding-left: 0;
+  margin-left: 0;
   padding-left: 1rem;
 }
 a.toc-link {
@@ -1770,8 +1794,8 @@ a.toc-link {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+  padding-left: 0;
+  margin-left: 0;
 }
 .article-albums-photos::before,
 .article-albums-photos::after {
@@ -2481,8 +2505,8 @@ pre .javascript .function {
 }
 .navbar .nav {
   list-style: none;
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+  padding-left: 0;
+  margin-left: 0;
 }
 .navbar .nav .nav-item-link {
   display: block;
