@@ -2287,6 +2287,10 @@ a.toc-link {
 .archive-article-footer {
   margin-top: 1.5rem;
 }
+.archive-article-inner .article-tag-list {
+  padding: 0;
+  margin: 0;
+}
 .footer {
   border-top: 0.1rem #e6e6e6 solid;
   padding: 3rem 0;
