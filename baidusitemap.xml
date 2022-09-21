@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://zhwangart.com/2019/07/03/Bird/</loc>
+    <lastmod>2022-09-21</lastmod>
+  </url>
+  <url>
     <loc>https://zhwangart.com/2022/08/18/Duoyu-wang/</loc>
     <lastmod>2022-08-19</lastmod>
   </url>
@@ -127,10 +131,6 @@
   <url>
     <loc>https://zhwangart.com/2018/06/07/macOS-Filezilla-777/</loc>
     <lastmod>2020-12-15</lastmod>
-  </url>
-  <url>
-    <loc>https://zhwangart.com/2019/07/03/Bird/</loc>
-    <lastmod>2020-05-18</lastmod>
   </url>
   <url>
     <loc>https://zhwangart.com/2018/09/26/Mac-Apache-php-MySql/</loc>
