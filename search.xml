@@ -119,6 +119,19 @@
       </tags>
   </entry>
   <entry>
+    <title>分行数据集市 3.0 版本</title>
+    <url>/2023/06/10/Branch-data-mart-30/</url>
+    <content><![CDATA[<p>如果说分行数据集市的 <a href="/2021/10/10/Branch-data-mart-20/">2.0 版本设计</a>是一场酣畅淋漓的“表格革命”的话，那么 <a href="/2023/06/10/Branch-data-mart-30/">3.0 版本设计</a>就是大型的“精兵简政”现场，包括移动端 APP 的设计亦然如此。</p>
+<a id="more"></a>
+
+<p><img src="https://s21.ax1x.com/2024/09/22/pAMWl4O.png" alt="新版袭来"><br><img src="https://s21.ax1x.com/2024/09/22/pAMRCfe.png" alt="精兵简政"><br><img src="https://s21.ax1x.com/2024/09/22/pAMRFld.png" alt="多页展示"><br><img src="https://s21.ax1x.com/2024/09/22/pAMRiSH.png" alt="单页展示"><br><img src="https://s21.ax1x.com/2024/09/22/pAMR16s.png" alt="有移动端"></p>
+]]></content>
+      <tags>
+        <tag>Design</tag>
+        <tag>UI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>全世界最没用的网站</title>
     <url>/2022/08/18/Duoyu-wang/</url>
     <content><![CDATA[<p>我敢说这个<a href="//duoyu.wang">王多鱼</a>一定是全世界最没用的网站，如你不嫌弃可以提交自己的项目链接过去，然后等他成为百年老站以后，相信一定会有亿万富翁来投资。</p>
@@ -175,6 +188,19 @@
       </tags>
   </entry>
   <entry>
+    <title>分行数据集市 2.0 版本</title>
+    <url>/2021/10/10/Branch-data-mart-20/</url>
+    <content><![CDATA[<p>如果说分行数据集市的 <a href="/2021/10/10/Branch-data-mart-20/">2.0 版本设计</a>是一场酣畅淋漓的“表格革命”的话，那么 <a href="/2023/06/10/Branch-data-mart-30/">3.0 版本设计</a>就是大型的“精兵简政”现场，包括移动端 APP 的设计亦然如此。</p>
+<a id="more"></a>
+
+<p><img src="https://s21.ax1x.com/2024/09/22/pAMRpFO.png" alt="表格革命"><br><img src="https://s21.ax1x.com/2024/09/22/pAMRvcj.png" alt="字体规范"><br><img src="https://s21.ax1x.com/2024/09/22/pAMWSun.png" alt="布局删格"><br><img src="https://s21.ax1x.com/2024/09/22/pAMRllj.png" alt="多页展示"><br><img src="https://s21.ax1x.com/2024/09/22/pAMR9YD.png" alt="单页展示"></p>
+]]></content>
+      <tags>
+        <tag>Design</tag>
+        <tag>UI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>IN、ON、AT</title>
     <url>/2021/09/28/IN-ON-AT/</url>
     <content><![CDATA[<p>英文介词 IN、ON、AT 的区别与用法。</p>
@@ -183,11 +209,11 @@
 <h2 id="IN"><a href="#IN" class="headerlink" title="IN"></a>IN</h2><div class="columns">
   <div class="column">
     <h4>地点：在一个空间里</h4>
-    <font class="example">in a box  在一个盒子里</font><br>
-    <font class="example">in a city  在一座城市里</font><br>
-    <font class="example">in a building  在一栋楼里</font><br>
-    <font class="example">in China  在中国</font><br>
-    <font class="example">in Shenzhen  在深圳</font>
+    <span class="example">in a box  在一个盒子里</span><br>
+    <span class="example">in a city  在一座城市里</span><br>
+    <span class="example">in a building  在一栋楼里</span><br>
+    <span class="example">in China  在中国</span><br>
+    <span class="example">in Shenzhen  在深圳</span>
   </div>
   <div class="column">
     <img width="200" src="/images/illustrations/inaton/in_1.svg">
@@ -197,11 +223,11 @@
 <div class="columns">
   <div class="column">
     <h4>时间：在一段时间里</h4>
-    <font class="example">in a year  在一年里</font><br>
-    <font class="example">in two weeks  在两周内</font><br>
-    <font class="example">in the morning  在早上</font><br>
-    <font class="example">in the past  在过去</font><br>
-    <font color="orange">注意：在将来时的运用中，还可以用 in + 一段时间表示多久以后</font>
+    <span class="example">in a year  在一年里</span><br>
+    <span class="example">in two weeks  在两周内</span><br>
+    <span class="example">in the morning  在早上</span><br>
+    <span class="example">in the past  在过去</span><br>
+    <span color="orange">注意：在将来时的运用中，还可以用 in + 一段时间表示多久以后</span>
   </div>
   <div class="column">
     <img width="200" src="/images/illustrations/inaton/in_2.svg">
@@ -211,12 +237,12 @@
 <h2 id="ON"><a href="#ON" class="headerlink" title="ON"></a>ON</h2><div class="columns">
   <div class="column">
     <h4>地点：在一个面上</h4>
-    <font class="example">on the road  在路上</font><br>
-    <font class="example">on an island  在一个岛上</font><br>
-    <font class="example">on the beach  在沙滩上</font><br>
-    <font color="orange">注意：</font><br>
-    <font color="orange">- on the bus 强调在公交车上（乘坐）</font><br>
-    <font color="orange">- in the bus 强调在公交车里面（空间方位）</font>
+    <span class="example">on the road  在路上</span><br>
+    <span class="example">on an island  在一个岛上</span><br>
+    <span class="example">on the beach  在沙滩上</span><br>
+    <span color="orange">注意：</span><br>
+    <span color="orange">- on the bus 强调在公交车上（乘坐）</span><br>
+    <span color="orange">- in the bus 强调在公交车里面（空间方位）</span>
   </div>
   <div class="column">
     <img width="200" src="/images/illustrations/inaton/on_the_road.svg">
@@ -225,11 +251,11 @@
 <div class="columns">
   <div class="column">
     <h4>时间：在特定的某一天</h4>
-    <font class="example">on Monday  在周一</font><br>
-    <font class="example">on May 1 st  在 5 月 1 号</font><br>
-    <font class="example">on Christmas  在圣诞节</font><br>
-    <font class="example">on my birthday  在我的生日</font><br>
-    <font color="orange">例外：on the weekend  在周末（有 2 天）</font>
+    <span class="example">on Monday  在周一</span><br>
+    <span class="example">on May 1 st  在 5 月 1 号</span><br>
+    <span class="example">on Christmas  在圣诞节</span><br>
+    <span class="example">on my birthday  在我的生日</span><br>
+    <span color="orange">例外：on the weekend  在周末（有 2 天）</span>
   </div>
   <div class="column">
     <img width="200" src="/images/illustrations/inaton/on_monday.svg">
@@ -239,9 +265,9 @@
 <h2 id="AT"><a href="#AT" class="headerlink" title="AT"></a>AT</h2><div class="columns">
   <div class="column">
     <h4>地点：在具体一个地点</h4>
-    <font class="example">at the bus stop  在公交站</font><br>
-    <font class="example">at the exit  在出口</font><br>
-    <font class="example">at home  在家</font>
+    <span class="example">at the bus stop  在公交站</span><br>
+    <span class="example">at the exit  在出口</span><br>
+    <span class="example">at home  在家</span>
   </div>
   <div class="column">
     <img width="200" src="/images/illustrations/inaton/at_the_exit.svg">
@@ -250,11 +276,11 @@
 <div class="columns">
   <div class="column">
     <h4>时间：在具体一个时间点</h4>
-    <font class="example">at 9 o 'clock  在 9 点</font><br>
-    <font class="example">at noon  在正午（12点）</font><br>
-    <font class="example">at dawn  在黎明（日出时刻）</font><br>
-    <font class="example">at dusk  在黄昏（日落时分）</font><br>
-    <font color="orange">例外：at night  在晚上（时间段）</font>
+    <span class="example">at 9 o 'clock  在 9 点</span><br>
+    <span class="example">at noon  在正午（12点）</span><br>
+    <span class="example">at dawn  在黎明（日出时刻）</span><br>
+    <span class="example">at dusk  在黄昏（日落时分）</span><br>
+    <span color="orange">例外：at night  在晚上（时间段）</span>
   </div>
   <div class="column">
     <img width="200" src="/images/illustrations/inaton/at_dusk.svg">
@@ -275,117 +301,117 @@
 <div class="tenses">
 
 <ol>
-<li><p>一般现在时<font color="orange">（动词原形或三单）</font><br><img src="/images/illustrations/tenses/tense_1.svg" alt="一般现在时"></p>
-<font class="example">
+<li><p>一般现在时<span color="orange">（动词原形或三单）</span><br><img src="/images/illustrations/tenses/tense_1.svg" alt="一般现在时"></p>
+<span class="example">
 We always <mark><u>use</u></mark> Xinjiang Cotton.
 <br>
 我们一直使用新疆棉。
-</font>
+</span>
 </li>
-<li><p>一般过去时<font color="orange">（动词过去式）</font><br><img src="/images/illustrations/tenses/tense_2.svg" alt="一般过去时"></p>
-<font class="example">
+<li><p>一般过去时<span color="orange">（动词过去式）</span><br><img src="/images/illustrations/tenses/tense_2.svg" alt="一般过去时"></p>
+<span class="example">
 We <mark><u>used</u></mark> Xinjiang cotton yesterday.
 <br>
 昨天我们使用了新疆棉。
-</font>
+</span>
 </li>
-<li><p>一般将来时<font color="orange">（will+动词原形）</font><br><img src="/images/illustrations/tenses/tense_3.svg" alt="一般将来时"></p>
-<font class="example">
+<li><p>一般将来时<span color="orange">（will+动词原形）</span><br><img src="/images/illustrations/tenses/tense_3.svg" alt="一般将来时"></p>
+<span class="example">
 We <mark><u>will</u></mark> always <mark><u>use</u></mark> Xinjiang cotton.
 <br>
 我们将一直使用新疆棉。
-</font>
+</span>
 </li>
-<li><p>现在进行时<font color="orange">（be+动词ing）</font><br><img src="/images/illustrations/tenses/tense_4.svg" alt="现在进行时"></p>
-<font class="example">
+<li><p>现在进行时<span color="orange">（be+动词ing）</span><br><img src="/images/illustrations/tenses/tense_4.svg" alt="现在进行时"></p>
+<span class="example">
 Farmers <mark><u>are working</u></mark> in the cotton fields now.
 <br>
 农民们正在棉花地里犁地。
-</font>
+</span>
 </li>
-<li><p>过去进行时<font color="orange">（be过去式+动词ing）</font><br><img src="/images/illustrations/tenses/tense_5.svg" alt="过去进行时"></p>
-<font class="example">
+<li><p>过去进行时<span color="orange">（be过去式+动词ing）</span><br><img src="/images/illustrations/tenses/tense_5.svg" alt="过去进行时"></p>
+<span class="example">
 Farmers were working in the cotton fields when the groundless accusation was reported.
 <br>
 汗滴棉下土，锅从天上来。
-</font>
+</span>
 </li>
-<li><p>将来进行时<font color="orange">（will be+动词ing）</font><br><img src="/images/illustrations/tenses/tense_6.svg" alt="将来进行时"></p>
-<font class="example">
+<li><p>将来进行时<span color="orange">（will be+动词ing）</span><br><img src="/images/illustrations/tenses/tense_6.svg" alt="将来进行时"></p>
+<span class="example">
 We <mark><u>will</u></mark> still <mark><u>be working</u></mark> in the cotton fields even if they don't apologize for what they have done.
 <br>
 就算他们不道歉，我们也将一直坚持在棉花田上工作。
-</font>
+</span>
 </li>
-<li><p>现在完成时<font color="orange">（have done）</font><br><img src="/images/illustrations/tenses/tense_7.svg" alt="现在完成时"></p>
-<font class="example">
+<li><p>现在完成时<span color="orange">（have done）</span><br><img src="/images/illustrations/tenses/tense_7.svg" alt="现在完成时"></p>
+<span class="example">
 We <mark><u>have supported</u></mark> Xinjiang cotton for one week.
 <br>
 我们已经支持新疆棉一周了。
-</font>
+</span>
 </li>
-<li><p>过去完成时<font color="orange">（had done）</font><br><img src="/images/illustrations/tenses/tense_8.svg" alt="过去完成时"></p>
-<font class="example">
+<li><p>过去完成时<span color="orange">（had done）</span><br><img src="/images/illustrations/tenses/tense_8.svg" alt="过去完成时"></p>
+<span class="example">
 We <mark><u>had supported</u></mark> Xinjiang cotton before they released that statement.
 <br>
 在他们公布那则声明前我们就已经支持新疆棉了。
-</font>
+</span>
 </li>
-<li><p>将来完成时<font color="orange">（will have done）</font><br><img src="/images/illustrations/tenses/tense_9.svg" alt="将来完成时"></p>
-<font class="example">
+<li><p>将来完成时<span color="orange">（will have done）</span><br><img src="/images/illustrations/tenses/tense_9.svg" alt="将来完成时"></p>
+<span class="example">
 They <mark><u>will have released</u></mark> a new statement on this issue by tomorrow.
 <br>
 他们将在明天之前就此问题公布一则新声明。
-</font>
+</span>
 </li>
-<li><p>现在完成进行时<font color="orange">（have been doing）</font><br><img src="/images/illustrations/tenses/tense_10.svg" alt="现在完成进行时"></p>
-<font class="example">
+<li><p>现在完成进行时<span color="orange">（have been doing）</span><br><img src="/images/illustrations/tenses/tense_10.svg" alt="现在完成进行时"></p>
+<span class="example">
 We <mark><u>have been using</u></mark> Xinjiang cotton lately.
 <br>
 我们最近一直在使用新疆棉。
-</font>
+</span>
 </li>
-<li><p>过去完成进行时<font color="orange">（had been doing）</font><br><img src="/images/illustrations/tenses/tense_11.svg" alt="过去完成进行时"></p>
-<font class="example">
+<li><p>过去完成进行时<span color="orange">（had been doing）</span><br><img src="/images/illustrations/tenses/tense_11.svg" alt="过去完成进行时"></p>
+<span class="example">
 We <mark><u>had been waiting</u></mark> for their apology, but then we found it urgent to call for a boycott.
 <br>
 我们当时等待他们道歉，但是后来我们发现呼吁抵制很迫切。
-</font>
+</span>
 </li>
-<li><p>将来完成进行时<font color="orange">（will have been doing）</font><br><img src="/images/illustrations/tenses/tense_12.svg" alt="将来完成进行时"></p>
-<font class="example">
+<li><p>将来完成进行时<span color="orange">（will have been doing）</span><br><img src="/images/illustrations/tenses/tense_12.svg" alt="将来完成进行时"></p>
+<span class="example">
 Tomorrow we will <mark><u>have been using</u></mark> Xinjiang cotton for ten years.
 <br>
 明天将是我们使用新疆棉的第十周年纪念。
-</font>
+</span>
 </li>
-<li><p>一般过去将来时<font color="orange">（would+动词原形）</font><br><img src="/images/illustrations/tenses/tense_13.svg" alt="一般过去将来时"></p>
-<font class="example">
+<li><p>一般过去将来时<span color="orange">（would+动词原形）</span><br><img src="/images/illustrations/tenses/tense_13.svg" alt="一般过去将来时"></p>
+<span class="example">
 They said they <mark><u>would use</u></mark> Xinjiang cotton.
 <br>
 他们说了他们将会使用新疆棉。
-</font>
+</span>
 </li>
-<li><p>过去将来进行时<font color="orange">（would be doing）</font><br><img src="/images/illustrations/tenses/tense_14.svg" alt="过去将来进行时"></p>
-<font class="example">
+<li><p>过去将来进行时<span color="orange">（would be doing）</span><br><img src="/images/illustrations/tenses/tense_14.svg" alt="过去将来进行时"></p>
+<span class="example">
 They said they <mark><u>would be working</u></mark> in the cotton fields tomorrow morning.
 <br>
 他们说了他们明早讲一直坚守在棉花田上工作。
-</font>
+</span>
 </li>
-<li><p>过去将来完成时<font color="orange">（would have done）</font><br><img src="/images/illustrations/tenses/tense_15.svg" alt="过去将来完成时"></p>
-<font class="example">
+<li><p>过去将来完成时<span color="orange">（would have done）</span><br><img src="/images/illustrations/tenses/tense_15.svg" alt="过去将来完成时"></p>
+<span class="example">
 They said they <mark><u>would have released</u></mark> a new statement on this issue by tomorrow.
 <br>
 他们说了他们将在明天之前就此问题公布一则新声明。
-</font>
+</span>
 </li>
-<li><p>过去将来完成进行时<font color="orange">（would have been doing）</font><br><img src="/images/illustrations/tenses/tense_16.svg" alt="过去将来完成进行时"></p>
-<font class="example">
+<li><p>过去将来完成进行时<span color="orange">（would have been doing）</span><br><img src="/images/illustrations/tenses/tense_16.svg" alt="过去将来完成进行时"></p>
+<span class="example">
 They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotton for ten years.
 <br>
 他们说了明天将是他们使用新疆棉的第十周年。
-</font>
+</span>
 
 </li>
 </ol>
@@ -830,13 +856,10 @@ They said tomorrow they <mark><u>would have been using</u></mark> Xinjiang cotto
   <entry>
     <title>LightWAN 移动端 UI 设计</title>
     <url>/2019/07/16/APP-Design-LightWAN/</url>
-    <content><![CDATA[<p>LightWAN Orchestrator 移动端的 UI 设计…</p>
+    <content><![CDATA[<p>LightWAN Orchestrator 移动端、Windows 客户端的 UI 设计…</p>
 <a id="more"></a>
 
-<p><img src="https://s1.ax1x.com/2020/05/18/YWWdbR.jpg" alt="LightWAN login"></p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YWWY2F.jpg" alt="LightWAN icon"></p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YWWUKJ.jpg" alt="LightWAN APP UI"></p>
-<p><img src="https://s1.ax1x.com/2020/05/18/YWWy8O.jpg" alt="LightWAN APP"></p>
+<p><img src="https://s1.ax1x.com/2020/05/18/YWWdbR.jpg" alt="LightWAN login"><br><img src="https://s1.ax1x.com/2020/05/18/YWWY2F.jpg" alt="LightWAN icon"><br><img src="https://s1.ax1x.com/2020/05/18/YWWUKJ.jpg" alt="LightWAN APP UI"><br><img src="https://s1.ax1x.com/2020/05/18/YWWy8O.jpg" alt="LightWAN APP"><br><img src="https://s21.ax1x.com/2024/09/22/pAMWJvd.png" alt="LightWAN APP Windows客户端"></p>
 ]]></content>
       <tags>
         <tag>Design</tag>
