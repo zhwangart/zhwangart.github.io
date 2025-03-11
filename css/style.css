@@ -925,6 +925,10 @@ img {
 .article-category .article-category-link:hover {
   color: #5c6b72;
 }
+.article-entry,
+.archives {
+  font-size: 1.6rem;
+}
 .article-entry h1,
 .archives h1,
 .article-entry h2,
@@ -1153,7 +1157,7 @@ img {
   }
   .wrap,
   .outer {
-    width: 70rem;
+    width: 80rem;
   }
   .content {
     margin-right: 10rem;
@@ -1166,7 +1170,7 @@ img {
     display: none;
   }
   .local-search {
-    width: 70rem;
+    width: 80rem;
   }
   .card-quote {
     grid-template-columns: repeat(3, 1fr);
