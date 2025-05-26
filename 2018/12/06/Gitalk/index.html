@@ -87,7 +87,7 @@
 <span id="more"></span>
 
 <h2 id="添加过程"><a href="#添加过程" class="headerlink" title="添加过程"></a>添加过程</h2><h3 id="申请-GitHub-Application"><a href="#申请-GitHub-Application" class="headerlink" title="申请 GitHub Application"></a>申请 GitHub Application</h3><p>如果有的话在 Github 中 <code>settings / Developer settings</code> 选择一个 OAuth App，如果没有 <a target="_blank" rel="noopener" href="https://github.com/settings/applications/new">点击这里申请</a>，我是第一次使用，自然需要从申请开始。</p>
-<p><img src="https://github.com/zhwangart/gitalk/blob/master/source/Register-OAuth-application.png" alt="注册需要填写的表单"></p>
+<p><img src="https://s21.ax1x.com/2025/05/26/pVSdujS.png" alt="注册需要填写的表单"></p>
 <p>说明一下：</p>
 <ul>
 <li>Application name: 没有限制的 APP 名称，比如：Hexo-application</li>
@@ -96,7 +96,7 @@
 <li>Authorization callback URL: 回调 url 我理解就是网站的域名，比如：<a target="_blank" rel="noopener" href="https://zhwangart.github.io/">https://zhwangart.github.io</a></li>
 </ul>
 <p>然后申请成功后，就看到有了 Client ID 与 Client Secret 的一个页面，页面下边就是申请刚填写的的信息，均可以再次编辑！ 只有 Client ID 与 Client Secret 是在配置 Hexo 的时候需要用。</p>
-<p><img src="https://s1.ax1x.com/2020/05/18/Yf6gCF.png" alt="申请成功"></p>
+<p><img src="https://s21.ax1x.com/2025/05/26/pVSd3As.png" alt="申请成功"></p>
 <p>看见好多网友做截图时候把 Client ID 与 Client Secret 打码，我有一种木有必要的感觉…</p>
 <h3 id="在-Hexo-主题设计中引入-Gitalk"><a href="#在-Hexo-主题设计中引入-Gitalk" class="headerlink" title="在 Hexo 主题设计中引入 Gitalk"></a>在 Hexo 主题设计中引入 Gitalk</h3><p>这个看 <a target="_blank" rel="noopener" href="https://github.com/gitalk/gitalk">Gitalk</a> 里面的引入方法就可以了，如果你使用 <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a> 的话，那么忽略这里，因为 <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a> 已经配置好了这些！</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://unpkg.com/gitalk/dist/gitalk.css&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://unpkg.com/gitalk/dist/gitalk.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -115,7 +115,7 @@
 <h2 id="报错与解决方案"><a href="#报错与解决方案" class="headerlink" title="报错与解决方案"></a>报错与解决方案</h2><h3 id="问题一"><a href="#问题一" class="headerlink" title="问题一"></a>问题一</h3><blockquote>
 <p>未找到相关的 Issues 进行评论 请联系 @xxxxxx 初始化创建。</p>
 </blockquote>
-<p><img src="https://s1.ax1x.com/2020/05/18/Yf664U.png" alt="未找到相关的 Issues 进行评论"></p>
+<p><img src="https://s21.ax1x.com/2025/05/26/pVSdMng.png" alt="未找到相关的 Issues 进行评论"></p>
 <p>这个问题分为两种情况：</p>
 <ol>
 <li>确实是没有初始化创建，那么点击 “使用 Github 登录” 一次就好了！</li>
@@ -124,7 +124,7 @@
 <h3 id="问题二"><a href="#问题二" class="headerlink" title="问题二"></a>问题二</h3><blockquote>
 <p>Error: Validation Failed.</p>
 </blockquote>
-<p><img src="https://s1.ax1x.com/2020/05/18/Yf6DH0.png" alt="Error: Validation Failed."></p>
+<p><img src="https://s21.ax1x.com/2025/05/26/pVSdQBQ.png" alt="Error: Validation Failed."></p>
 <p>在 Gitalk 的 <a target="_blank" rel="noopener" href="https://github.com/gitalk/gitalk/issues/102">Issues</a> 找到原因：文章的 URL 过长，生成 issue 时超过了 Label 的长度限制，这的注释也写的很明确：<code>id: location.pathname,      // Ensure uniqueness and length less than 50</code> 。有两种解决方案：</p>
 <ol>
 <li>按照 <code>Ensure uniqueness and length less than 50</code> 要求，精简文章名称，避免使用中文，缩短 URL…</li>
@@ -132,11 +132,10 @@
 </ol>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">// 引入 JavaScript-MD5</span><br><span class="line">&lt;%- js(&#x27;https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js&#x27;) %&gt;</span><br><span class="line"></span><br><span class="line">id: location.pathname,      // Ensure uniqueness and length less than 50</span><br><span class="line">// 改为：</span><br><span class="line">id: md5(location.pathname),</span><br></pre></td></tr></table></figure>
 
-
 <h3 id="问题三"><a href="#问题三" class="headerlink" title="问题三"></a>问题三</h3><blockquote>
 <p>Error: Not Found.</p>
 </blockquote>
-<p><img src="https://s1.ax1x.com/2020/05/18/Yf6sEV.png" alt="Error: Not Found."></p>
+<p><img src="https://s21.ax1x.com/2025/05/26/pVSdl7j.png" alt="Error: Not Found."></p>
 <p>很简单就是 repo 写错了！<strong>这里只需要写仓库名称，不要链接！</strong></p>
 <h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><p>如果你遇到的问题没有列出？这里也许有你要找的答案～</p>
 <ol>
@@ -153,7 +152,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://zhwangart.com/2018/12/06/Gitalk/" data-id="cmb3de70s000nqfzc1xm8cezh" class="article-share-link">
+      <a data-url="https://zhwangart.com/2018/12/06/Gitalk/" data-id="cmb4f3yqo0012ipzc0yvge057" class="article-share-link">
         分享
       </a>
       
