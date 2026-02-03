@@ -23,7 +23,7 @@ var searchFunc = function (path, search_id, content_id) {
   var BTN = "<button type='button' class='local-search-close' id='local-search-close'></button>";
   $.ajax({
     url: path,
-    dataType: "xml",
+    dataType: "json",
     success: function (xmlResponse) {
       // get the contents from search data
       // var datas = $("entry", xmlResponse).map(function () {

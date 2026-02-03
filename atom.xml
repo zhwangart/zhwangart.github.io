@@ -6,7 +6,7 @@
   <link href="https://zhwangart.com/atom.xml" rel="self"/>
   
   <link href="https://zhwangart.com/"/>
-  <updated>2023-09-06T07:34:20.000Z</updated>
+  <updated>2024-09-22T06:39:05.284Z</updated>
   <id>https://zhwangart.com/</id>
   
   <author>
@@ -17,21 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>成长回忆录 - 养成习惯</title>
-    <link href="https://zhwangart.com/2023/07/04/Form_a_habit/"/>
-    <id>https://zhwangart.com/2023/07/04/Form_a_habit/</id>
-    <published>2023-07-04T05:45:49.000Z</published>
-    <updated>2023-09-06T07:34:20.000Z</updated>
+    <title>分行数据集市 3.0 版本</title>
+    <link href="https://zhwangart.com/2023/06/10/Branch-data-mart-30/"/>
+    <id>https://zhwangart.com/2023/06/10/Branch-data-mart-30/</id>
+    <published>2023-06-10T09:14:45.000Z</published>
+    <updated>2024-09-22T06:39:05.284Z</updated>
     
     
-    <summary type="html">逐渐养成先把学校的事情完成再安排自由时间的习惯，每天晚上有充分的时间和我们一起看电视、做游戏、听故事，甚至有时间晚上一起去逛街。从二年级以后，我们再也没有为孩子的作业发愁。</summary>
+    <summary type="html">如果说分行数据集市的 2.0 版本设计是一场酣畅淋漓的“表格革命”的话，那么 3.0 版本设计就是大型的“精兵简政”现场。</summary>
     
     
     
     
-    <category term="育儿" scheme="https://zhwangart.com/tags/%E8%82%B2%E5%84%BF/"/>
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
     
-    <category term="宝宝" scheme="https://zhwangart.com/tags/%E5%AE%9D%E5%AE%9D/"/>
+    <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
     
   </entry>
   
@@ -74,6 +74,25 @@
     <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
     
     <category term="Acorn" scheme="https://zhwangart.com/tags/Acorn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分行数据集市 2.0 版本</title>
+    <link href="https://zhwangart.com/2021/10/10/Branch-data-mart-20/"/>
+    <id>https://zhwangart.com/2021/10/10/Branch-data-mart-20/</id>
+    <published>2021-10-10T09:14:45.000Z</published>
+    <updated>2024-09-22T06:38:59.788Z</updated>
+    
+    
+    <summary type="html">如果说分行数据集市的 2.0 版本设计是一场酣畅淋漓的“表格革命”的话，那么 3.0 版本设计就是大型的“精兵简政”现场。</summary>
+    
+    
+    
+    
+    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
+    
+    <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
     
   </entry>
   
@@ -128,9 +147,9 @@
     
     
     
-    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
-    
     <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
     
   </entry>
   
@@ -187,11 +206,11 @@
     
     
     
-    <category term="Bulma" scheme="https://zhwangart.com/tags/Bulma/"/>
+    <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
     <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
     
-    <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="Bulma" scheme="https://zhwangart.com/tags/Bulma/"/>
     
   </entry>
   
@@ -208,9 +227,9 @@
     
     
     
-    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
-    
     <category term="前端" scheme="https://zhwangart.com/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="https://zhwangart.com/tags/CSS/"/>
     
     <category term="HTML" scheme="https://zhwangart.com/tags/HTML/"/>
     
@@ -392,25 +411,6 @@
     <category term="Hexo" scheme="https://zhwangart.com/tags/Hexo/"/>
     
     <category term="Ocean" scheme="https://zhwangart.com/tags/Ocean/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Orchestrator 基于 WEB 的系统设计</title>
-    <link href="https://zhwangart.com/2019/05/17/Orchestrator/"/>
-    <id>https://zhwangart.com/2019/05/17/Orchestrator/</id>
-    <published>2019-05-17T10:16:42.000Z</published>
-    <updated>2022-02-13T13:43:46.000Z</updated>
-    
-    
-    <summary type="html">基于 Web 的 CloudWAN Orchestrator 3.0 系统第四版 UI 设计，该软件用于管控与配置全球 POP、Site、Link 与 Policy 。</summary>
-    
-    
-    
-    
-    <category term="Design" scheme="https://zhwangart.com/tags/Design/"/>
-    
-    <category term="UI" scheme="https://zhwangart.com/tags/UI/"/>
     
   </entry>
   

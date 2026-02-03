@@ -1719,7 +1719,7 @@ img {
 .tocbot {
   position: absolute;
   top: 14rem;
-  left: calc((100vw - 70rem) / 2 + 70rem);
+  left: calc((100vw - 80rem) / 2 + 80rem);
   font-size: 80%;
   opacity: 0.8;
 }
